@@ -1,4 +1,6 @@
-
+<?php
+	$cur_page = $this->uri->segment(1);
+?>
 <!-- Modal -->
 <div class="modal fade nav-modal" id="navModal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
@@ -7,8 +9,8 @@
       <div id="nav" class="modal-body">
         <div id="nav-body" class="nav-body" >
         	<ul class="nav-ul">
-            	<li><a class="active" href="#">home</a></li>
-                <li><a href="#">about</a></li>
+            	<li><a <?=$cur_page ? '' : 'class="active"';?> href="<?=base_url();?>">home</a></li>
+                <li><a <?=$cur_page == 'about' ? 'class="active"' : '';?>href="<?=base_url();?>about">about</a></li>
                 <li><a href="#">our work</a></li>
                 <li><a href="#">our team</a></li>
                 <li><a href="#">articles</a></li>
