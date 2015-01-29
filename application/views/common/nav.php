@@ -11,7 +11,7 @@
         	<ul class="nav-ul">
             	<li><a <?=$cur_page ? '' : 'class="active"';?> href="<?=base_url();?>">home</a></li>
                 <li><a <?=$cur_page == 'about' ? 'class="active"' : '';?>href="<?=base_url();?>about">about</a></li>
-                <li><a href="#">our work</a></li>
+                <li><a <?=$cur_page == 'our-work' ? 'class="active"' : '';?> href="<?=base_url();?>our-work">our work</a></li>
                 <li><a href="#">our team</a></li>
                 <li><a href="#">articles</a></li>
                 <li><a href="#">jobs</a></li>

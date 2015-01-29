@@ -128,7 +128,7 @@
                 var dateCheck = new Date;
 
                 if( dateCheck.dst() ) {
-                   offset = parseFloat(offset) + 1;
+                  // offset = parseFloat(offset) + 1;
                 };
                 
                 setInterval(function () {

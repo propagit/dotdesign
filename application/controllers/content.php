@@ -25,6 +25,19 @@ class Content extends CI_Controller {
 	}
 	
 	
+	function our_work()
+	{
+		$this->load->view('common/header');
+		$this->load->view('pages/work/work_list');
+		$this->load->view('common/footer');	
+	}
+	
+	
+	
+	/*
+		Private helper functions
+	*/
+	
 	function _get_cities_offset()
 	{
 		$cities = array(
@@ -41,13 +54,13 @@ class Content extends CI_Controller {
 	}
 	
 	function _calculate_utc_offset($time_zone){
-		$theTime = time(); // specific date/time we're checking, in epoch seconds. 
+		$theTime = time(); # specific date/time we're checking, in epoch seconds. 
 		$tz = new DateTimeZone($time_zone); 
 		$transition = $tz->getTransitions($theTime, $theTime); 
 		
-		// only one array should be returned into $transition. Now get the data: 
+		# only one array should be returned into $transition. Now get the data: 
 		$offset = $transition[0]['offset']; 
-		$abbr = $transition[0]['abbr']; 
+		# $abbr = $transition[0]['abbr']; 
 		return $offset/3600;	
 	}
 	

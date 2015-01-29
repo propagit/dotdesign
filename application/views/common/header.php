@@ -30,7 +30,7 @@
                 menu
             </a>
         </div>           
-        <img src="<?=base_url();?>assets/img/core/logo.png" alt="logo.png" title="Dot Design Logo">
+        <a href="<?=base_url();?>"><img src="<?=base_url();?>assets/img/core/logo.png" alt="logo.png" title="Dot Design Logo"></a>
     </div>
 </header>     
 

@@ -1,33 +1,12 @@
 <div id="content">
 	<div class="secondary">
     	<div class="banner carousel">
-        	<img src="<?=base_url();?>assets/img/secondary/about-banner.jpg" alt="about-banner.jpg">
+        	<img src="<?=base_url();?>assets/img/secondary/work-banner.jpg" alt="work-banner.jpg">
             <div class="carousel-caption">
-                <h1>Ensure you win retail</h1>
-                <h4>DOT DESIGN GROUP  A SPECIALIST PRODUCT DEVELOPMENT RETAIL COMPANY.</h4>
-            </div>
-            <div class="city-time-box" id="time-stlouis">
-            	<div class="city-time digital">
-        			<span class="hr">0:</span><span class="minute">00</span>
-   		 		</div>
-               	<span class="city">St Louis</span>
-            </div>
-           
-            <div class="city-time-box" id="time-china">
-            	<div class="city-time digital">
-        			<span class="hr">0:</span><span class="minute">00</span>
-   		 		</div>
-                <span class="city">China</span>
-            </div>
-            
-            <div class="city-time-box" id="time-sydney">
-            	<div class="city-time digital">
-        			<span class="hr">0:</span><span class="minute">00</span>
-   		 		</div>
-                <span class="city">Sydney</span>
+                <h1>victoria bitter</h1>
+                <h4>DOT DESIGNED WHERE ASKED TO CREATE AN OLD FASHIONED BEER TAP  ... WITH <br>THE OBJECTIVE OF INTRUDCING THE CONSUMER TO THE NEW BRAND & LOGO</h4>
             </div>
         </div>
-        
         <div class="container sec-content">
             <h5>About</h5>
             <h2>DRIVEN BY CREATIVITY, INSIGHTS AND UNDERPINNED BY METHODICAL PLANNING</h2>
@@ -44,13 +23,4 @@
         
     </div> 
 </div>
-<script src="<?=base_url();?>assets/js/jquery.rotate.js"></script>
-<script src="<?=base_url();?>assets/js/jClocksGMT.js"></script>
-<script>
-$(function(){
-	<?php foreach($cities as $key=>$val){?>
-		// <?=$key?> time
-		$("#time-<?=$key?>").jClocksGMT({offset: '<?=$val?>', analog: false, digital: true, hour24: true});
-	<?php } ?>
-});//ready
-</script>
+
