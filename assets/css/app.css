@@ -393,6 +393,15 @@ hr {
       margin-right: auto; }
 
 /*end secondary*/
+.work-colage {
+  width: 100%;
+  float: left;
+  padding-bottom: 70px; }
+  .work-colage [class*=col] {
+    padding: 0; }
+    .work-colage [class*=col] img {
+      width: 100%; }
+
 /* footers*/
 #footer {
   background: #1a1e28;
@@ -401,6 +410,8 @@ hr {
   padding-top: 65px;
   padding-bottom: 60px;
   letter-spacing: 1.1px;
+  width: 100%;
+  float: left;
   /* social-links*/ }
   #footer #goto-top {
     position: absolute;

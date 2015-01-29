@@ -539,7 +539,19 @@ hr{
 		
 } /*end secondary*/
 
-
+.work-colage{
+	width:100%;
+	float:left;
+	padding-bottom:70px;
+	
+	[class*=col]{
+		padding:0;	
+		
+		img{
+			width:100%;	
+		}
+	}
+}
 
 
 
@@ -553,6 +565,8 @@ hr{
 	padding-top:$footer_top_padding;
 	padding-bottom:60px;	
 	letter-spacing:1.1px;
+	width:100%;
+	float:left;
 	
 	#goto-top{
 		position:absolute;
