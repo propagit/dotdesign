@@ -20,6 +20,7 @@
 		<?php for($i=1;$i<=12;$i++){ ?>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                 <img src="<?=base_url();?>assets/img/work/banner<?=$i;?>.jpg">
+                <span>Nescafe</span>
             </div>
         <?php } ?>
      	</div>     

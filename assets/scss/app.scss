@@ -69,7 +69,7 @@ p{
 	}
 }
 @mixin overlay($a,$r:26,$g:30,$b:40){
-	background-color:rgb($r,$g,$b);
+	/*background-color:rgb($r,$g,$b);*/
 	background-color:rgba($r,$g,$b,$a);
     background-color: transparent\9;	
 }
@@ -546,9 +546,42 @@ hr{
 	
 	[class*=col]{
 		padding:0;	
+		text-align:center;
 		
 		img{
 			width:100%;	
+		}
+		&::after{
+			@include overlay(0.25);
+			@include get_zindex(1);
+			content: "";
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			top: 0;	
+			left:0;
+		}
+		span{
+			visibility:hidden;
+			color:$color3;	
+			position: absolute;
+			font-size: 20px;
+			z-index: 200;
+			top: 50%;
+			left: 0;
+			right: 0;
+			text-transform: uppercase;
+			color: #fff;
+			font-weight: 800;
+			letter-spacing: 18px;
+		}
+	} /* [class*=col] */
+	[class*=col]:hover{
+		&::after{
+			@include overlay(0);	
+		}
+		span{
+			visibility:visible;	
 		}
 	}
 }

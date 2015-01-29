@@ -115,7 +115,7 @@ hr {
   width: 85px !important; }
 
 #header {
-  background-color: #1a1e28;
+  /*background-color:rgb($r,$g,$b);*/
   background-color: rgba(26, 30, 40, 0.9);
   background-color: transparent\9;
   z-index: 20000;
@@ -125,7 +125,7 @@ hr {
   position: relative; }
 
 .menu-active-overlay {
-  background-color: #1a1e28;
+  /*background-color:rgb($r,$g,$b);*/
   background-color: rgba(26, 30, 40, 0.9);
   background-color: transparent\9; }
 
@@ -186,7 +186,7 @@ hr {
   position: absolute;
   /* end nav-body*/ }
   #nav .nav-body {
-    background-color: #1a1e28;
+    /*background-color:rgb($r,$g,$b);*/
     background-color: #1a1e28;
     background-color: transparent\9;
     padding-left: 25px;
@@ -275,7 +275,7 @@ hr {
   padding-bottom: 0;
   top: 57%; }
   .carousel .carousel-caption h1, .carousel .carousel-caption h4 {
-    background-color: white;
+    /*background-color:rgb($r,$g,$b);*/
     background-color: rgba(255, 255, 255, 0.4);
     background-color: transparent\9;
     text-shadow: none; }
@@ -287,7 +287,7 @@ hr {
   .carousel .carousel-caption .btn-app {
     margin-top: 15px; }
 .carousel .slide-btn {
-  background-color: white;
+  /*background-color:rgb($r,$g,$b);*/
   background-color: rgba(255, 255, 255, 0.5);
   background-color: transparent\9;
   height: 71px;
@@ -396,11 +396,43 @@ hr {
 .work-colage {
   width: 100%;
   float: left;
-  padding-bottom: 70px; }
+  padding-bottom: 70px;
+  /* [class*=col] */ }
   .work-colage [class*=col] {
-    padding: 0; }
+    padding: 0;
+    text-align: center; }
     .work-colage [class*=col] img {
       width: 100%; }
+    .work-colage [class*=col]::after {
+      /*background-color:rgb($r,$g,$b);*/
+      background-color: rgba(26, 30, 40, 0.25);
+      background-color: transparent\9;
+      z-index: 100;
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .work-colage [class*=col] span {
+      visibility: hidden;
+      color: #1a1e28;
+      position: absolute;
+      font-size: 20px;
+      z-index: 200;
+      top: 50%;
+      left: 0;
+      right: 0;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 800;
+      letter-spacing: 18px; }
+  .work-colage [class*=col]:hover::after {
+    /*background-color:rgb($r,$g,$b);*/
+    background-color: rgba(26, 30, 40, 0);
+    background-color: transparent\9; }
+  .work-colage [class*=col]:hover span {
+    visibility: visible; }
 
 /* footers*/
 #footer {
