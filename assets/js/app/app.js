@@ -20,5 +20,15 @@ $(function(){
 	 }); 
 	 
 	 flare_app.toggle_nav_icon();
-	
-});
+	 
+	 $(window).scroll(function() {
+		var scroll_top = $(document).scrollTop(); 
+		if(scroll_top >= 200){
+			$('#goto-top').slideDown();	
+		}else{
+			$('#goto-top').slideUp();		
+		}
+
+	 });
+}); // ready
+

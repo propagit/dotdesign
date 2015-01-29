@@ -8,7 +8,7 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="<?=base_url();?>assets/img/banners/banner2.jpg">
+                    <img src="<?=base_url();?>assets/img/banners/banner1.jpg">
                     <div class="carousel-caption">
                         <h1>15 years & counting</h1>
                      	<h4>over 15 years delivering product innovation in on & off premise</h4>
@@ -17,7 +17,7 @@
                 </div>
                 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/banners/banner1.jpg">
+                    <img src="<?=base_url();?>assets/img/banners/banner2.jpg">
                     <div class="carousel-caption">
                         <h1>THINK CREATE DELIVER</h1>
                      	<h4>DOT DESIGN, A SPECIALIST PRODUCT DEVELOPMENT MARKETING RETAIL COMPANY</h4>

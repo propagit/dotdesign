@@ -6,20 +6,12 @@
   font-family: digital-display;
   src: url(../fonts/digital_display_tfb.ttf); }
 html, body, p {
+  font-size: 1.5em;
   font-family: "Raleway", sans-serif;
   font-weight: 400; }
 
-body {
-  font-size: 62.5%; }
-
-p {
-  font-size: 1.5em; }
-
 /*ornage*/
-body {
-  color: white; }
-
-p {
+body, p {
   color: white; }
 
 .box-shadow {
@@ -30,8 +22,11 @@ p {
   -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.70)";
   zoom: 1; }
 
-.text_shadow {
-  text-shadow: 1px 1px 5px #000000; }
+/*
+	vw = ratio 0.05272727
+*/
+div {
+  box-sizing: border-box; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
@@ -40,15 +35,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /* used in banner caption */
 h1 {
+  font-size: 2.9vw;
+  line-height: 2.9vw;
   font-weight: 700;
-  font-size: 55px;
-  line-height: 55px; }
+  /*font-size:55px;
+    line-height:55px;
+  */ }
 
 /* secondary page heading */
 h2 {
+  font-size: 1.84545vw;
+  line-height: 2.21455vw;
   font-weight: 600;
-  font-size: 35px;
-  line-height: 42px;
+  /*font-size:35px;
+  line-height:42px;*/
   color: #f7901e;
   border-top: 1px solid #f7901e;
   border-bottom: 1px solid #f7901e;
@@ -65,9 +65,11 @@ h3 {
 
 /* still free*/
 h4 {
+  font-size: 0.84364vw;
+  line-height: 1.16vw;
   color: #1a1e28;
-  font-size: 16px;
-  line-height: 22px; }
+  /*font-size:16px;
+  line-height:22px;*/ }
 
 /* secondary pages - page name such as about etc*/
 h5 {
@@ -123,6 +125,9 @@ hr {
   line-height: 93px;
   padding: 0 25px;
   position: relative; }
+
+img.logo {
+  margin-left: -32px; }
 
 .menu-active-overlay {
   /*background-color:rgb($r,$g,$b);*/
@@ -269,11 +274,19 @@ hr {
     font-size: 20px; }
 
 /* form-alt*/
+.carousel h5 {
+  text-shadow: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  top: 123px; }
 .carousel .carousel-caption {
   right: 25%;
   left: 25%;
   padding-bottom: 0;
-  top: 57%; }
+  bottom: 10%; }
   .carousel .carousel-caption h1, .carousel .carousel-caption h4 {
     /*background-color:rgb($r,$g,$b);*/
     background-color: rgba(255, 255, 255, 0.4);
@@ -281,6 +294,12 @@ hr {
     text-shadow: none; }
   .carousel .carousel-caption h1 {
     padding: 12px 0 10px; }
+    .carousel .carousel-caption h1::after {
+      content: " ";
+      border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+      margin-top: 28px;
+      width: 100%;
+      float: left; }
   .carousel .carousel-caption h4 {
     padding: 26px 0 23px;
     margin-top: 36px; }
@@ -288,7 +307,7 @@ hr {
     margin-top: 15px; }
 .carousel .slide-btn {
   /*background-color:rgb($r,$g,$b);*/
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   background-color: transparent\9;
   height: 71px;
   display: block;
@@ -359,7 +378,7 @@ hr {
   .secondary .sec-content {
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 70px; }
+    padding-bottom: 38px; }
     .secondary .sec-content h2, .secondary .sec-content h5, .secondary .sec-content p {
       margin-left: 165px;
       margin-right: 165px; }
@@ -384,7 +403,7 @@ hr {
       }*/ }
   .secondary .carousel-caption {
     top: auto;
-    bottom: 10%;
+    bottom: 5%;
     left: 20%;
     right: 20%; }
     .secondary .carousel-caption h1, .secondary .carousel-caption h4 {
@@ -400,7 +419,8 @@ hr {
   /* [class*=col] */ }
   .work-colage [class*=col] {
     padding: 0;
-    text-align: center; }
+    text-align: center;
+    cursor: pointer; }
     .work-colage [class*=col] img {
       width: 100%; }
     .work-colage [class*=col]::after {
@@ -413,26 +433,32 @@ hr {
       width: 100%;
       position: absolute;
       top: 0;
-      left: 0; }
+      left: 0;
+      transition-duration: 0.5s; }
     .work-colage [class*=col] span {
-      visibility: hidden;
+      text-shadow: 1px 1px 5px rgba(26, 30, 40, 0.8);
+      opacity: 0;
       color: #1a1e28;
       position: absolute;
       font-size: 20px;
       z-index: 200;
       top: 50%;
-      left: 0;
+      left: 18px;
       right: 0;
       text-transform: uppercase;
       color: #fff;
       font-weight: 800;
-      letter-spacing: 18px; }
+      letter-spacing: 18px;
+      margin-right: 18px; }
   .work-colage [class*=col]:hover::after {
     /*background-color:rgb($r,$g,$b);*/
     background-color: rgba(26, 30, 40, 0);
     background-color: transparent\9; }
   .work-colage [class*=col]:hover span {
-    visibility: visible; }
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out; }
 
 /* footers*/
 #footer {
@@ -446,18 +472,29 @@ hr {
   float: left;
   /* social-links*/ }
   #footer #goto-top {
-    position: absolute;
-    left: 0;
-    right: 0;
+    /*background-color:rgb($r,$g,$b);*/
+    background-color: rgba(255, 255, 255, 0.75);
+    background-color: transparent\9;
+    z-index: 500;
+    position: fixed;
+    /*left:0;*/
+    right: 25px;
     width: 40px;
     height: 40px;
-    background: #fff;
     color: #1a1e28;
     line-height: 40px;
     text-align: center;
-    margin: -65px auto 0;
+    /*margin:-$footer_top_padding auto 0;	*/
+    margin: 0 auto;
     cursor: pointer;
-    font-size: 16px; }
+    font-size: 16px;
+    display: none;
+    bottom: 25px; }
+    #footer #goto-top:hover {
+      /*background-color:rgb($r,$g,$b);*/
+      background-color: rgba(247, 144, 30, 0.75);
+      background-color: transparent\9;
+      color: white; }
   #footer h6 {
     margin: 0;
     padding: 0; }
@@ -482,7 +519,12 @@ hr {
       #footer ul.social-links li:last-child {
         margin-right: 0; }
       #footer ul.social-links li .fa {
-        font-size: 18px; }
+        font-size: 18px;
+        display: block;
+        line-height: 43px;
+        margin-left: 3px; }
+      #footer ul.social-links li a {
+        line-height: 43px; }
   #footer ul.quick-links li {
     float: left;
     margin-right: 42px; }
@@ -507,6 +549,12 @@ hr {
 /*
 	Responsive 
 */
+@media (max-width: 992px) {
+  .content-offset-top {
+    margin-top: 0 !important; } }
+@media (max-width: 768px) {
+  #footer hr {
+    width: 100%; } }
 /*helpers*/
 .clear {
   clear: both; }

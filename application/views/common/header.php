@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- jQuery-->
 <script type="text/javascript" src="<?=base_url();?>assets/js/jquery.min.1.11.1.js"></script>
 
@@ -30,7 +30,7 @@
                 menu
             </a>
         </div>           
-        <a href="<?=base_url();?>"><img src="<?=base_url();?>assets/img/core/logo.png" alt="logo.png" title="Dot Design Logo"></a>
+        <a href="<?=base_url();?>"><img class="logo" src="<?=base_url();?>assets/img/core/logo.png" alt="logo.png" title="Dot Design Logo"></a>
     </div>
 </header>     
 
