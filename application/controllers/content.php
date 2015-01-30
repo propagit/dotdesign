@@ -25,10 +25,14 @@ class Content extends CI_Controller {
 	}
 	
 	
-	function our_work()
+	function our_work($slug = "")
 	{
 		$this->load->view('common/header');
-		$this->load->view('pages/work/work_list');
+		if($slug){
+			$this->load->view('pages/work/detail');	
+		}else{
+			$this->load->view('pages/work/list');
+		}
 		$this->load->view('common/footer');	
 	}
 	

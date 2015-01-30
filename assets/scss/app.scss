@@ -22,6 +22,9 @@ html,body,p{
 	font-family:$main_font;
 	font-weight:400;	
 }
+html{
+	overflow-x:hidden;	
+}
 
 
 $color1: #ffffff;
@@ -54,9 +57,11 @@ body,p{
 	font-size:16px;
 	padding:9px 0 6px;
 	letter-spacing:1px;
+	outline:none;
 	
 	&:hover,&:focus{
 		color:$text_color;
+		outline:none;
 	}
 	.fa{
 		font-size:18px;	
@@ -179,6 +184,18 @@ hr{
 }
 .btn-sml{
 	width:85px !important;
+}
+.btn-angle{
+	min-width:43px !important;
+	min-height: 43px !important;	
+}
+.btn-white{
+	@include btn($color3,200px);	
+	background-color:$bg1;	
+}
+.btn-slide{
+	min-width:100px;
+	border-radius:2px;	
 }
 
 #header{
@@ -316,7 +333,7 @@ img.logo{
 		
 		.address{
 			text-transform:uppercase;
-			opacity:0.25;
+			opacity:0.36;
 			margin-bottom:45px;
 			
 			p{
@@ -384,7 +401,24 @@ img.logo{
 		text-align:center;
 		top:$header_height + 30px;
 	}
-	
+	.carousel-indicators{
+		bottom:70px;
+		
+		.active{
+			background-color:$bg2;
+			border-color:$bg2;	
+		}
+		
+		li{
+			border-radius:3px;
+			background-color: transparent;
+			border-color:$bg1;
+			border-width:2px;
+			width:14px;
+			height:14px;
+				
+		}
+	}
 	.carousel-caption{
 		right:25%;
 		left:25%;
@@ -392,11 +426,11 @@ img.logo{
 		bottom:10%;
 		
 		h1,h4{
-			@include overlay(0.4,255,255,255);
 			text-shadow:none;	
 		}
 		
 		h1{
+			@include overlay(0.4,255,255,255);
 			padding:12px 0 10px;	
 			
 			&::after{
@@ -408,16 +442,15 @@ img.logo{
 			}
 		}
 		h4{
+			@include overlay(0.35,184,176,179);
 			padding:26px 0 23px;
 			margin-top:36px;	
 		}
 		
-		
-		
 		.btn-app{
 			margin-top:15px;	
 		}
-	}
+	} /*carousel-caption*/
 	
 	.slide-btn{
 			@include overlay(0.8,255,255,255);
@@ -430,6 +463,11 @@ img.logo{
 			top: 45%;
 			border:1px solid rgba(255,255,255,0.75);
 			cursor:pointer;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			-ms-transition: all 0.5s ease;
+			transition: all 0.5s ease;
 			
 			.fa{
 				font-size:32px;
@@ -438,14 +476,98 @@ img.logo{
 			}
 				 
 	}
+	
+	&:hover{
+		a.left .slide-btn{
+			left:0;	
+		}
+		a.right .slide-btn{
+			right:0;	 
+		}
+	}
+	a.left .slide-btn{
+		left:-71px;	
+	}
 	a.right .slide-btn{
-		right:0;	 
+		right:-71px;	 
 	}
 	.left,.right{
 		background-image:none;
 		background-color:transparent;
 	}
-}
+	
+	/* Case studies */
+	span.title{
+		@include overlay(0.4,255,255,255);
+		font-family:$main_font;
+		font-size:10px;
+		color:$color3;
+		letter-spacing:10px;
+		font-weight:900;	
+		text-transform:uppercase;
+		position: absolute;
+		display: inline-block;
+		top:$header_height;
+		left: -30px;
+		right: 0;
+		max-width: 300px;
+		margin: auto;
+		text-align: center;
+		padding: 13px 0;
+	}
+	.description{
+		@include overlay(0.4,255,255,255);
+		position:absolute;
+		max-width:846px;
+		margin:auto;
+		bottom:0;
+		left:0;
+		right:0;
+		text-align:center;
+		display:none;
+		
+		h1{
+			font-size:35px;
+			font-weight:800;	
+			border-top: 1px solid rgba(255, 255, 255, 0.25);
+			border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+			margin-top:40px;
+		}
+		
+		p{
+			padding:20px 34px;
+			font-size:14px;
+			line-height:24px;
+			font-family:$sec_font;
+			color:$color3;	
+			text-align:justify;
+			margin-bottom:45px;
+		}
+		
+		.btn-angle{
+			margin-top:-14px;	
+		}
+		
+		.btn-slide{
+			margin-left:5px;	
+			margin-bottom:25px;
+		}
+	} /* description*/
+	
+	.btn-white{
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 200px;
+		bottom: 0px;
+		height: 70px;	
+		font-weight:500;
+	}
+	
+} /*carousel*/
+
+
 /*banner*/
 #banners{
 	.carousel-inner>.item>img{
@@ -639,13 +761,15 @@ img.logo{
 	letter-spacing:1.1px;
 	width:100%;
 	float:left;
+	position:relative;
 	
 	#goto-top{
 		@include overlay(0.75,255,255,255);
 		@include get_zindex(5);
-		position:fixed;
-		/*left:0;*/
-		right:25px;
+		position:absolute;
+		left:0;
+		right:0;
+		top:0;
 		width:40px;
 		height:40px;
 		color:$color3;
@@ -655,8 +779,8 @@ img.logo{
 		margin:0 auto;
 		cursor:pointer;
 		font-size:16px;
-		display:none;
-		bottom:25px;
+		/*display:none;*/
+		
 		
 		&:hover{
 			@include overlay(0.75,247,144,30);
@@ -734,7 +858,7 @@ img.logo{
 	
 	.disclaimer{
 		font-size:12px;
-		opacity:0.25;
+		opacity:0.36;
 		text-transform:uppercase;
 		text-align:center;
 		width:100%;	

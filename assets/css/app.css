@@ -10,6 +10,9 @@ html, body, p {
   font-family: "Raleway", sans-serif;
   font-weight: 400; }
 
+html {
+  overflow-x: hidden; }
+
 /*ornage*/
 body, p {
   color: white; }
@@ -107,14 +110,43 @@ hr {
   font-weight: 400;
   font-size: 16px;
   padding: 9px 0 6px;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  outline: none; }
   .btn-app:hover, .btn-app:focus {
-    color: white; }
+    color: white;
+    outline: none; }
   .btn-app .fa {
     font-size: 18px; }
 
 .btn-sml {
   width: 85px !important; }
+
+.btn-angle {
+  min-width: 43px !important;
+  min-height: 43px !important; }
+
+.btn-white {
+  min-width: 200px;
+  border-radius: 0;
+  color: #1a1e28;
+  background-color: #1a1e28;
+  text-transform: uppercase;
+  border-radius: 0;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 9px 0 6px;
+  letter-spacing: 1px;
+  outline: none;
+  background-color: white; }
+  .btn-white:hover, .btn-white:focus {
+    color: #1a1e28;
+    outline: none; }
+  .btn-white .fa {
+    font-size: 18px; }
+
+.btn-slide {
+  min-width: 100px;
+  border-radius: 2px; }
 
 #header {
   /*background-color:rgb($r,$g,$b);*/
@@ -235,7 +267,7 @@ img.logo {
       margin-bottom: 22px; }
     #nav .nav-body .address {
       text-transform: uppercase;
-      opacity: 0.25;
+      opacity: 0.36;
       margin-bottom: 45px; }
       #nav .nav-body .address p {
         font-size: 12px; }
@@ -274,60 +306,150 @@ img.logo {
     font-size: 20px; }
 
 /* form-alt*/
-.carousel h5 {
-  text-shadow: none;
-  position: absolute;
-  left: 0;
-  right: 0;
-  width: 100%;
-  text-align: center;
-  top: 123px; }
-.carousel .carousel-caption {
-  right: 25%;
-  left: 25%;
-  padding-bottom: 0;
-  bottom: 10%; }
-  .carousel .carousel-caption h1, .carousel .carousel-caption h4 {
+.carousel {
+  /*carousel-caption*/
+  /* Case studies */
+  /* description*/ }
+  .carousel h5 {
+    text-shadow: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    top: 123px; }
+  .carousel .carousel-indicators {
+    bottom: 70px; }
+    .carousel .carousel-indicators .active {
+      background-color: #f7901e;
+      border-color: #f7901e; }
+    .carousel .carousel-indicators li {
+      border-radius: 3px;
+      background-color: transparent;
+      border-color: white;
+      border-width: 2px;
+      width: 14px;
+      height: 14px; }
+  .carousel .carousel-caption {
+    right: 25%;
+    left: 25%;
+    padding-bottom: 0;
+    bottom: 10%; }
+    .carousel .carousel-caption h1, .carousel .carousel-caption h4 {
+      text-shadow: none; }
+    .carousel .carousel-caption h1 {
+      /*background-color:rgb($r,$g,$b);*/
+      background-color: rgba(255, 255, 255, 0.4);
+      background-color: transparent\9;
+      padding: 12px 0 10px; }
+      .carousel .carousel-caption h1::after {
+        content: " ";
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+        margin-top: 28px;
+        width: 100%;
+        float: left; }
+    .carousel .carousel-caption h4 {
+      /*background-color:rgb($r,$g,$b);*/
+      background-color: rgba(184, 176, 179, 0.35);
+      background-color: transparent\9;
+      padding: 26px 0 23px;
+      margin-top: 36px; }
+    .carousel .carousel-caption .btn-app {
+      margin-top: 15px; }
+  .carousel .slide-btn {
+    /*background-color:rgb($r,$g,$b);*/
+    background-color: rgba(255, 255, 255, 0.8);
+    background-color: transparent\9;
+    height: 71px;
+    display: block;
+    width: 71px;
+    position: absolute;
+    font-size: 20px;
+    line-height: 71px;
+    top: 45%;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    .carousel .slide-btn .fa {
+      font-size: 32px;
+      color: #1a1e28;
+      text-shadow: none; }
+  .carousel:hover a.left .slide-btn {
+    left: 0; }
+  .carousel:hover a.right .slide-btn {
+    right: 0; }
+  .carousel a.left .slide-btn {
+    left: -71px; }
+  .carousel a.right .slide-btn {
+    right: -71px; }
+  .carousel .left, .carousel .right {
+    background-image: none;
+    background-color: transparent; }
+  .carousel span.title {
     /*background-color:rgb($r,$g,$b);*/
     background-color: rgba(255, 255, 255, 0.4);
     background-color: transparent\9;
-    text-shadow: none; }
-  .carousel .carousel-caption h1 {
-    padding: 12px 0 10px; }
-    .carousel .carousel-caption h1::after {
-      content: " ";
-      border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-      margin-top: 28px;
-      width: 100%;
-      float: left; }
-  .carousel .carousel-caption h4 {
-    padding: 26px 0 23px;
-    margin-top: 36px; }
-  .carousel .carousel-caption .btn-app {
-    margin-top: 15px; }
-.carousel .slide-btn {
-  /*background-color:rgb($r,$g,$b);*/
-  background-color: rgba(255, 255, 255, 0.8);
-  background-color: transparent\9;
-  height: 71px;
-  display: block;
-  width: 71px;
-  position: absolute;
-  font-size: 20px;
-  line-height: 71px;
-  top: 45%;
-  border: 1px solid rgba(255, 255, 255, 0.75);
-  cursor: pointer; }
-  .carousel .slide-btn .fa {
-    font-size: 32px;
+    font-family: "Raleway", sans-serif;
+    font-size: 10px;
     color: #1a1e28;
-    text-shadow: none; }
-.carousel a.right .slide-btn {
-  right: 0; }
-.carousel .left, .carousel .right {
-  background-image: none;
-  background-color: transparent; }
+    letter-spacing: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: absolute;
+    display: inline-block;
+    top: 93px;
+    left: -30px;
+    right: 0;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 13px 0; }
+  .carousel .description {
+    /*background-color:rgb($r,$g,$b);*/
+    background-color: rgba(255, 255, 255, 0.4);
+    background-color: transparent\9;
+    position: absolute;
+    max-width: 846px;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: none; }
+    .carousel .description h1 {
+      font-size: 35px;
+      font-weight: 800;
+      border-top: 1px solid rgba(255, 255, 255, 0.25);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+      margin-top: 40px; }
+    .carousel .description p {
+      padding: 20px 34px;
+      font-size: 14px;
+      line-height: 24px;
+      font-family: "Open Sans", sans-serif;
+      color: #1a1e28;
+      text-align: justify;
+      margin-bottom: 45px; }
+    .carousel .description .btn-angle {
+      margin-top: -14px; }
+    .carousel .description .btn-slide {
+      margin-left: 5px;
+      margin-bottom: 25px; }
+  .carousel .btn-white {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+    bottom: 0px;
+    height: 70px;
+    font-weight: 500; }
 
+/*carousel*/
 /*banner*/
 #banners .carousel-inner > .item > img {
   width: 100%; }
@@ -470,15 +592,17 @@ img.logo {
   letter-spacing: 1.1px;
   width: 100%;
   float: left;
+  position: relative;
   /* social-links*/ }
   #footer #goto-top {
     /*background-color:rgb($r,$g,$b);*/
     background-color: rgba(255, 255, 255, 0.75);
     background-color: transparent\9;
     z-index: 500;
-    position: fixed;
-    /*left:0;*/
-    right: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
     width: 40px;
     height: 40px;
     color: #1a1e28;
@@ -488,8 +612,7 @@ img.logo {
     margin: 0 auto;
     cursor: pointer;
     font-size: 16px;
-    display: none;
-    bottom: 25px; }
+    /*display:none;*/ }
     #footer #goto-top:hover {
       /*background-color:rgb($r,$g,$b);*/
       background-color: rgba(247, 144, 30, 0.75);
@@ -539,7 +662,7 @@ img.logo {
     margin-bottom: 30px; }
   #footer .disclaimer {
     font-size: 12px;
-    opacity: 0.25;
+    opacity: 0.36;
     text-transform: uppercase;
     text-align: center;
     width: 100%;
