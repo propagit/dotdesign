@@ -31,7 +31,6 @@ $color1: #ffffff;
 /*ornage*/
 $color2: #f7901e;
 $color3: #1a1e28;
-$text_white: #fff;
 
 $bg1: #fff;
 $bg2: #f7901e;
@@ -77,7 +76,7 @@ body,p{
 	
 }
 @mixin streach($x,$y){
-	transform:scale($x,$y); /* W3C */
+	transform:scale($x,$y);
 	-webkit-transform:scale($x,$y); /* Safari and Chrome */
 	-moz-transform:scale($x,$y); /* Firefox */
 	-ms-transform:scale($x,$y); /* IE 9 */
@@ -161,7 +160,7 @@ h5{
 }
 /* Footer header - quick links etc*/
 h6{
-	color:$text_white;
+	color:$color1;
 	font-size:12px;
 	font-weight:400;	
 }
@@ -180,7 +179,7 @@ hr{
 }
 /*buttons*/
 .btn-app{
-	@include btn($text_white,162px);	
+	@include btn($color1,162px);	
 }
 .btn-sml{
 	width:85px !important;
@@ -214,8 +213,47 @@ img.logo{
 	@include overlay(0.9);	
 }
 
+.address{
+	color:$color3;
+	text-transform:uppercase;
+	margin-bottom:45px;
+	
+	h6{
+		color:$color3;
+		text-align:left;
+		font-weight:800;	
+	}
+	
+	p{
+		font-size:12px !important;	
+		margin-left:0 !important;
+		margin-right:auto !important;
+		text-align:left !important;
+		text-align-last:left !important;
+		-moz-text-align-last: left !important; /* Code for Firefox */
+	}
+	.fa-ul{
+		text-transform:none;
+		font-size:12px;
+		margin-left:0px;
+		padding-top:10px;
+		
+		li{
+			text-align:left;
+			margin-left:40px;
+			font-weight: 500;
+			
+			.fa{
+				left:-40px;	
+				text-align:left;
+			}
+		}
+	}
+} /* address*/
+
+
 .nav-toggle{
-	color:$text_white;
+	color:$color1;
 	text-transform:uppercase;
 	font-family:$main_font;
 	font-size:16px;
@@ -246,7 +284,7 @@ img.logo{
 		outline:none;
 		
 		&:active,&:focus,&:hover{
-			color:$text_white;	
+			color:$color1;	
 			text-decoration:none;
 		}
 	}
@@ -332,27 +370,21 @@ img.logo{
 		}
 		
 		.address{
-			text-transform:uppercase;
+			color:$color1;
 			opacity:0.36;
-			margin-bottom:45px;
 			
-			p{
-				font-size:12px;	
+			h6{
+				color:$color1;	
+				font-weight:400;
 			}
+			
 			.fa-ul{
-				text-transform:none;
-				font-size:12px;
-				margin-left:0px;
-				padding-top:10px;
 				li{
-					margin-left:40px;
-					.fa{
-						left:-40px;	
-						text-align:left;
-					}
+					font-weight:400;	
 				}
 			}
-		} /* address*/
+		}
+		
 		.last{
 			margin-bottom:0;	
 		}
@@ -747,6 +779,20 @@ img.logo{
 	}
 }
 
+.address-wrap{
+	flex-direction:row; 
+	display:flex;
+	margin-top:20px;	
+	
+	.address{
+		flex:1;	
+	
+		&:last-child{
+			float:right;
+			flex:inherit;	
+		}
+	}
+}
 
 
 /* footers*/

@@ -36,6 +36,12 @@ class Content extends CI_Controller {
 		$this->load->view('common/footer');	
 	}
 	
+	function contact()
+	{
+		$this->load->view('common/header');
+		$this->load->view('pages/contact');
+		$this->load->view('common/footer');	
+	}
 	
 	
 	/*
