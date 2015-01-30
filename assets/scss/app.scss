@@ -22,9 +22,6 @@ html,body,p{
 	font-family:$main_font;
 	font-weight:400;	
 }
-html{
-	overflow-x:hidden;	
-}
 
 
 $color1: #ffffff;
@@ -424,6 +421,8 @@ img.logo{
 }	/* form-alt*/
 
 .carousel{
+	overflow:hidden;
+	
 	h5{
 		text-shadow:none;	
 		position:absolute;
