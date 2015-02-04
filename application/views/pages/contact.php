@@ -21,13 +21,15 @@
         
         
         <div class="container sec-content">
-            <h5>Contact Dot Design</h5>
-            <h2>POINT OF PURCHASE <br>PRODUCT DESIGN SPECIALISTS</h2>
-            <p>
-            	Dot Design have offices placed throughout the world offering truly global capabilities to deliver point of purchase solutions for any brand, any place. Contact our team in your local area or touch base via the form below.
-            </p>
+        	<div class="sec-inner">
+                <h5>Contact Dot Design</h5>
+                <h2>POINT OF PURCHASE <br>PRODUCT DESIGN SPECIALISTS</h2>
+                <p>
+                    Dot Design have offices placed throughout the world offering truly global capabilities to deliver point of purchase solutions for any brand, any place. Contact our team in your local area or touch base via the form below.
+                </p>
+          	</div>
             
-            <div class="address-wrap">
+            <div class="sec-address">
             
             
                 <div class="address">
@@ -82,6 +84,29 @@
             
             </div>
             
+            <div class="sec-inner app-form">
+                <h6><i class="fa fa-paper-plane-o"></i> Touch Base With Dot Design</h6>
+                <form>
+                     <div class="form-group">
+                        <input type="text" class="form-control" placeholder="YOUR NAME">
+                     </div>
+                     <div class="form-group">
+                        <input type="text" class="form-control" placeholder="YOUR PHONE">
+                     </div>
+                     <div class="form-group">
+                        <input type="text" class="form-control" placeholder="YOUR EMAIL">
+                     </div>
+                     <div class="form-group">
+                        <select class="form-control">
+                            <option>ENQUIRY: SYDNEY</option>
+                        </select>
+                     </div>
+                     <div class="form-group">
+                        <textarea class="form-control" rows="5"></textarea>
+                     </div>
+                
+                </form>
+                </div>
         </div>
 
     </div> 

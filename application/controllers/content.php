@@ -36,6 +36,13 @@ class Content extends CI_Controller {
 		$this->load->view('common/footer');	
 	}
 	
+	function meet_the_team()
+	{
+		$this->load->view('common/header');
+		$this->load->view('pages/meet_the_team');
+		$this->load->view('common/footer');		
+	}
+	
 	function contact()
 	{
 		$this->load->view('common/header');
@@ -73,10 +80,6 @@ class Content extends CI_Controller {
 		# $abbr = $transition[0]['abbr']; 
 		return $offset/3600;	
 	}
-	
-	
-	
-	
 	
 	
 }

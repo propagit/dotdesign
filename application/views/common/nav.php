@@ -1,15 +1,7 @@
 <?php
 	$cur_page = $this->uri->segment(1);
 	
-	$nav_arr = array(
-					array('label' => 'home','uri' => ''),
-					array('label' => 'about','uri' => 'about'),
-					array('label' => 'our work','uri' => 'our-work'),
-					array('label' => 'our team','uri' => 'our-team'),
-					array('label' => 'articles','uri' => 'articles'),
-					array('label' => 'jobs','uri' => 'jobs'),
-					array('label' => 'contact','uri' => 'contact')
-				);
+	$nav_arr = $this->nav_model->get_nav();
 ?>
 <!-- Modal -->
 <div class="modal fade nav-modal" id="navModal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -19,8 +11,8 @@
       <div id="nav" class="modal-body">
         <div id="nav-body" class="nav-body" >
         	<ul class="nav-ul">
-            	<?php foreach($nav_arr as $arr){ ?>
-					<li><a <?=$cur_page == $arr['uri'] ? 'class="active"' : '';?>href="<?=base_url().$arr['uri'];?>"><?=$arr['label'];?></a></li>
+            	<?php foreach($nav_arr as $nav){ ?>
+					<li><a <?=$cur_page == $nav['uri'] ? 'class="active"' : '';?>href="<?=base_url().$nav['uri'];?>"><?=$nav['label'];?></a></li>
 				<?php } ?>
             </ul>
         	            

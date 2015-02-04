@@ -1,0 +1,132 @@
+/* CSS Document */
+/*ornage*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #1a1e28; }
+
+/*
+	vw = ratio 0.05272727
+*/
+#content {
+  padding-top: 0 !important; }
+
+h1 {
+  font-size: 2.9vw;
+  line-height: 2.9vw;
+  font-weight: 700;
+  /*font-size:55px;
+    line-height:55px;
+  */ }
+
+/* still free*/
+h4 {
+  font-size: 0.84364vw;
+  line-height: 1.16vw;
+  color: #1a1e28;
+  /*font-size:16px;
+  line-height:22px;*/ }
+
+h5 {
+  font-size: 10px;
+  font-weight: 700;
+  color: #f7901e !important;
+  letter-spacing: 30px;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+/* 
+	Theme CSS
+*/
+#header-top {
+  padding-top: 0 !important; }
+
+.nav-toggle .fa, .nav-toggle a {
+  color: white; }
+
+.nav-modal {
+  top: 93px; }
+  .nav-modal .modal-dialog {
+    padding: 0;
+    margin: 0; }
+  .nav-modal .modal-body {
+    padding: 0; }
+
+#nav .nav-body .nav-ul li a {
+  color: white; }
+
+/* footers*/
+#footer {
+  /* social-links*/ }
+  #footer ul.social-links li .fa {
+    color: white; }
+  #footer ul.social-links li a {
+    color: white; }
+  #footer ul.quick-links li a {
+    color: white; }
+
+/* #footer*/
+/* Theme Customization */
+.theme-h1, #main h1, #secondary h1.widget-title {
+  font-size: 1.84545vw;
+  line-height: 2.21455vw;
+  font-weight: 600;
+  color: #f7901e;
+  border-top: 1px solid #f7901e;
+  border-bottom: 1px solid #f7901e;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+#main P {
+  color: #1a1e28;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px; }
+
+#primary,
+#secondary {
+  border: none;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 0;
+  margin-top: 30px; }
+
+.single article.post, .page article.post {
+  border-bottom: none; }
+
+article .entry-header h5 {
+  margin-bottom: 10px; }
+
+.post-navigation a {
+  color: #f7901e; }
+  .post-navigation a:hover {
+    color: #f7901e; }
+
+.featured-image-single {
+  margin-top: 0;
+  margin-bottom: 0; }
+  .featured-image-single img {
+    border-radius: 0 !important;
+    box-shadow: none;
+    width: 100%;
+    max-width: 100%; }
+
+#secondary .widget {
+  border: none;
+  padding: 0; }
+  #secondary .widget ul {
+    margin-top: 24px; }
+    #secondary .widget ul li {
+      line-height: 24px; }
+      #secondary .widget ul li a {
+        font-family: "Raleway", sans-serif;
+        font-size: 12px;
+        color: #1a1e28;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1.2px; }
+      #secondary .widget ul li::before {
+        content: "\f096";
+        color: #1a1e28; }

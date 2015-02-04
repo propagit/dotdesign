@@ -48,21 +48,26 @@
         
         
         <div class="container sec-content">
-            <h5>Our Work</h5>
-            <h2>DOT DESIGN HAS EXPERIANCE WORKING ACROSS ALL SECTORS OF RETAIL</h2>
-            <p>
-            	Click the below images to read the case study and view a gallery of the products we have created for some of our clients
-            </p>
+            <div class="sec-inner">
+                <h5>Our Work</h5>
+                <h2>DOT DESIGN HAS EXPERIANCE WORKING ACROSS ALL SECTORS OF RETAIL</h2>
+                <p>
+                    Click the below images to read the case study and view a gallery of the products we have created for some of our clients
+                </p>
+            </div>
         </div>
         
 
    		<div class="work-colage">
 		<?php for($i=1;$i<=12;$i++){ ?>
             <a href="<?=base_url();?>our-work/victoria-bitter">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
-                <img src="<?=base_url();?>assets/img/work/work<?=$i;?>.jpg">
-                <span>Nescafe</span>
-            </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box" data-toggle=".caption">
+                    <img src="<?=base_url();?>assets/img/work/work<?=$i;?>.jpg">
+                    <div class="caption">
+                        <span class="name">Nescafe</span>
+                        <span class="info">St Kilda Road, Melbourne</span>
+                    </div>
+                </div>
             </a>
         <?php } ?>
      	</div>     

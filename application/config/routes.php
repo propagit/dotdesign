@@ -44,10 +44,9 @@ $route['404_override'] = '';
 $pages = array(
 			'about',
 			'our-work',
-			'fleet',
-			'projects',
-			'contact',
-			'team'
+			'meet-the-team',
+			'contact'
+
 		);
 foreach($pages as $page){
 	$route[$page] = "content/" . str_replace('-','_',$page);	
