@@ -46,7 +46,7 @@ $pages = array(
 			'our-work',
 			'meet-the-team',
 			'contact',
-			'career'
+			'careers'
 
 		);
 foreach($pages as $page){

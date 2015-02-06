@@ -36,7 +36,11 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
-
+# Site config
+define('PROP_PWORD','m0r3m0n3Y');
+define('DOMAIN','dotdesign.com.au');
+define('SITE_NAME','Dot Design');
+define('LIVE_SERVER',false);
 
 # Social Links
 define('FACEBOOK','https://facebook.com');

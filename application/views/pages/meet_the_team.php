@@ -34,7 +34,7 @@
                 <img src="<?=base_url();?>assets/img/the-team/<?=$s['image'];?>">
                 <div class="caption">
                 	<span class="name"><?=$s['name'];?></span>
-                    <span class="info"><?=$s['location'] . $s['role'];?></span>
+                    <span class="info"><?=$s['location'] . ' - ' . $s['role'];?></span>
                 </div>
             </div>
             </a>

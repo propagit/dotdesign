@@ -86,18 +86,18 @@
             
             <div class="sec-inner app-form">
                 <h6><i class="fa fa-paper-plane-o"></i> Touch Base With Dot Design</h6>
-                <form>
+                <form id="contact-form">
                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="YOUR NAME">
+                        <input name="name" type="text" class="form-control" placeholder="your name">
                      </div>
                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="YOUR PHONE">
+                        <input name="phone" type="text" class="form-control" placeholder="your phone">
                      </div>
                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="YOUR EMAIL">
+                        <input name="email" type="text" class="form-control" placeholder="your email">
                      </div>
                      <div class="form-group">
-                        <select class="form-control">
+                        <select name="city" class="form-control">
                             <option>ENQUIRY: SYDNEY</option>
                             <option>ENQUIRY: MELBOURNE</option>
                             <option>ENQUIRY: USA</option>
@@ -105,11 +105,16 @@
                         </select>
                      </div>
                      <div class="form-group">
-                        <textarea class="form-control" rows="5"></textarea>
+                        <textarea name="message" class="form-control" rows="5" placeholder="your message"></textarea>
+                     </div>
+                     <div class="form-group">
+                        <button id="send-msg" type="button" class="btn btn-app fw">Send</button>
                      </div>
                 
                 </form>
-                
+                <p id="contact-result" class="msg-box" style="display:none;">
+                	
+                </p>
          	</div>
         </div>
 
@@ -117,9 +122,47 @@
     
 </div>
 
-
-
 <script>
+$('#send-msg').click(function(){
+	$('#contact-result').hide();
+	$.ajax({
+		url: '<?=base_url();?>content/sendcontact',
+		data: $('#contact-form').serialize(),
+		type:'POST',
+		dataType:'JSON',
+		success:function(data){
+			var form_id = 'contact-form';
+			if (!data.ok) { 
+				// Invalid
+				var errors = data.errors;
+				//reset error class in form as they will need to be re validated
+				remove_error_class(form_id);
+				mark_errors(form_id,errors);
+			}else{
+				$('#contact-result').html('Your message was successfully sent.').removeClass('bg-danger').removeClass('text-danger').addClass('bg-success text-success').show();
+				remove_error_class(form_id);
+				$('#'+form_id)[0].reset();
+			}
+		}
+	});
+	
+});
+
+function mark_errors(form_id,errors){
+	var msg = '';
+	errors.forEach(function(e){
+		$('#' + form_id).find('[name="' + e.field + '"]').parent().addClass('has-error');
+		msg += e.msg+'<br>';
+		$('#contact-result').html(msg).addClass('bg-danger text-danger').show();
+	});	
+}
+
+function remove_error_class(form_id){
+	$('#'+form_id+' input,#'+form_id+' textarea,#'+form_id+' select,#'+form_id+' date#'+form_id+' email').each(function(){
+		$(this).parent().removeClass('has-error');
+	});
+}
+
 $(function(){
 	  $('select').select2();
 });

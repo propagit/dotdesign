@@ -323,49 +323,94 @@ img.logo {
 
 /* form-alt*/
 /*app form*/
-.app-form {
-  /* select 2*/
-  /*select2-container*/ }
-  .app-form .form-control {
-    border-radius: 0;
-    -webkit-appearance: none; }
-    .app-form .form-control::-webkit-input-placeholder {
-      color: #1a1e28;
-      font-size: 12px;
-      font-family: "Raleway", sans-serif;
-      font-weight: 700;
-      opacity: 0.45; }
-    .app-form .form-control:-moz-placeholder {
-      /* Firefox 18- */
-      color: #1a1e28;
-      font-size: 12px;
-      font-family: "Raleway", sans-serif;
-      font-weight: 700;
-      opacity: 0.45; }
-    .app-form .form-control::-moz-placeholder {
-      /* Firefox 19+ */
-      color: #1a1e28;
-      font-size: 12px;
-      font-family: "Raleway", sans-serif;
-      font-weight: 700;
-      opacity: 0.45; }
-    .app-form .form-control:-ms-input-placeholder {
-      color: #1a1e28;
-      font-size: 12px;
-      font-family: "Raleway", sans-serif;
-      font-weight: 700;
-      opacity: 0.45; }
-  .app-form .select2-container {
-    padding: 0;
-    margin: 0;
-    border: none; }
-    .app-form .select2-container .select2-choice {
-      border: 1px solid #cccccc;
-      border-radius: 0;
-      height: 34px;
-      line-height: 34px;
-      background-image: none; }
+.app-form .form-control {
+  border-radius: 0;
+  -webkit-appearance: none;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  color: #1a1e28;
+  opacity: 0.8;
+  background-color: #f3f4f4;
+  box-shadow: none; }
+  .app-form .form-control::-webkit-input-placeholder {
+    color: #1a1e28;
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    opacity: 0.55;
+    text-transform: uppercase; }
+  .app-form .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #1a1e28;
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    opacity: 0.55;
+    text-transform: uppercase; }
+  .app-form .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #1a1e28;
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    opacity: 0.55;
+    text-transform: uppercase; }
+  .app-form .form-control:-ms-input-placeholder {
+    color: #1a1e28;
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    opacity: 0.55;
+    text-transform: uppercase; }
 
+/* select 2*/
+.select2-container {
+  padding: 0;
+  margin: 0;
+  border: none; }
+  .select2-container .select2-choice {
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    height: 34px;
+    line-height: 34px;
+    background-image: none;
+    text-align: left;
+    background-color: #f3f4f4; }
+    .select2-container .select2-choice .select2-arrow {
+      width: 34px;
+      background-image: none;
+      background-color: #e8e9ea;
+      border-radius: 0;
+      border-left: 1px solid #cccccc; }
+      .select2-container .select2-choice .select2-arrow b {
+        background: none !important; }
+        .select2-container .select2-choice .select2-arrow b::before, .select2-container .select2-choice .select2-arrow b::after {
+          font-family: "FontAwesome";
+          display: inline;
+          position: absolute;
+          margin-left: 12px;
+          color: #1a1e28; }
+        .select2-container .select2-choice .select2-arrow b::before {
+          content: "\f0d8";
+          margin-top: -3px; }
+        .select2-container .select2-choice .select2-arrow b::after {
+          content: "\f0d7";
+          margin-top: 3px; }
+
+/*select2-container*/
+.select2-drop-active {
+  border: 1px solid #cccccc;
+  padding-top: 6px;
+  border-radius: 0; }
+
+.select2-results .select2-highlighted {
+  background-color: #1a1e28; }
+
+.msg-box {
+  padding: 20px; }
+
+/* end - app form*/
 .carousel {
   overflow: hidden;
   /*carousel-caption*/
@@ -558,6 +603,18 @@ img.logo {
     position: absolute;
     top: 27.1%;
     right: 28.5%; }
+  .secondary .city-time-alt #time-stlouis,
+  .secondary .city-time-alt #time-sydney,
+  .secondary .city-time-alt #time-china {
+    top: 18%; }
+  .secondary .city-time-alt #time-stlouis {
+    left: auto; }
+  .secondary .city-time-alt #time-sydney {
+    right: 19.5% !important; }
+  .secondary .city-time-alt #time-china {
+    left: 45%; }
+  .secondary .city-time-alt .city-time-box {
+    color: white !important; }
   .secondary .sec-content {
     text-align: center;
     padding-top: 30px;
@@ -781,6 +838,9 @@ img.logo {
   #footer hr {
     width: 100%; } }
 /*helpers*/
+.fw {
+  width: 100%; }
+
 .clear {
   clear: both; }
 
@@ -802,3 +862,9 @@ img.logo {
 .remove-gutters {
   padding-left: 0 !important;
   padding-right: 0 !important; }
+
+.text-danger {
+  color: #a94442 !important; }
+
+.text-success {
+  color: #3c763d !important; }
