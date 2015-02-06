@@ -10,6 +10,47 @@ var flare_app = {
 		$('#navModal').on('hidden.bs.modal', function () {
 			$('#nav-toggle .fa').slideToggle(200);	
 		});
+	},
+	
+	submit_form:function(form_id,submit_url,msg_box_id,callback){
+		$.ajax({
+		url: submit_url,
+		data: $('#'+form_id).serialize(),
+		type:'POST',
+		dataType:'JSON',
+		success:function(data){
+				if (!data.ok) { 
+					// Invalid
+					var errors = data.errors;
+					//reset error class in form as they will need to be re validated
+					flare_app.remove_error_class(form_id,msg_box_id);
+					flare_app.mark_errors(form_id,msg_box_id,errors);
+				}else{
+					flare_app.remove_error_class(form_id,msg_box_id);
+					$('#'+form_id)[0].reset();
+					callback(data);
+				}
+			}
+		});
+	
+	},
+	
+	// mark form errors
+	mark_errors:function(form_id,msg_box_id,errors){
+		var msg = '';
+		errors.forEach(function(e){
+			$('#' + form_id).find('[name="' + e.field + '"]').parent().addClass('has-error');
+			msg += e.msg+'<br>';
+			$('#'+msg_box_id).html(msg).removeClass('bg-success text-success').addClass('bg-danger text-danger').show();
+		});	
+	},
+
+	//removes error markes from previous form submit
+	remove_error_class:function(form_id,msg_box_id){
+		$('#'+msg_box_id).removeClass('bg-danger').removeClass('text-danger').addClass('bg-success text-success');
+		$('#'+form_id+' input,#'+form_id+' textarea,#'+form_id+' select,#'+form_id+' date#'+form_id+' email').each(function(){
+			$(this).parent().removeClass('has-error');
+		});
 	}
 
 };

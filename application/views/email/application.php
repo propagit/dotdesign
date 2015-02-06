@@ -1,7 +1,7 @@
 <p style="font-family:Arial, Helvetica, sans-serif; color:#5a5754; font-size:12px;">
 	Hi <strong>Admin</strong><br><br>
     
-    The following message was received from the <strong>Contact Us</strong> page at <?=SITE_NAME;?> website.
+    The following application was received from the <strong>Careers</strong> page at <?=SITE_NAME;?> website.
 </p>
 
 
@@ -14,10 +14,6 @@
 	<tr>
     	<td style="line-height:15px; padding:0; margin:0;"  width="150">Name</td>
         <td style="line-height:15px; padding:0; margin:0;" ><?=$message['name'];?></td>
-    </tr>
-    <tr>
-    	<td style="line-height:15px; padding:0; margin:0;"  width="150">Enquiry For</td>
-        <td style="line-height:15px; padding:0; margin:0;" ><?=$message['city'];?></td>
     </tr>
     <tr>
     	<td style="line-height:15px; padding:0; margin:0;"  width="150">Phone</td>

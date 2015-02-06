@@ -39,13 +39,51 @@
             
             
             <div class="sec-inner app-form">
+                <h6><i class="fa fa-paper-plane-o"></i> Touch Base With Dot Design</h6>
+                <form id="careers-form">
+                     <div class="form-group">
+                        <input name="name" type="text" class="form-control" placeholder="your name">
+                     </div>
+                     <div class="form-group">
+                        <input name="phone" type="text" class="form-control" placeholder="your phone">
+                     </div>
+                     <div class="form-group">
+                        <input name="email" type="text" class="form-control" placeholder="your email">
+                     </div>
+                     <div class="form-group">
+                        <textarea name="message" class="form-control" rows="5" placeholder="tell us about yourself"></textarea>
+                     </div>
+                     <div class="form-group">
+                        <button id="send-msg" type="button" class="btn btn-app fw">Send</button>
+                     </div>
                 
+                </form>
+                <p id="careers-result" class="msg-box" style="display:none;">
+                	
+                </p>
          	</div>
         </div>
 
     </div> 
     
 </div>
+
+<script>
+$('#send-msg').click(function(){
+	$('#careers-result').hide();
+	
+	flare_app.submit_form('careers-form','<?=base_url();?>content/send_application','careers-result',function(sumbit_success){
+		$('#careers-result').html('Your message was successfully sent.').show();	
+	});
+	
+});
+
+
+
+$(function(){
+	 $('select').select2(); 
+});
+</script>
 
 
 

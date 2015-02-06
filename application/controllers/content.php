@@ -56,7 +56,7 @@ class Content extends CI_Controller {
 		$this->load->view('common/footer');	
 	}
 	
-	function sendcontact()
+	function send_contact()
 	{	
 		$name = $this->input->post('name',true);
 		$city = $this->input->post('city',true);
@@ -87,6 +87,63 @@ class Content extends CI_Controller {
 			# proceed with sending email
 			$data_email['message'] = $this->input->post();
 			$message = $this->load->view('email/contact_us',$data_email,true);
+			$to = 'kaushtuv@propagate.com.au';
+			#$to = 'team@propagate.com.au';
+			
+			$email_data = array(
+					'to' => $to ? $to : 'info@'.DOMAIN,
+					'from' => 'noreply@'.DOMAIN,
+					'from_text' => 'Contact Form Inquiry - ' . SITE_NAME,
+					'subject' => 'Message Received From Contact Form - '.date('d F,Y'),
+					'message' => $message
+					);
+			if($this->_send_email($email_data)){
+				  echo json_encode(array(
+					  'ok' => true,
+					  'errors' => ''
+				  ));
+				  return;
+			}else{
+				echo json_encode(array(
+					  'ok' => false,
+					  'errors' => 'contact failed'
+				));
+			   return;
+			}
+		}
+	
+	}
+	
+	function send_application()
+	{	
+		$name = $this->input->post('name',true);
+		$email = $this->input->post('email',true);
+		$phone = $this->input->post('phone',true);
+		$msg = $this->input->post('message');
+		
+
+		$rules = array(
+			array('field' => 'email', 'label' => 'Email', 'rules' => 'required|email'),
+			array('field' => 'name', 'label' => 'Name', 'rules' => 'required'),
+			array('field' => 'phone', 'label' => 'Phone', 'rules' => 'required'),
+			array('field' => 'message', 'label' => 'Message', 'rules' => 'required')
+		);
+		
+		
+		$errors =  $this->_validate_input($this->input->post(), $rules);
+		
+		if (count($errors) > 0) {
+			# User input error
+			echo json_encode(array(
+				'ok' => false,
+				'errors' => $errors
+			));
+			
+			return;
+		}else{
+			# proceed with sending email
+			$data_email['message'] = $this->input->post();
+			$message = $this->load->view('email/application',$data_email,true);
 			$to = 'kaushtuv@propagate.com.au';
 			#$to = 'team@propagate.com.au';
 			

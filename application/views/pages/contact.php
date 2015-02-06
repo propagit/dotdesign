@@ -125,45 +125,16 @@
 <script>
 $('#send-msg').click(function(){
 	$('#contact-result').hide();
-	$.ajax({
-		url: '<?=base_url();?>content/sendcontact',
-		data: $('#contact-form').serialize(),
-		type:'POST',
-		dataType:'JSON',
-		success:function(data){
-			var form_id = 'contact-form';
-			if (!data.ok) { 
-				// Invalid
-				var errors = data.errors;
-				//reset error class in form as they will need to be re validated
-				remove_error_class(form_id);
-				mark_errors(form_id,errors);
-			}else{
-				$('#contact-result').html('Your message was successfully sent.').removeClass('bg-danger').removeClass('text-danger').addClass('bg-success text-success').show();
-				remove_error_class(form_id);
-				$('#'+form_id)[0].reset();
-			}
-		}
+	
+	flare_app.submit_form('contact-form','<?=base_url();?>content/send_contact','contact-result',function(sumbit_success){
+		$('#contact-result').html('Your message was successfully sent.').show();	
 	});
 	
 });
 
-function mark_errors(form_id,errors){
-	var msg = '';
-	errors.forEach(function(e){
-		$('#' + form_id).find('[name="' + e.field + '"]').parent().addClass('has-error');
-		msg += e.msg+'<br>';
-		$('#contact-result').html(msg).addClass('bg-danger text-danger').show();
-	});	
-}
 
-function remove_error_class(form_id){
-	$('#'+form_id+' input,#'+form_id+' textarea,#'+form_id+' select,#'+form_id+' date#'+form_id+' email').each(function(){
-		$(this).parent().removeClass('has-error');
-	});
-}
 
 $(function(){
-	  $('select').select2();
+	 $('select').select2(); 
 });
 </script>
