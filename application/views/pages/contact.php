@@ -99,6 +99,9 @@
                      <div class="form-group">
                         <select class="form-control">
                             <option>ENQUIRY: SYDNEY</option>
+                            <option>ENQUIRY: MELBOURNE</option>
+                            <option>ENQUIRY: USA</option>
+                            <option>ENQUIRY: CHINA</option>
                         </select>
                      </div>
                      <div class="form-group">
@@ -106,10 +109,18 @@
                      </div>
                 
                 </form>
-                </div>
+                
+         	</div>
         </div>
 
     </div> 
     
 </div>
 
+
+
+<script>
+$(function(){
+	  $('select').select2();
+});
+</script>

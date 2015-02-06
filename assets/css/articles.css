@@ -8,6 +8,9 @@ h1, h2, h3, h4, h5, h6 {
 /*
 	vw = ratio 0.05272727
 */
+body {
+  background-color: white; }
+
 #content {
   padding-top: 0 !important; }
 

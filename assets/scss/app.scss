@@ -78,6 +78,41 @@ body,p{
 	-ms-transform:scale($x,$y); /* IE 9 */
 	-o-transform:scale($x,$y); /* Opera */
 }
+@mixin placeholder($color:#1a1e28,$font_size:12px,$font_weight:700,$opacity:0.45){
+	&::-webkit-input-placeholder {
+  		 color: $color;
+		 font-size:$font_size;
+		 font-family:$main_font;
+		 font-weight:$font_weight;
+		 opacity:$opacity;
+	}
+
+	&:-moz-placeholder { /* Firefox 18- */
+   		color: $color; 
+		font-size:$font_size;
+		font-family:$main_font; 
+		font-weight:$font_weight;
+		opacity:$opacity;
+	}
+
+	&::-moz-placeholder {  /* Firefox 19+ */
+   		color: $color;  
+		font-size:$font_size;
+		font-family:$main_font;
+		font-weight:$font_weight;
+		opacity:$opacity;
+	}
+
+	&:-ms-input-placeholder {  
+   		color: $color; 
+		font-size:$font_size;
+		font-family:$main_font; 
+		font-weight:$font_weight;
+		opacity:$opacity;
+	}	
+}
+
+
 .box-shadow{
 	-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.7);
 	-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.7);
@@ -419,13 +454,36 @@ img.logo{
 	}
 }	/* form-alt*/
 
+
+/*app form*/
 $input_bg:#f3f4f4;
+$border_color:#cccccc;
 .app-form{
-	
 	.form-control{
+		@include placeholder();
 		border-radius:0;
+		-webkit-appearance: none;
 	}
+	
+	/* select 2*/
+	.select2-container{
+		padding: 0;
+		margin: 0;
+		border: none;
+		
+		.select2-choice{
+			border:1px solid $border_color;
+			border-radius:0;	
+			height:34px;
+			line-height:34px;
+			background-image:none;
+		}
+		
+	} /*select2-container*/
 }
+
+
+
 
 .carousel{
 	overflow:hidden;
