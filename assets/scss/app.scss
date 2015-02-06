@@ -583,7 +583,7 @@ $input_bg:#f3f4f4;
 		}
 		
 		.btn-angle{
-			margin-top:-14px;	
+			margin-top:0;	
 		}
 		
 		.btn-slide{
@@ -745,7 +745,7 @@ $caption_height:82px;
 		padding:0;	
 		text-align:center;
 		cursor:pointer;
-		
+		overflow:hidden;
 		
 		img{
 			width:100%;	
@@ -766,10 +766,12 @@ $caption_height:82px;
 			width:100%;
 			float:left;
 			height:$caption_height;
-			margin-top:-$caption_height;
+			bottom:0;
 			position:absolute;
-			padding-top:25px;
-			display:none;
+			transition-property: all;
+			transition-duration: 0.6s;
+			transition-timing-function: cubic-bezier(0, 1, 0.6, 1);
+			max-height:0;
 			
 			
 			span{
@@ -812,6 +814,10 @@ $caption_height:82px;
 		&::after{
 			@include overlay(0);
 		}
+		.caption{
+			max-height:$caption_height;
+			padding-top:25px;
+		}
 	}
 	
 }
@@ -850,7 +856,7 @@ $caption_height:82px;
 	position:relative;
 	
 	#goto-top{
-		@include overlay(0.75,255,255,255);
+		/*@include overlay(0.75,255,255,255);*/
 		@include get_zindex(5);
 		position:absolute;
 		left:0;
@@ -858,7 +864,7 @@ $caption_height:82px;
 		top:0;
 		width:40px;
 		height:40px;
-		color:$color3;
+		color:$color1;
 		line-height:40px;
 		text-align:center;
 		/*margin:-$footer_top_padding auto 0;	*/
@@ -869,7 +875,7 @@ $caption_height:82px;
 		
 		
 		&:hover{
-			@include overlay(0.75,247,144,30);
+			/*@include overlay(0.75,247,144,30);*/
 			color:$color1;
 		}
 	}

@@ -9,11 +9,11 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="<?=base_url();?>assets/img/work/gallery/victoria-bitter1.jpg">
-                    <span class="title">Victoria Bitter</span>
+                    <img src="<?=base_url();?>assets/img/work/gallery/carltron-draught1.jpg">
+                    <span class="title">Carltron Draught</span>
                     <div class="description">
                     	<button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                    	<h1>Victoria Bitter</h1>
+                    	<h1>Carltron Draught</h1>
                         <p>
                         	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
                         </p>
@@ -23,11 +23,11 @@
                 </div>
                 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/gallery/victoria-bitter2.jpg">
-                    <span class="title">Victoria Bitter</span>
+                    <img src="<?=base_url();?>assets/img/work/gallery/carltron-draught2.jpg">
+                    <span class="title">Carltron Draught</span>
                     <div class="description">
                     	<button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                    	<h1>Victoria Bitter</h1>
+                    	<h1>Carltron Draught</h1>
                         <p>
                         	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
                         </p>

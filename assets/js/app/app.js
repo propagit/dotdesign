@@ -57,11 +57,6 @@ $(function(){
 
 	 });// scroll
 	 
-	 $('.colage-box').hover(function(){
-		var $this = $(this);
-		var target = $this.attr('data-toggle');
-		$this.children(target).slideToggle();
-	 });
 	 
 	 
 }); // ready

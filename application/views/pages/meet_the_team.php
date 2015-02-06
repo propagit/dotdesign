@@ -16,11 +16,7 @@
 
         
     	</div>
-        
-        
-        
-        
-        
+
         <div class="container sec-content">
             <div class="sec-inner">
                 <h5>Team</h5>
@@ -30,30 +26,15 @@
                 </p>
             </div>
         </div>
-        
-        <?php 
-			$staff_arr = array(
-							array('image' => 'Karl.jpg','name' => 'Karl','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
-							array('image' => 'Elkie.jpg', 'name' => 'Elkie','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
-							array('image' => 'Mark.jpg', 'name' => 'Mark','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
-							array('image' => 'Sandra.jpg', 'name' => 'Sandra','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
-							array('image' => 'Sarah.jpg', 'name' => 'Sarah','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
-							array('image' => 'Paris.jpg', 'name' => 'Paris','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
-							array('image' => 'Miles.jpg', 'name' => 'Miles','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
-							array('image' => 'Michael.jpg', 'name' => 'Michael','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => '')				
-						);
-		?>
-        
-        
 
    		<div class="work-colage">
-		<?php foreach($staff_arr as $staff){ ?>
-            <a href="<?=base_url();?>the-team/?=8">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box" data-toggle=".caption">
-                <img src="<?=base_url();?>assets/img/the-team/<?=$staff['image'];?>">
+		<?php foreach($staff as $s){ ?>
+            <a href="<?=base_url();?>the-team/?p=8">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                <img src="<?=base_url();?>assets/img/the-team/<?=$s['image'];?>">
                 <div class="caption">
-                	<span class="name"><?=$staff['name'];?></span>
-                    <span class="info"><?=$staff['location'] . $staff['role'];?></span>
+                	<span class="name"><?=$s['name'];?></span>
+                    <span class="info"><?=$s['location'] . $s['role'];?></span>
                 </div>
             </div>
             </a>

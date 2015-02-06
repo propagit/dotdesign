@@ -6,29 +6,20 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="<?=base_url();?>assets/img/work/featured/banner1.jpg" alt="work-banner.jpg">
+                    <img src="<?=base_url();?>assets/img/work/featured/carltron-draught1.jpg" alt="work-banner.jpg">
                     <div class="carousel-caption">
-                        <h1>victoria bitter</h1>
-                     	<h4>DOT DESIGNED WHERE ASKED TO CREATE AN OLD FASHIONED BEER TAP  ... WITH <br>THE OBJECTIVE OF INTRUDCING THE CONSUMER TO THE NEW BRAND & LOGO</h4>
-                        <button class="btn btn-app">read more</button>
+                        <h1>Carlton Draught</h1>
+                     	<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam eleifend. Etiam scelerisque odio dui, eu efficitur.</h4>
+                        <a href="<?=base_url()?>work/carltron-draught" class="btn btn-app">read more</a>
                     </div>
                 </div>
                 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/featured/banner2.jpg" alt="work-banner.jpg">
+                    <img src="<?=base_url();?>assets/img/work/featured/carltron-draught2.jpg" alt="work-banner.jpg">
                     <div class="carousel-caption">
-                        <h1>melbourne colage</h1>
-                     	<h4>DOT DESIGNED WHERE ASKED TO CREATE AN OLD FASHIONED BEER TAP  ... WITH <br>THE OBJECTIVE OF INTRUDCING THE CONSUMER TO THE NEW BRAND & LOGO</h4>
-                        <button class="btn btn-app">read more</button>
-                    </div>
-                </div>
-                
-                <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/featured/banner3.jpg" alt="work-banner.jpg">
-                    <div class="carousel-caption">
-                        <h1>Nescafe</h1>
-                     	<h4>DOT DESIGNED WHERE ASKED TO CREATE AN OLD FASHIONED BEER TAP  ... WITH <br>THE OBJECTIVE OF INTRUDCING THE CONSUMER TO THE NEW BRAND & LOGO</h4>
-                        <button class="btn btn-app">read more</button>
+                        <h1>Carlton Draught</h1>
+                     	<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam eleifend. Etiam scelerisque odio dui, eu efficitur.</h4>
+                        <a href="<?=base_url()?>work/carltron-draught" class="btn btn-app">read more</a>
                     </div>
                 </div>
             </div>
@@ -60,12 +51,12 @@
 
    		<div class="work-colage">
 		<?php for($i=1;$i<=12;$i++){ ?>
-            <a href="<?=base_url();?>our-work/victoria-bitter">
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box" data-toggle=".caption">
+            <a href="<?=$i == 1 ? base_url() . 'our-work/carltron-draught' : 'javascript:void(0);';?>">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>assets/img/work/work<?=$i;?>.jpg">
                     <div class="caption">
-                        <span class="name">Nescafe</span>
-                        <span class="info">St Kilda Road, Melbourne</span>
+                        <span class="name"><?=$i == 1 ? 'Carlton Draught' : 'Lorem Ipsum';?></span>
+                        <span class="info"><?=$i == 1 ? 'St Kilda Road, Melbourne' : 'Sed aliquam eleifend';?></span>
                     </div>
                 </div>
             </a>

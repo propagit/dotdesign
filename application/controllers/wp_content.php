@@ -5,7 +5,7 @@ class Wp_content extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
-		#error_reporting(E_ALL);
+		error_reporting(E_ALL);
 	}
 	
 	/* wp header top bar */

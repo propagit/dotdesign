@@ -38,8 +38,9 @@ class Content extends CI_Controller {
 	
 	function meet_the_team()
 	{
+		$data['staff'] = $this->data_model->get_staff();
 		$this->load->view('common/header');
-		$this->load->view('pages/meet_the_team');
+		$this->load->view('pages/meet_the_team',$data);
 		$this->load->view('common/footer');		
 	}
 	
@@ -47,6 +48,13 @@ class Content extends CI_Controller {
 	{
 		$this->load->view('common/header');
 		$this->load->view('pages/contact');
+		$this->load->view('common/footer');	
+	}
+	
+	function app_404()
+	{
+		$this->load->view('common/header');
+		$this->load->view('pages/app_404');
 		$this->load->view('common/footer');	
 	}
 	

@@ -17,6 +17,3 @@ class Nav_model extends CI_Model {
 		return $nav;	
 	}
 }
-?>
-	
-	
