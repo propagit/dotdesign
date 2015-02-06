@@ -462,6 +462,7 @@ img.logo{
 /*app form*/
 $input_bg:#f3f4f4;
 $border_color:#cccccc;
+$form_control_height:40px;
 .app-form{
 	.form-control{
 		@include placeholder();
@@ -474,6 +475,7 @@ $border_color:#cccccc;
 		opacity:0.8;
 		background-color:$input_bg;
 		box-shadow:none;
+		height:$form_control_height;
 	}
 	
 	
@@ -489,14 +491,14 @@ $border_color:#cccccc;
 	.select2-choice{
 		border:1px solid $border_color;
 		border-radius:0;	
-		height:34px;
-		line-height:34px;
+		height:$form_control_height;
+		line-height:$form_control_height;
 		background-image:none;
 		text-align:left;
 		background-color:$input_bg;
 		
 		.select2-arrow{
-			width:34px;
+			width:$form_control_height;
 			background-image:none;
 			background-color:#e8e9ea;
 			border-radius:0;
@@ -510,11 +512,13 @@ $border_color:#cccccc;
 					font-family:$fa;
 					display:inline;
 					position:absolute;
-					margin-left: 12px;
+					margin-left: 16px;
 					color:$color3;
+					font-size:16px;
 				}
 				
-				$selec2_arrow_offset:3px;
+				$selec2_arrow_offset:4px;
+				
 				&::before{
 					content:"\f0d8";
 					margin-top: -$selec2_arrow_offset;

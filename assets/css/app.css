@@ -332,7 +332,8 @@ img.logo {
   color: #1a1e28;
   opacity: 0.8;
   background-color: #f3f4f4;
-  box-shadow: none; }
+  box-shadow: none;
+  height: 40px; }
   .app-form .form-control::-webkit-input-placeholder {
     color: #1a1e28;
     font-size: 12px;
@@ -372,13 +373,13 @@ img.logo {
   .select2-container .select2-choice {
     border: 1px solid #cccccc;
     border-radius: 0;
-    height: 34px;
-    line-height: 34px;
+    height: 40px;
+    line-height: 40px;
     background-image: none;
     text-align: left;
     background-color: #f3f4f4; }
     .select2-container .select2-choice .select2-arrow {
-      width: 34px;
+      width: 40px;
       background-image: none;
       background-color: #e8e9ea;
       border-radius: 0;
@@ -389,14 +390,15 @@ img.logo {
           font-family: "FontAwesome";
           display: inline;
           position: absolute;
-          margin-left: 12px;
-          color: #1a1e28; }
+          margin-left: 16px;
+          color: #1a1e28;
+          font-size: 16px; }
         .select2-container .select2-choice .select2-arrow b::before {
           content: "\f0d8";
-          margin-top: -3px; }
+          margin-top: -4px; }
         .select2-container .select2-choice .select2-arrow b::after {
           content: "\f0d7";
-          margin-top: 3px; }
+          margin-top: 4px; }
 
 /*select2-container*/
 .select2-drop-active {
