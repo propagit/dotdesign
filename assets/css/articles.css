@@ -167,7 +167,10 @@ article .entry-header h5 {
 
   article .entry-header h5 {
     letter-spacing: 20px;
-    line-height: 18px; } }
+    line-height: 18px; }
+
+  #primary, #secondary {
+    margin-top: 0; } }
 @media (max-width: 448px) {
   h1 {
     font-size: 15px;
