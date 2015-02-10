@@ -6,7 +6,7 @@
                 	<i class="fa fa-bars"></i>
                 	<i class="fa fa-angle-down" style="display:none;"></i>
                 </span>
-                menu
+                <span class="nav-text hidden-xs">menu</span>
             </a>
         </div>           
         <a href="<?=base_url();?>"><img class="logo" src="<?=base_url();?>assets/img/core/logo.png" alt="logo.png" title="Dot Design Logo"></a>

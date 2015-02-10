@@ -30,7 +30,8 @@
         <div class="container sec-content">
         	<div class="sec-inner">
                 <h5>Careers</h5>
-                <h2>INTERESTED IN A CAREER IN RETAIL<br> MARKETING & PRODUCT DEVELOPMENT?</h2>
+                <h2 class="hidden-xs">INTERESTED IN A CAREER IN RETAIL<br> MARKETING & PRODUCT DEVELOPMENT?</h2>
+                <h2 class="hidden-lg hidden-md hidden-sm">INTERESTED IN A CAREER<br> IN RETAIL MARKETING & <br> PRODUCT DEVELOPMENT?</h2>
                 <p>
                     Dot Design are always looking for motivated, creative thinkers to join our growing team. If you think you are suited please tell us a little about yourself and why you think you will be a great addition to the Dot Design Group team.<br><br>
                 </p>

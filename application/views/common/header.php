@@ -9,6 +9,8 @@
 <script type="text/javascript" src="<?=base_url();?>assets/js/angular/lib/angular.min.js"></script>
 <!-- bootstrap js-->
 <script type="text/javascript" src="<?=base_url();?>assets/bootstrap/js/bootstrap.min.js"></script>
+<!-- jquery touch -->
+<script type="text/javascript" src="<?=base_url();?>assets/js/jquery.mobile.custom.min.js"></script>
 <!--select2-->
 <script src="<?=base_url();?>assets/select2/select2.min.js"></script>
 <!--app js-->

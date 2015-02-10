@@ -13,7 +13,8 @@
         <div class="container sec-content">
             <div class="sec-inner">
                 <h5>About</h5>
-                <h2>DRIVEN BY CREATIVITY, INSIGHTS AND UNDERPINNED BY METHODICAL PLANNING</h2>
+                <h2 class="hidden-xs">DRIVEN BY CREATIVITY, INSIGHTS AND <br>UNDERPINNED BY METHODICAL PLANNING</h2>
+                <h2 class="hidden-lg hidden-md hidden-sm">DRIVEN BY CREATIVITY, <br>INSIGHTS AND UNDERPINNED <br>BY METHODICAL PLANNING</h2>
                 <p>
                     With over 14-years experience in Australia and around the world, we’ve partnered with clients in every consumer goods market and across a wide range of categories to ensure you have the confidence and assurance that together we can attract, engage and convert a browser into a shopper.<br><br>
     

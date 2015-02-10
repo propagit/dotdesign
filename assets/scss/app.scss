@@ -10,18 +10,6 @@ $sec_font:'Open Sans', sans-serif;
 $fa: 'FontAwesome';
 $body_copy:15px;
 
-@font-face {
-    font-family: digital-display;
-	src:url(../fonts/digital_display_tfb.ttf);
-}
-$digital:'digital-display';
-
-html,body,p{
-	font-size:$body_copy;
-	font-family:$main_font;
-	font-weight:400;	
-}
-
 
 $color1: #ffffff;
 /*ornage*/
@@ -34,8 +22,27 @@ $bg3: #1a1e28;
 
 
 
-$header_height:93px;
+$header_height:105px;
 $nav_width:370px;
+
+
+
+@font-face {
+    font-family: digital-display;
+	src:url(../fonts/digital_display_tfb.ttf);
+}
+$digital:'digital-display';
+
+body{
+	background-color:$bg3;
+}
+
+html,body,p{
+	font-size:$body_copy;
+	font-family:$main_font;
+	font-weight:400;	
+}
+
 
 body,p{
 	color:$color1;	
@@ -179,10 +186,10 @@ h3{
 }
 /* still free*/
 h4{
-	@include get_responsive_font(16,22);
+	/*@include get_responsive_font(16,22);*/
 	color:$color3;
-	/*font-size:16px;
-	line-height:22px;*/	
+	font-size:16px;
+	line-height:22px;	
 }
 /* secondary pages - page name such as about etc*/
 h5{
@@ -282,6 +289,10 @@ img.logo{
 				left:-40px;	
 				text-align:left;
 			}
+			
+			a{
+				color:$color3;	
+			}
 		}
 	}
 } /* address*/
@@ -305,6 +316,9 @@ img.logo{
 		text-align:center;
 		height: $header_height;	
 		overflow: hidden;
+	}
+	.nav-text{
+		width:auto;	
 	}
 	
 	.fa{
@@ -546,6 +560,16 @@ $form_control_height:40px;
 		background-color:$bg3; 
 	}
 }
+.select2-search{
+	/*input{
+		background-image:none;
+		
+		&::after{
+			content:"\f002";
+			font-family:$fa;	
+		}
+	}*/
+}	
 .msg-box{
 	padding:20px;	
 }
@@ -592,7 +616,7 @@ $form_control_height:40px;
 		}
 		
 		h1{
-			@include overlay(0.4,255,255,255);
+			@include overlay(0.75,255,255,255);
 			padding:12px 0 10px;	
 			
 			&::after{
@@ -604,7 +628,7 @@ $form_control_height:40px;
 			}
 		}
 		h4{
-			@include overlay(0.35,184,176,179);
+			@include overlay(0.75,255,255,255);
 			padding:26px 0 23px;
 			margin-top:36px;	
 		}
@@ -738,7 +762,13 @@ $form_control_height:40px;
 }
 
 /*secondary*/
+.secondary,
+.work-colage{
+	background-color:$bg1;	
+}
+
 .secondary{
+	
 	
 	.banner{
 		.carousel-caption{
@@ -761,14 +791,16 @@ $form_control_height:40px;
 			font-family:$digital;
 			
 			.hr,.minute{
-				font-size:65px;
+				@include get_responsive_font(65,92);
+				/*font-size:65px;*/
 			}
 			
 			
 			&::after{
+				@include get_responsive_font(12,16);
 				content:"dot design";
 				font-family:$main_font;
-				font-size:12px;
+				/*font-size:12px;*/
 				font-weight:900;
 				letter-spacing:4px;
 				display:block;
@@ -1066,7 +1098,11 @@ $caption_height:82px;
 			}
 			
 			a{
-				line-height:43px;	
+				line-height:43px;
+				
+				&:hover{
+					text-decoration:none;	
+				}
 			}
 		}
 	} /* social-links*/
@@ -1084,6 +1120,7 @@ $caption_height:82px;
 			a{
 				font-size:12px;
 				font-weight:400;	
+				
 			}
 		}
 	}
@@ -1115,22 +1152,449 @@ $caption_height:82px;
 	width:$full_width * 0.80;	
 }
 
+@media(min-width: 1200px) and (max-width: 1400px){
+
+	  .carousel{
+		  .carousel-caption{
+		  
+			  h1{
+				  
+				  &::after{
+					  margin-top:25px;	
+				  }
+			  }
+			  
+			  h4{
+				  font-size:14px;	
+				  padding:18px 0 16px;
+				  margin-top:30px;
+			  }
+			  
+			  .btn-app{
+				  margin-top:5px;  
+			  }
+		  }
+	  }
+	  
+	  .secondary{
+		  
+		  .sec-content{
+			
+		  }
+		  
+		  .city-time-box{
+			  .city-time{
+				  
+				  &::after{
+					  margin-top:-12px;	
+				  }
+			  }
+			  .city{
+				  letter-spacing:2px;	
+			  }
+		  }
+		  
+	  }
+		
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	.carousel{
+	
+		.carousel-caption{
+			left:20%;
+			right:20%;
+			
+			  h1{
+				  
+				  &::after{
+					  margin-top:25px;	
+				  }
+			  }
+			  
+			  h4{
+				  font-size:14px;	
+				  padding:18px 0 16px;
+				  margin-top:30px;
+			  }
+			  
+			  .btn-app{
+				  margin-top:5px;  
+			  }
+		}
+		
+		.slide-btn{
+			height: 51px;
+			width: 51px;
+			line-height: 58px;	
+		}
+		
+		a.left .slide-btn{
+			left:-51px;	
+		}
+		a.right .slide-btn{
+			right:-51px;	 
+		}
+			
+	} /* carousel*/
+	
+	.secondary{
+		.carousel{
+			img{
+				/*min-width:1200px;*/	
+			}
+		}
+		
+		.city-time-box{
+			.city-time{
+					
+				  &::after{
+					  display:none;
+				  }
+			  }
+			  .city{
+				  letter-spacing:0;	
+				  margin-top:-12px;
+			  }
+		}
+	} /*secondary*/
+	
+}
+
 @media (max-width: 992px) {
+	h2{
+		font-size:20px;
+		line-height:26px;	
+	}
+	h4{
+		font-size:14px;
+		line-height:20px;	
+
+	}
+	
 	.content-offset-top{
-		margin-top:0 !important;	
+		/*margin-top:0 !important;	*/
+	}
+	
+	.carousel{
+		.carousel-caption{
+			bottom:10  px;	
+			left:10%;
+			right:10%;
+			
+			 h1{
+				  
+				  &::after{
+					  margin-top:25px;	
+				  }
+			  }
+			  
+			  h4{
+				  font-size:14px;	
+				  padding:18px 0 16px;
+				  margin-top:30px;
+			  }
+			  
+			  .btn-app{
+				  margin-top:10px;  
+			  }
+		}
+		
+		
+		.slide-btn{
+			height: 51px;
+			width: 51px;
+			line-height: 58px;	
+		}
+		
+		a.left .slide-btn{
+			left:-51px;	
+		}
+		a.right .slide-btn{
+			right:-51px;	 
+		}
+			
+	} /* carousel*/
+	
+	.secondary{
+		
+		.city-time-box{
+	
+			
+			.city-time{
+	
+				.hr,.minute{
+					
+				}
+				
+				
+				&::after{
+					display:none;
+
+				}
+			}
+			
+			.city{
+				letter-spacing:0;	
+				margin-top:-8px;
+			}
+		
+		}
+		
+		
+		#time-stlouis{
+			top: 24%;
+			left: 15.6%;	
+		}
+		#time-sydney{
+			top: 64.7%;
+			right: 5.1%;
+		}
+		#time-china{
+			top: 27.1%;
+			right: 28.5%;
+		}	
+		
+		.carousel{
+			img{
+				/*min-width:1199px;*/	
+			}
+		}
+	
+	}	
+	
+	.sec-address{
+		display:block;
+		
+		.address{
+			float:left;
+			width:50%;	
+		}
+			
 	}
 }
+
+/* nav mob width*/
+$mob_nav_width:320px;
+$mob_header_height:75px;
 @media (max-width: 768px) {
+	
+	#header{
+		height:$mob_header_height;
+		line-height:$mob_header_height;	
+	}
+	img.logo{
+		width: 130px;
+		/*float: right;
+		margin-top: 20px;*/
+		margin-left:0;
+	}	
+	
+	.nav-toggle{
+		line-height:$mob_header_height;	
+	}
+	
+	.nav-modal{
+		top:$mob_header_height;
+	}
+	
+	#nav{
+		width:$mob_nav_width;	
+	}
+	
+	.nav-modal{	
+		 .modal-dialog{
+		 	width:$mob_nav_width; 
+		 }
+	}
+	h5{
+		letter-spacing:20px;	
+		line-height:18px;
+	}
+	.carousel{
+		
+		.carousel-caption{
+			h1{
+				padding-bottom:10px;
+				font-size:23px;
+				line-height:26px;
+				padding-left:10px;
+				padding-right:10px;
+				
+				&::after	{
+					margin-top:20px;	
+				}
+			}
+			h4{
+				padding:10px 10px;	
+				font-size:12px;
+				line-height:16px;
+				margin-top:20px;
+				margin-bottom:0;
+				font-weight:600;
+			}
+		}
+		
+		.slide-btn{
+			display:none;	
+		}
+		
+		.carousel-inner{
+			.item{
+				overflow:hidden;
+				
+				
+			}
+		}
+		img{
+			min-width: 992px !important;
+			position: relative;
+			margin-left: -20%;
+		}
+
+	} /*carousel*/
+	
+	.secondary{
+
+		
+		.address{
+			width:100%;	
+			
+			h6,
+			p{
+				text-align:center !important;	
+			}
+			
+			.fa-ul{
+				li{
+					text-align:center;
+					margin-left:25px;
+					
+					.fa{
+						left:auto;
+						/*width:40px;*/
+						margin-left:-25px;	
+					}
+				}
+			}
+		} /*address*/
+		
+		.carousel{
+			img{
+					
+			}
+		}	
+		
+		.city-time-box{
+			display:none;	
+		}
+		
+		#time-stlouis{
+			top: 26%;
+			left: 4.8%;	
+		}
+		#time-china{
+			top: 29.1%;
+			right: 18.5%;	
+		}
+		#time-sydney{
+			display:none;	
+		}
+		
+	} /* secondary */
+	
 	#footer{
 		hr{
 			width:100%;	
 		}
+		
+		ul.social-links{
+			li{
+				margin-right:40px;	
+			}
+		}
+		
+		ul.quick-links{
+			display:none;
+		}
+		
 	}
+	
+	
 }
+
+
+@media (max-width:448px){
+	h1{
+		font-size:15px;
+		line-height:18px;	
+	}
+	
+	
+	.carousel{
+		.carousel-caption{
+			left:5%;
+			right:5%;	
+		}
+		.carousel-inner{
+			.item{
+				img{
+					min-width: 768px !important;
+					position: relative;
+					margin-left: -30%;
+				}
+			}
+		}	
+		
+		
+		
+		/*.slide-btn{
+			height: 38px;
+			width: 38px;
+			line-height: 46px;	
+			top:55%;
+		}
+		
+		a.left .slide-btn{
+			left:-38px;	
+		}
+		a.right .slide-btn{
+			right:-38px;	 
+		}*/	
+	}
+	
+	.secondary{
+		
+		.sec-content{
+			padding-top:15px;	
+		}
+		
+		.carousel{
+			.item{
+				img{
+					  min-width: 768px !important;
+					  position: relative;
+					  margin-left: -50%;
+				  }
+			}
+		}
+	}
+	
+	
+	
+} /*max-width : 448px*/
+
 
 
 
 /*helpers*/
+.header-fixed{
+	position:fixed !important;
+	top:0;
+	width: 100%;
+}
 .fw{
 	width:100%;	
 }

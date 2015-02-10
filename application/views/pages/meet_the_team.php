@@ -20,7 +20,8 @@
         <div class="container sec-content">
             <div class="sec-inner">
                 <h5>Team</h5>
-                <h2>MEET SOME OF THE CORE DOT DESIGN TEAM AND FIND OUT THEIR THOUGHTS ON RETAIL </h2>
+                <h2 class="hidden-xs">MEET SOME OF THE CORE DOT DESIGN TEAM <br>AND FIND OUT THEIR THOUGHTS ON RETAIL </h2>
+                <h2 class="hidden-lg hidden-md hidden-sm">MEET SOME OF THE <br>CORE DOT DESIGN TEAM <br>AND FIND OUT THEIR <br>THOUGHTS ON RETAIL </h2>
                 <p>
                     Click the profile image to connect with one of the team and read articles on the latest thoughts and trends in retail marketing and product development.
                 </p>

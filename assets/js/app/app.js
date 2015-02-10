@@ -5,9 +5,11 @@ var flare_app = {
 	
 	toggle_nav_icon:function (){
 		$('#navModal').on('shown.bs.modal', function () {
+			$('#header').addClass('header-fixed');
 			$('#nav-toggle .fa').slideToggle(200);		 	
 		});
 		$('#navModal').on('hidden.bs.modal', function () {
+			$('#header').removeClass('header-fixed');
 			$('#nav-toggle .fa').slideToggle(200);	
 		});
 	},
@@ -98,6 +100,14 @@ $(function(){
 
 	 });// scroll
 	 
+	 
+	 //carousel swipe
+	 $(".carousel").swiperight(function() {  
+      	$(".carousel").carousel('prev');  
+    });  
+   	$(".carousel").swipeleft(function() {  
+      	$(".carousel").carousel('next');  
+   	});  
 	 
 	 
 }); // ready

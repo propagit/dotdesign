@@ -22,8 +22,11 @@
         
         <div class="container sec-content">
         	<div class="sec-inner">
-                <h5>Contact Dot Design</h5>
-                <h2>POINT OF PURCHASE <br>PRODUCT DESIGN SPECIALISTS</h2>
+                <h5 class="hidden-xs">Contact Dot Design</h5>
+                <h5 class="hidden-lg hidden-md hidden-sm">Contact <br>Dot Design</h5>
+                
+                <h2 class="hidden-xs">POINT OF PURCHASE <br>PRODUCT DESIGN SPECIALISTS</h2>
+                <h2 class="hidden-lg hidden-md hidden-sm">POINT OF <br>PURCHASE PRODUCT <br>DESIGN SPECIALISTS</h2>
                 <p>
                     Dot Design have offices placed throughout the world offering truly global capabilities to deliver point of purchase solutions for any brand, any place. Contact our team in your local area or touch base via the form below.
                 </p>

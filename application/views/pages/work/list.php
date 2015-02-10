@@ -41,7 +41,8 @@
         <div class="container sec-content">
             <div class="sec-inner">
                 <h5>Our Work</h5>
-                <h2>DOT DESIGN HAS EXPERIANCE WORKING ACROSS ALL SECTORS OF RETAIL</h2>
+                <h2 class="hidden-xs">DOT DESIGN HAS EXPERIENCE WORKING <br>ACROSS ALL SECTORS OF RETAIL</h2>
+                <h2 class="hidden-lg hidden-md hidden-sm">DOT DESIGN HAS <br>EXPERIENCE WORKING <br>ACROSS ALL <br>SECTORS OF RETAIL</h2>
                 <p>
                     Click the below images to read the case study and view a gallery of the products we have created for some of our clients
                 </p>
