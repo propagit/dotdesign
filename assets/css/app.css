@@ -1019,17 +1019,25 @@ img.logo {
   .secondary {
     /*address*/ }
     .secondary .address {
-      width: 100%; }
+      width: 100%;
+      margin-bottom: 15px; }
       .secondary .address h6,
       .secondary .address p {
         text-align: center !important; }
-      .secondary .address .fa-ul li {
-        text-align: center;
-        margin-left: 25px; }
-        .secondary .address .fa-ul li .fa {
-          left: auto;
-          /*width:40px;*/
-          margin-left: -25px; }
+      .secondary .address h6 {
+        margin-bottom: 5px; }
+      .secondary .address p {
+        line-height: 18px;
+        margin-bottom: 5px; }
+      .secondary .address .fa-ul {
+        padding-top: 0; }
+        .secondary .address .fa-ul li {
+          text-align: center;
+          margin-left: 25px; }
+          .secondary .address .fa-ul li .fa {
+            left: auto;
+            /*width:40px;*/
+            margin-left: -25px; }
     .secondary .city-time-box {
       display: none; }
     .secondary #time-stlouis {

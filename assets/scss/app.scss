@@ -1467,13 +1467,24 @@ $mob_header_height:75px;
 		
 		.address{
 			width:100%;	
+			margin-bottom:15px;
 			
 			h6,
 			p{
 				text-align:center !important;	
 			}
 			
+			h6{
+				margin-bottom:5px;	
+			}
+			p{
+				line-height:18px;
+				margin-bottom:5px;	
+			}
+			
 			.fa-ul{
+				padding-top:0;
+				
 				li{
 					text-align:center;
 					margin-left:25px;
