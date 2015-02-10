@@ -629,18 +629,23 @@ img.logo {
     position: absolute;
     top: 27.1%;
     right: 28.5%; }
-  .secondary .city-time-alt #time-stlouis,
-  .secondary .city-time-alt #time-sydney,
-  .secondary .city-time-alt #time-china {
-    top: 18%; }
-  .secondary .city-time-alt #time-stlouis {
-    left: auto; }
-  .secondary .city-time-alt #time-sydney {
-    right: 19.5% !important; }
-  .secondary .city-time-alt #time-china {
-    left: 45%; }
-  .secondary .city-time-alt .city-time-box {
-    color: white !important; }
+  .secondary .city-time-alt {
+    width: 100%;
+    float: left;
+    top: 138px;
+    position: absolute; }
+    .secondary .city-time-alt #time-stlouis,
+    .secondary .city-time-alt #time-sydney,
+    .secondary .city-time-alt #time-china {
+      top: 0%; }
+    .secondary .city-time-alt #time-stlouis {
+      left: 15% !important; }
+    .secondary .city-time-alt #time-sydney {
+      left: 75% !important; }
+    .secondary .city-time-alt #time-china {
+      left: 44% !important; }
+    .secondary .city-time-alt .city-time-box {
+      color: white !important; }
   .secondary .sec-content {
     text-align: center;
     padding-top: 30px;

@@ -836,21 +836,26 @@ $form_control_height:40px;
 	}
 	
 	.city-time-alt{
+		width: 100%;
+		float: left;
+		top: 138px;
+		position: absolute;
 	
 		#time-stlouis,
 		#time-sydney,
 		#time-china{
-			top:18%;	
+			top:0%;	
 		}
 		
 		#time-stlouis{
-			left:auto;	
+			left:15% !important;	
 		}
 		#time-sydney{
-			right:19.5% !important;	
+			left:75% !important;	
 		}
 		#time-china{
-			left:45%;	
+			left:44% !important;
+			
 		}
 		.city-time-box{
 			color:$color1 !important;	
