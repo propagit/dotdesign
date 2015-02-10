@@ -163,7 +163,11 @@ article .entry-header h5 {
     width: 320px; }
 
   .nav-modal .modal-dialog {
-    width: 320px; } }
+    width: 320px; }
+
+  article .entry-header h5 {
+    letter-spacing: 20px;
+    line-height: 18px; } }
 @media (max-width: 448px) {
   h1 {
     font-size: 15px;

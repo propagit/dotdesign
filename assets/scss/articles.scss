@@ -296,6 +296,14 @@ $mob_header_height:75px;
 		 	width:$mob_nav_width; 
 		 }
 	}
+	article{
+		.entry-header{
+			h5{
+				letter-spacing: 20px;
+				line-height: 18px;	
+			}
+		}
+	}
 }
 
 
