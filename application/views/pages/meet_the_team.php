@@ -9,7 +9,7 @@
                     <img src="<?=base_url();?>assets/img/secondary/team-banner.jpg" alt="team-banner.jpg">
                     <div class="carousel-caption">
                         <h1>GOT WHAT IT TAKES</h1>
-                     	<h4>THE DOT DESIGN TEAM IS BASED IN SYDNEY - MELBOURNE & CHINA. <br>WITH SPECIALISTS IN RETAIL, MARKETING, PRODUCT DESIGN AND MANUFACTURING </h4>
+                     	<h4>THE DOT DESIGN TEAM IS BASED IN SYDNEY - MELBOURNE & CHINA. WITH SPECIALISTS IN RETAIL, MARKETING, PRODUCT DESIGN AND MANUFACTURING </h4>
                     </div>
                 </div>
             </div>
