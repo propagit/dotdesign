@@ -1,5 +1,5 @@
 <div id="content">
-		<div id="banners" class="carousel slide" data-ride="carousel" data-interval="false">
+		<div id="banners" class="carousel slide featured-work-carousel" data-ride="carousel" data-interval="false">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#banners" data-slide-to="0" class="active"></li>
@@ -10,8 +10,8 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <img src="<?=base_url();?>assets/img/work/gallery/carltron-draught1.jpg">
-                    <span class="title">Carltron Draught</span>
-                    <div class="description">
+                    <span class="title hidden-xs hidden-sm">Carltron Draught</span>
+                    <div class="description hidden-xs hidden-sm">
                     	<button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                     	<h1>Carltron Draught</h1>
                         <p>
@@ -24,8 +24,8 @@
                 
                 <div class="item">
                     <img src="<?=base_url();?>assets/img/work/gallery/carltron-draught2.jpg">
-                    <span class="title">Carltron Draught</span>
-                    <div class="description">
+                    <span class="title hidden-xs">Carltron Draught</span>
+                    <div class="description hidden-xs hidden-sm">
                     	<button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                     	<h1>Carltron Draught</h1>
                         <p>
@@ -48,8 +48,27 @@
             </a>
         	
             
-            <button class="btn btn-white show-desc" type="button">Read Case Study</button>
+            <button class="btn btn-white show-desc hidden-xs hidden-sm" type="button">Read Case Study</button>
     	</div>
+        
+        
+        <div class="secondary">
+        
+        
+            <div class="container sec-content hidden-lg hidden-md">
+                <div class="sec-inner">
+                    <h5>Our Work</h5>
+                    <h2>Carltron Draught</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus.
+                    </p>
+                    <br>
+                    <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                    <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                </div>
+            </div>
+        
+        </div>
 </div>
 <script>
 $('.show-desc').click(function(){

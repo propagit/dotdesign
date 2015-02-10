@@ -515,7 +515,7 @@ img.logo {
     background-color: transparent; }
   .carousel span.title {
     /*background-color:rgb($r,$g,$b);*/
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.75);
     background-color: transparent\9;
     font-family: "Raleway", sans-serif;
     font-size: 10px;
@@ -534,7 +534,7 @@ img.logo {
     padding: 13px 0; }
   .carousel .description {
     /*background-color:rgb($r,$g,$b);*/
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.75);
     background-color: transparent\9;
     position: absolute;
     max-width: 846px;
@@ -959,7 +959,10 @@ img.logo {
     display: block; }
     .sec-address .address {
       float: left;
-      width: 50%; } }
+      width: 50%; }
+
+  .featured-work-carousel .carousel-indicators {
+    bottom: 0; } }
 /* nav mob width*/
 @media (max-width: 768px) {
   #header {
@@ -1039,6 +1042,17 @@ img.logo {
       display: none; }
 
   /* secondary */
+  .featured-work-carousel .carousel-inner .item img {
+    min-width: 100% !important;
+    position: relative;
+    margin-left: 0;
+    margin-top: 105px; }
+
+  .work-colage [class*=col] .caption {
+    max-height: 82px;
+    padding-top: 25px; }
+
+  /*work-colage*/
   #footer hr {
     width: 100%; }
   #footer ul.social-links li {
@@ -1077,7 +1091,13 @@ img.logo {
   .secondary .carousel .item img {
     min-width: 768px !important;
     position: relative;
-    margin-left: -50%; } }
+    margin-left: -50%; }
+
+  .featured-work-carousel .carousel-inner .item img {
+    min-width: 100% !important;
+    position: relative;
+    margin-left: 0;
+    margin-top: 105px; } }
 /*max-width : 448px*/
 /*helpers*/
 .header-fixed {

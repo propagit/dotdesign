@@ -77,8 +77,7 @@
                     <h6>DOT DESIGN GROUP - USA</h6>
                     <p>
                         123 America Road <br>
-                        Amber St Louis 12045<br>
-                        USA
+                        Amber St Louis 12045, USA
                     </p>
                     <ul class="fa-ul">
                         <li><i class="fa-li fa fa-envelope"></i> usa@dotdesign.com.au</li>

@@ -30,8 +30,3 @@
 
 <?php $this->load->view('common/header_top_bar');?>
 <?php $this->load->view('common/nav');?>
-
-
-
-
-

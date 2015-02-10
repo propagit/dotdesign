@@ -684,7 +684,7 @@ $form_control_height:40px;
 	
 	/* Case studies */
 	span.title{
-		@include overlay(0.4,255,255,255);
+		@include overlay(0.75,255,255,255);
 		font-family:$main_font;
 		font-size:10px;
 		color:$color3;
@@ -702,7 +702,7 @@ $form_control_height:40px;
 		padding: 13px 0;
 	}
 	.description{
-		@include overlay(0.4,255,255,255);
+		@include overlay(0.75,255,255,255);
 		position:absolute;
 		max-width:846px;
 		margin:auto;
@@ -1374,6 +1374,12 @@ $caption_height:82px;
 		}
 			
 	}
+	
+	.featured-work-carousel{
+		.carousel-indicators{
+			bottom:0;	
+		}
+	}
 }
 
 /* nav mob width*/
@@ -1504,6 +1510,31 @@ $mob_header_height:75px;
 		}
 		
 	} /* secondary */
+	.featured-work-carousel{
+		.carousel-inner{
+			.item{
+				img{
+					min-width: 100% !important;
+					position: relative;
+					margin-left: 0;
+					margin-top:$header_height;
+				}
+			}
+		}
+		
+			
+	}
+	
+	.work-colage{
+
+		[class*=col]{
+			.caption{
+				max-height:$caption_height;
+				padding-top:25px;
+			}
+		}
+	
+	} /*work-colage*/
 	
 	#footer{
 		hr{
@@ -1580,6 +1611,21 @@ $mob_header_height:75px;
 				  }
 			}
 		}
+	}
+	
+	.featured-work-carousel{
+		.carousel-inner{
+			.item{
+				img{
+					min-width: 100% !important;
+					position: relative;
+					margin-left: 0;
+					margin-top:$header_height;
+				}
+			}
+		}
+		
+			
 	}
 	
 	
