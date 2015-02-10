@@ -48,7 +48,7 @@ h5 {
   color: white; }
 
 .nav-modal {
-  top: 93px; }
+  top: 105px; }
   .nav-modal .modal-dialog {
     padding: 0;
     margin: 0; }
@@ -170,7 +170,14 @@ article .entry-header h5 {
     line-height: 18px; }
 
   #primary, #secondary {
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .carousel img {
+    min-width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 105px; }
+  .carousel .carousel-caption {
+    display: none; } }
 @media (max-width: 448px) {
   h1 {
     font-size: 15px;
