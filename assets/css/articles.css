@@ -9,10 +9,11 @@ h1, h2, h3, h4, h5, h6 {
 	vw = ratio 0.05272727
 */
 body {
-  background-color: white; }
+  background-color: #1a1e28; }
 
 #content {
-  padding-top: 0 !important; }
+  padding-top: 0 !important;
+  background-color: white; }
 
 h1 {
   font-size: 2.9vw;
