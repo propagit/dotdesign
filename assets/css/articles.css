@@ -44,6 +44,9 @@ h5 {
 #header-top {
   padding-top: 0 !important; }
 
+.content-offset-top {
+  margin-top: 105px !important; }
+
 .nav-toggle .fa, .nav-toggle a {
   color: white; }
 
@@ -133,6 +136,23 @@ article .entry-header h5 {
       #secondary .widget ul li::before {
         content: "\f096";
         color: #1a1e28; }
+
+.archive-wrap .page-header {
+  margin-top: 15px; }
+.archive-wrap article::after {
+  content: " ";
+  border-bottom: 1px solid #f7901e;
+  width: 100%;
+  float: left;
+  margin-left: 15px; }
+.archive-wrap article:last-of-type::after {
+  border-bottom: 1px solid white; }
+
+.archive-header h1 {
+  border-top: 0 !important;
+  border-bottom: 0 !important; }
+  .archive-header h1 a {
+    color: #f7901e !important; }
 
 @media (max-width: 992px) {
   .theme-h1, #main h1, #secondary h1.widget-title,

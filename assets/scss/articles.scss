@@ -74,7 +74,9 @@ h5{
 #header-top{
 	padding-top:0 !important;	
 }
-
+.content-offset-top{
+	margin-top:$header_height !important;	
+}
 .nav-toggle{
 	.fa,a{
 		color:$color1;
@@ -237,6 +239,39 @@ article{
 	
 	h1.widget-title{
 		@extend .theme-h1;	
+	}
+}
+
+.archive-wrap{
+	.page-header{
+		margin-top:15px;	
+	}
+	
+	article{
+		
+		&::after{
+			content:" ";
+			border-bottom:1px solid $color2;
+			width:100%;
+			float:left;
+			margin-left:15px;
+		}
+		
+		&:last-of-type{
+			&::after{
+				border-bottom:1px solid $color1;
+			}
+		}
+	}
+}
+.archive-header{
+	h1{
+		border-top:0 !important;
+		border-bottom:0 !important;
+		
+		a{
+			color:$color2 !important;	
+		}
 	}
 }
 
