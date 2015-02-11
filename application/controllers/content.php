@@ -56,6 +56,28 @@ class Content extends CI_Controller {
 		$this->load->view('common/footer');	
 	}
 	
+	function subscribe()
+	{
+		$email = $this->input->post('email',true);	
+		$rules = array(
+			array('field' => 'email', 'label' => 'Email', 'rules' => 'required|email')
+		);
+		
+		$errors =  $this->_validate_input($this->input->post(), $rules);
+		
+		if (count($errors) > 0) {
+			# User input error
+			echo json_encode(array(
+				'ok' => false,
+				'errors' => $errors
+			));
+			
+			return;
+		}else{
+			# add to db	
+		}
+	}
+	
 	function send_contact()
 	{	
 		$name = $this->input->post('name',true);
@@ -209,6 +231,27 @@ class Content extends CI_Controller {
 							$errors[] = array('field' => $rule['field'], 'msg' => 'Wrong Code');
 						}
 						break;
+					/*default:
+						# Unique
+						if (strpos($condition,'unique') !== false) {
+							$db_param = trim(substr($condition,7),']'); #
+							$db_arr = explode('.',$db_param);
+							
+							$param = array(
+										'db_table' => $db_arr[0], 
+										'db_field' => $db_arr[1],
+										'input_value' => $input[$rule['field']]
+										);
+							# Check to see if only active status are to be queried
+							if(isset($db_arr['2']) && isset($db_arr['3'])){
+								$param['db_active_field'] = $db_arr[2];	
+								$param['db_active_value'] = $db_arr[3];
+							}
+							if(!$this->common_model->is_unique($param)){
+								$errors[] = array('field' => $rule['field'], 'msg' => $rule['label'] . ' already exist in our system.');	
+							}
+						}
+						break;*/
 				}
 			}
 		}
