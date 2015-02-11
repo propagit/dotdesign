@@ -1,5 +1,5 @@
 <div id="content">
-		<div id="banners" class="carousel slide featured-work-carousel" data-ride="carousel" data-interval="false">
+		<div id="banners" class="carousel slide featured-work-carousel" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#banners" data-slide-to="0" class="active"></li>
