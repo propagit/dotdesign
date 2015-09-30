@@ -2,11 +2,12 @@
 	$cities = $this->clock_model->get_cities_offset();
 ?>
 
-<div class="city-time-box" id="time-stlouis">
+<div class="city-time-box" id="time-sydney">
     <div class="city-time digital">
         <span class="hr">0:</span><span class="minute">00</span>
     </div>
-    <span class="city">St Louis</span>
+
+    <span class="city">Sydney</span>
 </div>
 
 <div class="city-time-box" id="time-china">
@@ -16,12 +17,13 @@
     <span class="city">China</span>
 </div>
 
-<div class="city-time-box" id="time-sydney">
+<div class="city-time-box" id="time-stlouis">
     <div class="city-time digital">
         <span class="hr">0:</span><span class="minute">00</span>
     </div>
-    <span class="city">Sydney</span>
+    <span class="city">St Louis</span>
 </div>
+
 <script src="<?=base_url();?>assets/js/jquery.rotate.js"></script>
 <script src="<?=base_url();?>assets/js/jClocksGMT.js"></script>
 <script>

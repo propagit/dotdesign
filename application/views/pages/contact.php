@@ -67,25 +67,29 @@
                 </div><!--address-->
                 
                 <div class="address">
-                    <h6>DOT DESIGN GROUP - CHINA</h6>
+                    <h6>DOT DESIGN GROUP - HONG KONG</h6>
                     <p>
-                        2916, TOWER A, NEW GENERATION<br>
-                        INTERNATIONAL APARTMENT NANHIA<br>
-                        DADAO NANSHAN DISTRICT SHENZHEN
+                        5F, 158 Connaught Rd, Central, HK
+
                     </p>
                     <ul class="fa-ul">
-                        <li><i class="fa-li fa fa-envelope"></i> china@dotdesign.com.au</li>
+                      <li><i class="fa-li fa fa-phone"></i> +852 2337 2411</li>
+                      <li><i class="fa-li fa fa-phone"></i> 3+852 5646 2091</li>
+                      <li><i class="fa-li fa fa-phone"></i> +86 185 7677 8306 </li>
+                      <li><i class="fa-li fa fa-envelope"></i> china@dotdesign.com.au</li>
                     </ul>
                 </div><!--address--> 
                 
                 <div class="address">
                     <h6>DOT DESIGN GROUP - USA</h6>
                     <p>
-                        123 America Road <br>
-                        Amber St Louis 12045, USA
+                        139 West Monroe <br />
+                        Kirkwood, MO 63122
                     </p>
                     <ul class="fa-ul">
-                        <li><i class="fa-li fa fa-envelope"></i> usa@dotdesign.com.au</li>
+                      <li><i class="fa-li fa fa-phone"></i> 888-417-2457</li>
+                      <li><i class="fa-li fa fa-phone"></i> 314-852-6598</li>
+                      <li><i class="fa-li fa fa-envelope"></i> usa@dotdesign.com.au</li>
                     </ul>
                 </div><!--address--> 
             

@@ -13,7 +13,7 @@
                     
                     <div class="carousel-caption">
                         <h1>Got What It Takes</h1>
-                     	<h4>Dot Design Group Is Always On The Lookout For Quality People With a Passion For Retail Markketing and Product Development</h4>
+                     	<h4>Dot Design Group Is Always On The Lookout For Quality People With a Passion For Retail Marketing and Product Development</h4>
                     </div>
                     
                     
