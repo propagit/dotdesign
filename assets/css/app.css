@@ -733,7 +733,10 @@ img.logo {
         font-size: 18px;
         line-height: 18px;
         font-weight: 800;
-        letter-spacing: 10px; }
+        letter-spacing: 10px; 
+        display: inline-block;
+        vertical-align: middle;
+      }
       .work-colage [class*=col] .caption .info {
         font-size: 12px;
         line-height: 14px;
@@ -760,7 +763,11 @@ img.logo {
     background-color: transparent\9; }
   .work-colage [class*=col]:hover .caption {
     max-height: 82px;
-    padding-top: 25px; }
+    /*padding-top: 25px; */
+    display:table-cell;
+    vertical-align: middle;
+    line-height: 82px;
+  }
 
 .sec-address {
   flex-direction: row;
