@@ -74,8 +74,8 @@
                     </p>
                     <ul class="fa-ul">
                       <li><i class="fa-li fa fa-phone"></i> +852 2337 2411</li>
-                      <li><i class="fa-li fa fa-phone"></i> +852 5646 2091</li>
-                      <li><i class="fa-li fa fa-phone"></i> +86 185 7677 8306 </li>
+                      <li><i class="fa-li fa fa-mobile-phone"></i> +852 5646 2091</li>
+                      <li><i class="fa-li fa fa-mobile-phone"></i> +86 185 7677 8306 </li>
                       <li><i class="fa-li fa fa-envelope"></i> china@dotdesign.com.au</li>
                     </ul>
                 </div><!--address--> 
@@ -88,7 +88,7 @@
                     </p>
                     <ul class="fa-ul">
                       <li><i class="fa-li fa fa-phone"></i> 888-417-2457</li>
-                      <li><i class="fa-li fa fa-phone"></i> 314-852-6598</li>
+                      <li><i class="fa-li fa fa-mobile-phone"></i> 314-852-6598</li>
                       <li><i class="fa-li fa fa-envelope"></i> usa@dotdesign.com.au</li>
                     </ul>
                 </div><!--address--> 
