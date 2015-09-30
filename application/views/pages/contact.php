@@ -7,6 +7,11 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <img src="<?=base_url();?>assets/img/secondary/contact-banner.jpg" alt="contact-banner.jpg">
+                    
+                    <div class="city-time-alt hidden-sm hidden-xs">
+                        <?php $this->load->view('common/clock_display'); ?>
+                    </div>
+
                     <div class="carousel-caption">
                         <h1>ANY TIME ANY PLACE</h1>
                      	<h4>DOT DESIGN SPECIALISTS IN MARKETING AT RETAIL ANY TIME - ANY PLACE</h4>

@@ -9,9 +9,7 @@
                     <img src="<?=base_url();?>assets/img/secondary/careers-banner.jpg" alt="contact-banner.jpg">
                     
                     
-                    <div class="city-time-alt hidden-sm hidden-xs">
-                        <?php $this->load->view('common/clock_display'); ?>
-                    </div>
+                    
                     
                     <div class="carousel-caption">
                         <h1>Got What It Takes</h1>
