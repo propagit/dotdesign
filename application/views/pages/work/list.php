@@ -51,6 +51,8 @@
         
 
    		<div class="work-colage">
+
+<!--
 		<?php for($i=1;$i<=12;$i++){ ?>
             <a href="<?=$i == 1 ? base_url() . 'our-work/carltron-draught' : 'javascript:void(0);';?>">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
@@ -62,6 +64,126 @@
                 </div>
             </a>
         <?php } ?>
+    -->
+            <a href="our-work/carltron-draught">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="../assets/img/work/work1.jpg">
+                    <div class="caption">
+                        <span class="name">Carlton Draught</span>
+                        <span class="info">St Kilda Road, Melbourne</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="our-work/#">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="../assets/img/work/work2.jpg">
+                    <div class="caption">
+                        <span class="name">Allanah hill</span>
+                        <span class="info">Trip to Paris promotion</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="our-work/#">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="../assets/img/work/work3.jpg">
+                    <div class="caption">
+                        <span class="name">Toms</span>
+                        <span class="info">Instore displays</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="our-work/#">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="../assets/img/work/work4.jpg">
+                    <div class="caption">
+                        <span class="name">Kurve Jug</span>
+                        <span class="info">Product design</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="our-work/#">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="../assets/img/work/work5.jpg">
+                    <div class="caption">
+                        <span class="name">Map Coffee</span>
+                        <span class="info">Saeco partnership launch</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="our-work/#">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="../assets/img/work/work6.jpg">
+                    <div class="caption">
+                        <span class="name">Carlton Draught</span>
+                        <span class="info">Heritage activation</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="our-work/#">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="../assets/img/work/work7.jpg">
+                    <div class="caption">
+                        <span class="name">Carrefour</span>
+                        <span class="info">Tap &amp; go pay device</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="our-work/#">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="../assets/img/work/work8.jpg">
+                    <div class="caption">
+                        <span class="name">Aguila</span>
+                        <span class="info">Columbian beer launch</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="our-work/#">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="../assets/img/work/work9.jpg">
+                    <div class="caption">
+                        <span class="name">Peroni Neon</span>
+                        <span class="info">Italian beer activation</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="our-work/#">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="../assets/img/work/work10.jpg">
+                    <div class="caption">
+                        <span class="name">iSee Apex</span>
+                        <span class="info">Product design</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="our-work/#">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="../assets/img/work/work11.jpg">
+                    <div class="caption">
+                        <span class="name">Mossimo</span>
+                        <span class="info">A4 store header</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="our-work/#">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="../assets/img/work/work12.jpg">
+                    <div class="caption">
+                        <span class="name">iSee Cooler</span>
+                        <span class="info">Product design</span>
+                    </div>
+                </div>
+            </a>
      	</div>     
         
     </div> 

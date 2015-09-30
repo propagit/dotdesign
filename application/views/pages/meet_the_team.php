@@ -31,7 +31,7 @@
    		<div class="work-colage">
 		<?php foreach($staff as $s){ ?>
             <a href="<?=base_url();?>the-team/?p=8">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 colage-box">
                 <img src="<?=base_url();?>assets/img/the-team/<?=$s['image'];?>">
                 <div class="caption">
                 	<span class="name"><?=$s['name'];?></span>

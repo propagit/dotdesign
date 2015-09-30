@@ -13,8 +13,24 @@ class Data_model extends CI_Model {
 							array('name' => 'Sandra','image' => 'Sandra.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
 							array('name' => 'Sarah','image' => 'Sarah.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
 							array('name' => 'Paris Kerr','image' => 'Paris.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
-							array('name' => 'Miles','image' => 'Miles.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
-							array('name' => 'Michael','image' => 'Michael.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => '')				
+							array('name' => 'Michael','image' => 'Michael.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
+
+							array('name' => 'Chris','image' => 'Chris.jpg','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
+							array('name' => 'Romain','image' => 'Romain.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
+							array('name' => 'Emad','image' => 'Emad.jpg','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
+							array('name' => 'Rabah','image' => 'Rabah.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
+							array('name' => 'Fiona','image' => 'Fiona.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
+							array('name' => 'Natalie','image' => 'Natalie.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
+							array('name' => 'Kate','image' => 'Kate.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),	
+							array('name' => 'Nabs','image' => 'Nabs.jpg','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
+							array('name' => 'Kerry','image' => 'Kerry.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
+							array('name' => 'Alexander','image' => 'Alexander.jpg','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
+							array('name' => 'Annette','image' => 'Annette.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
+							array('name' => 'Leonard','image' => 'Leonard.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
+							array('name' => 'Kieran','image' => 'Kieran.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
+							array('name' => 'Domenic','image' => 'Domenic.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
+							array('name' => 'Andrew','image' => 'Andrew.jpg','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => '')
+				
 						);
 		return $staff;	
 	}

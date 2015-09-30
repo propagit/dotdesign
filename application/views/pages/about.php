@@ -7,7 +7,8 @@
                 <h4>DOT DESIGN GROUP  A SPECIALIST PRODUCT DEVELOPMENT RETAIL COMPANY.</h4>
             </div>
             
-            <?php $this->load->view('common/clock_display'); ?>
+            <!--<?php $this->load->view('common/clock_display'); ?>-->
+            
         </div>
         
         <div class="container sec-content">
