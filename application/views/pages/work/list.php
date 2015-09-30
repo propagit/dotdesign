@@ -69,10 +69,8 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work1.jpg">
                     <div class="caption">
+                        <span class="name">Carlton Draught<span class="info">St Kilda Road, Melbourne</span></span>
                         
-                        <span class="info">St Kilda Road, Melbourne
-                            <span class="name">Carlton Draught</span>
-                        </span>
                     </div>
                 </div>
             </a>
@@ -81,8 +79,8 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work2.jpg">
                     <div class="caption">
+                        <span class="name">Allanah hill<span class="info">Trip to Paris promotion</span></span>
                         
-                        <span class="info">Trip to Paris promotion<span class="name">Allanah hill</span></span>
                     </div>
                 </div>
             </a>
@@ -91,8 +89,8 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work3.jpg">
                     <div class="caption">
+                        <span class="name">Toms<span class="info">Instore displays</span></span>
                         
-                        <span class="info">Instore displays<span class="name">Toms</span></span>
                     </div>
                 </div>
             </a>
@@ -101,8 +99,8 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work4.jpg">
                     <div class="caption">
+                        <span class="name">Kurve Jug<span class="info">Product design</span></span>
                         
-                        <span class="info">Product design<span class="name">Kurve Jug</span></span>
                     </div>
                 </div>
             </a>
@@ -111,8 +109,8 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work5.jpg">
                     <div class="caption">
+                        <span class="name">Map Coffee<span class="info">Saeco partnership launch</span></span>
                         
-                        <span class="info">Saeco partnership launch<span class="name">Map Coffee</span></span>
                     </div>
                 </div>
             </a>
@@ -121,8 +119,8 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work6.jpg">
                     <div class="caption">
+                        <span class="name">Carlton Draught<span class="info">Heritage activation</span></span>
                         
-                        <span class="info">Heritage activation<span class="name">Carlton Draught</span></span>
                     </div>
                 </div>
             </a>
@@ -131,8 +129,8 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work7.jpg">
                     <div class="caption">
+                        <span class="name">Carrefour<span class="info">Tap &amp; go pay device</span></span>
                         
-                        <span class="info">Tap &amp; go pay device<span class="name">Carrefour</span></span>
                     </div>
                 </div>
             </a>
@@ -141,8 +139,8 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work8.jpg">
                     <div class="caption">
+                        <span class="name">Aguila<span class="info">Columbian beer launch</span></span>
                         
-                        <span class="info">Columbian beer launch<span class="name">Aguila</span></span>
                     </div>
                 </div>
             </a>
@@ -151,8 +149,8 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work9.jpg">
                     <div class="caption">
+                        <span class="name">Peroni Neon<span class="info">Italian beer activation</span></span>
                         
-                        <span class="info">Italian beer activation<span class="name">Peroni Neon</span></span>
                     </div>
                 </div>
             </a>
@@ -161,8 +159,8 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work10.jpg">
                     <div class="caption">
+                        <span class="name">iSee Apex<span class="info">Product design</span></span>
                         
-                        <span class="info">Product design<span class="name">iSee Apex</span></span>
                     </div>
                 </div>
             </a>
@@ -171,8 +169,8 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work11.jpg">
                     <div class="caption">
+                        <span class="name">Mossimo<span class="info">A4 store header</span></span>
                         
-                        <span class="info">A4 store header<span class="name">Mossimo</span></span>
                     </div>
                 </div>
             </a>
@@ -181,8 +179,8 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work12.jpg">
                     <div class="caption">
-                       
-                        <span class="info">Product design <span class="name">iSee Cooler</span></span>
+                        <span class="name">iSee Cooler<span class="info">Product design</span></span>
+                        
                     </div>
                 </div>
             </a>
