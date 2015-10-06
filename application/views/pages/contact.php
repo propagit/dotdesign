@@ -42,54 +42,59 @@
             
                 <div class="address">
                     <h6>DOT DESIGN GROUP - SYDNEY</h6>
-                    <p>
+                    <a target="_blank" href="http://maps.google.com/?q=54 KELLETT STREET, KINGS CROSS, NSW, 2011">
+                      <p>
                         54 KELLETT STREET, <br>
                         KINGS CROSS NSW 2011
-                    </p>
+                      </p>
+                    </a>
                     <ul class="fa-ul">
                       <li><i class="fa-li fa fa-phone"></i> 61 02 9361 3655</li>
                       <li><i class="fa-li fa fa-print"></i> 61 02 9361 3855</li>
-                      <li><i class="fa-li fa fa-envelope"></i> sydney@dotdesign.com.au</li>
+                      <li><a href="mailto:sydney@dotdesign.com.au"><i class="fa-li fa fa-envelope"></i> sydney@dotdesign.com.au</a></li>
                     </ul>
                 </div><!--address-->
                 
                 <div class="address">
                     <h6>DOT DESIGN GROUP - MELBOURNE</h6>
-                    <p>
+                    <a target="_blank" href="http://maps.google.com/?q=230 LENNOX STREET, RICHMOND, VIC, 3121">
+                      <p>
                         230 LENNOX STREET<br>
                         RICHMOND VIC 3121
                     </p>
+                    </a>
                     <ul class="fa-ul">
                       <li><i class="fa-li fa fa-phone"></i> 61 03 9421 5551</li>
                       <li><i class="fa-li fa fa-print"></i> 61 02 9361 3855</li>
-                      <li><i class="fa-li fa fa-envelope"></i> melbourne@dotdesign.com.au</li>
+                      <li><a href="mailto:melbourne@dotdesign.com.au"><i class="fa-li fa fa-envelope"></i> melbourne@dotdesign.com.au</a></li>
                     </ul>
                 </div><!--address-->
                 
                 <div class="address">
                     <h6>DOT DESIGN GROUP - HONG KONG</h6>
-                    <p>
+                    <a target="_blank" href="http://maps.google.com/?q=158 Connaught Rd, Central, HK">
+                      <p>
                         5F, 158 Connaught Rd, Central, HK
-
-                    </p>
+                      </p>
+                    </a>
                     <ul class="fa-ul">
-                      <li><i class="fa-li fa fa-phone"></i> +852 2337 2411</li>
-                      <li><i class="fa-li fa fa-mobile-phone"></i> +852 5646 2091</li>
-                      <li><i class="fa-li fa fa-mobile-phone"></i> +86 185 7677 8306 </li>
-                      <li><i class="fa-li fa fa-envelope"></i> china@dotdesign.com.au</li>
+                      <li><i class="fa-li fa fa-phone"></i> 852 2337 2411</li>
+                      <li><a href="mailto:china@dotdesign.com.au"><i class="fa-li fa fa-envelope"></i> china@dotdesign.com.au</a></li>
                     </ul>
                 </div><!--address--> 
                 
                 <div class="address">
                     <h6>DOT DESIGN GROUP - USA</h6>
-                    <p>
+                    <a target="_blank" href="http://maps.google.com/?q=139 West Monroe, Kirkwood, MO, 63122">
+                      <p>
                         139 West Monroe <br />
                         Kirkwood, MO 63122
-                    </p>
+                      </p>
+                    </a>
                     <ul class="fa-ul">
                       <li><i class="fa-li fa fa-phone"></i> 888-417-2457</li>
                       <li><i class="fa-li fa fa-mobile-phone"></i> 314-852-6598</li>
-                      <li><i class="fa-li fa fa-envelope"></i> usa@dotdesign.com.au</li>
+                      <li><a href="mailto:usa@dotdesign.com.au"><i class="fa-li fa fa-envelope"></i> usa@dotdesign.com.au</a></li>
                     </ul>
                 </div><!--address--> 
             
