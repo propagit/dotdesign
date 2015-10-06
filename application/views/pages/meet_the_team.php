@@ -9,7 +9,7 @@
                     <img src="<?=base_url();?>assets/img/secondary/team-banner.jpg" alt="team-banner.jpg">
                     <div class="carousel-caption">
                         <h1>GOT WHAT IT TAKES</h1>
-                     	<h4>THE DOT DESIGN TEAM IS BASED IN SYDNEY - MELBOURNE & CHINA. WITH SPECIALISTS IN RETAIL, MARKETING, PRODUCT DESIGN AND MANUFACTURING </h4>
+                     	<h4>THE DOT DESIGN TEAM IS BASED IN SYDNEY - MELBOURNE, USA & CHINA. WITH SPECIALISTS IN RETAIL, MARKETING, PRODUCT DESIGN AND MANUFACTURING </h4>
                     </div>
                 </div>
             </div>
@@ -34,8 +34,8 @@
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 colage-box">
                 <img src="<?=base_url();?>assets/img/the-team/<?=$s['image'];?>">
                 <div class="caption">
-                	<span class="name"><?=$s['name'];?></span>
-                    <span class="info"><?=$s['location'] . ' - ' . $s['role'];?></span>
+                	<span class="name teamspan"><?=$s['name'];?></span>
+                    <span class="info teamspan"><?=$s['location'] . ' - ' . $s['role'];?></span>
                 </div>
             </div>
             </a>

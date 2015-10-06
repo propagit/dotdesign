@@ -768,6 +768,9 @@ img.logo {
     vertical-align: middle;
     line-height: 82px;
   }
+  .work-colage [class*=col]:hover .caption .teamspan {
+    margin-top:-40px;
+  }
 
 .sec-address {
   flex-direction: row;
