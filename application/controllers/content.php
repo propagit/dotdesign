@@ -26,8 +26,9 @@ class Content extends CI_Controller {
 	function our_work($slug = "")
 	{
 		$this->load->view('common/header');
+		$data['slug'] = $slug;
 		if($slug){
-			$this->load->view('pages/work/detail');	
+			$this->load->view('pages/work/detail', $data);	
 		}else{
 			$this->load->view('pages/work/list');
 		}

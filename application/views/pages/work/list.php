@@ -65,7 +65,7 @@
             </a>
         <?php } ?>
     -->
-            <a href="our-work/carltron-draught">
+            <a href="our-work/carlton-draught">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work1.jpg">
                     <div class="caption">
@@ -75,17 +75,17 @@
                 </div>
             </a>
 
-            <a href="our-work/#">
+            <a href="our-work/kinderino">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work2.jpg">
                     <div class="caption">
-                        <span class="name">Allanah hill<span class="info">Trip to Paris promotion</span></span>
+                        <span class="name">Kinderino<span class="info">Kinder Surprise display</span></span>
                         
                     </div>
                 </div>
             </a>
 
-            <a href="our-work/#">
+            <a href="our-work/toms">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work3.jpg">
                     <div class="caption">
@@ -95,7 +95,7 @@
                 </div>
             </a>
 
-            <a href="our-work/#">
+            <a href="our-work/kurve-jugs">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work4.jpg">
                     <div class="caption">
@@ -105,7 +105,7 @@
                 </div>
             </a>
 
-            <a href="our-work/#">
+            <a href="our-work/map-coffee">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work5.jpg">
                     <div class="caption">
@@ -115,17 +115,17 @@
                 </div>
             </a>
 
-            <a href="our-work/#">
+            <a href="our-work/baby-blue">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work6.jpg">
                     <div class="caption">
-                        <span class="name">Carlton Draught<span class="info">Heritage activation</span></span>
+                        <span class="name">Baby Blue<span class="info">Heritage activation</span></span>
                         
                     </div>
                 </div>
             </a>
 
-            <a href="our-work/#">
+            <a href="our-work/carrefour">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work7.jpg">
                     <div class="caption">
@@ -135,7 +135,7 @@
                 </div>
             </a>
 
-            <a href="our-work/#">
+            <a href="our-work/aguila">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work8.jpg">
                     <div class="caption">
@@ -145,7 +145,7 @@
                 </div>
             </a>
 
-            <a href="our-work/#">
+            <a href="our-work/peroni-neon">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work9.jpg">
                     <div class="caption">
@@ -155,7 +155,7 @@
                 </div>
             </a>
 
-            <a href="our-work/#">
+            <a href="our-work/isee-apex">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work10.jpg">
                     <div class="caption">
@@ -165,7 +165,7 @@
                 </div>
             </a>
 
-            <a href="our-work/#">
+            <a href="our-work/mossimo">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work11.jpg">
                     <div class="caption">
@@ -175,7 +175,7 @@
                 </div>
             </a>
 
-            <a href="our-work/#">
+            <a href="our-work/isee-cooler">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work12.jpg">
                     <div class="caption">
@@ -184,6 +184,37 @@
                     </div>
                 </div>
             </a>
+
+            <a href="our-work/bulleit-bourbon">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="<?=base_url();?>/assets/img/work/work13.jpg">
+                    <div class="caption">
+                        <span class="name">Bulleit Bourbon<span class="info">Product design</span></span>
+                        
+                    </div>
+                </div>
+            </a>
+
+            <a href="our-work/eiffel-tower">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="<?=base_url();?>/assets/img/work/work14.jpg">
+                    <div class="caption">
+                        <span class="name">Eiffel Tower<span class="info">Product design</span></span>
+                        
+                    </div>
+                </div>
+            </a>
+
+            <a href="our-work/firefly">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="<?=base_url();?>/assets/img/work/work15.jpg">
+                    <div class="caption">
+                        <span class="name">Firefly<span class="info">Product design</span></span>
+                        
+                    </div>
+                </div>
+            </a>
+
      	</div>     
         
     </div> 
