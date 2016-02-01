@@ -12,7 +12,8 @@
 
                     <div class="carousel-caption">
                         <h1>ANY TIME ANY PLACE</h1>
-                     	<h4>DOT DESIGN SPECIALISTS IN MARKETING AT RETAIL ANY TIME - ANY PLACE</h4>
+                     	<!-- <h4>DOT DESIGN SPECIALISTS IN MARKETING AT RETAIL ANY TIME - ANY PLACE</h4> -->
+                      <h4>We're always contactable and happy to help. Get in touch and we'll do great things together.</h4>
                         
                     </div>
                 </div>
@@ -30,8 +31,11 @@
                 
                 <h2 class="hidden-xs">POINT OF PURCHASE <br>PRODUCT DESIGN SPECIALISTS</h2>
                 <h2 class="hidden-lg hidden-md hidden-sm">POINT OF <br>PURCHASE PRODUCT <br>DESIGN SPECIALISTS</h2>
-                <p>
+                <!--<p>
                     Dot Design have offices placed throughout the world offering truly global capabilities to deliver point of purchase solutions for any brand, any place. Contact our team in your local area or touch base via the form below.
+                </p> -->
+                <p>
+                    We work with clients internationally and we're always close by. Contact our team in your local area or touch base via the form below.
                 </p>
           	</div>
             

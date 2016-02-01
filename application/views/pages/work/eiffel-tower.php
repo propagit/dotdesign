@@ -10,12 +10,12 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <img src="<?=base_url();?>assets/img/work/gallery/eiffeltower/eiffeltower1.jpg">
-                    <span class="title hidden-xs hidden-sm">Eiffel Tower</span>
+                    <span class="title hidden-xs hidden-sm">Alannah Hill</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Eiffel Tower</h1>
+                        <h1>Alannah Hill</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            The 'Win a Trip to Paris' promotion at Alannah Hill needed something special for their store windows, and to make the statement loud and clear, a 3 meter gold glitter covered Eiffel Tower was created. Made from laser cut foam and hand covered in gold glitter, the display units really made a strong statement in windows throughout Melbourne.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -24,12 +24,12 @@
                 
                 <div class="item">
                     <img src="<?=base_url();?>assets/img/work/gallery/eiffeltower/eiffeltower2.jpg">
-                    <span class="title hidden-xs">Eiffel Tower</span>
+                    <span class="title hidden-xs">Alannah Hill</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Eiffel Tower</h1>
+                        <h1>Alannah Hill</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            The 'Win a Trip to Paris' promotion at Alannah Hill needed something special for their store windows, and to make the statement loud and clear, a 3 meter gold glitter covered Eiffel Tower was created. Made from laser cut foam and hand covered in gold glitter, the display units really made a strong statement in windows throughout Melbourne.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -38,12 +38,12 @@
 
                 <div class="item">
                     <img src="<?=base_url();?>assets/img/work/gallery/eiffeltower/eiffeltower3.jpg">
-                    <span class="title hidden-xs">Eiffel Tower</span>
+                    <span class="title hidden-xs">Alannah Hill</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Eiffel Tower</h1>
+                        <h1>Alannah Hill</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            The 'Win a Trip to Paris' promotion at Alannah Hill needed something special for their store windows, and to make the statement loud and clear, a 3 meter gold glitter covered Eiffel Tower was created. Made from laser cut foam and hand covered in gold glitter, the display units really made a strong statement in windows throughout Melbourne.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>

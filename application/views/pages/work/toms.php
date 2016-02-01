@@ -6,7 +6,7 @@
                 <li data-target="#banners" data-slide-to="2"></li>
                 <li data-target="#banners" data-slide-to="3"></li>
                 <li data-target="#banners" data-slide-to="4"></li>
-                <li data-target="#banners" data-slide-to="5"></li>
+                <!--<li data-target="#banners" data-slide-to="5"></li>-->
             </ol>
             
             <!-- Wrapper for slides -->
@@ -18,35 +18,35 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Toms</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount, and when we endorse a brand with our hearts designing feels effortless and without question, very enjoyable.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
                     </div>
                 </div>
                 
-                <div class="item">
+               <!-- <div class="item">
                     <img src="<?=base_url();?>assets/img/work/gallery/toms/toms2.jpg">
                     <span class="title hidden-xs">Toms</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Toms</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount, and when we endorse a brand with our hearts designing feels effortless and without question, very enjoyable.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
                     </div>
-                </div>
+                </div> -->
                 
                 <div class="item">
                     <img src="<?=base_url();?>assets/img/work/gallery/toms/toms3.jpg">
-                    <span class="title hidden-xs">Toms</span>
+                    <span class="title hidden-xs">TOMS - One for One</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Toms</h1>
+                        <h1>TOMS - One for One</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount, and when we endorse a brand with our hearts designing feels effortless and without question, very enjoyable.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -55,12 +55,12 @@
 
                 <div class="item">
                     <img src="<?=base_url();?>assets/img/work/gallery/toms/toms4.jpg">
-                    <span class="title hidden-xs">Toms</span>
+                    <span class="title hidden-xs">TOMS - One for One</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Toms</h1>
+                        <h1>TOMS - One for One</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount, and when we endorse a brand with our hearts designing feels effortless and without question, very enjoyable.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -69,12 +69,12 @@
 
                 <div class="item">
                     <img src="<?=base_url();?>assets/img/work/gallery/toms/toms5.jpg">
-                    <span class="title hidden-xs">Toms</span>
+                    <span class="title hidden-xs">TOMS - One for One</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Toms</h1>
+                        <h1>TOMS - One for One</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount, and when we endorse a brand with our hearts designing feels effortless and without question, very enjoyable.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -83,12 +83,12 @@
 
                 <div class="item">
                     <img src="<?=base_url();?>assets/img/work/gallery/toms/toms6.jpg">
-                    <span class="title hidden-xs">Toms</span>
+                    <span class="title hidden-xs">TOMS - One for One</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Toms</h1>
+                        <h1>TOMS - One for One</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount, and when we endorse a brand with our hearts designing feels effortless and without question, very enjoyable.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>

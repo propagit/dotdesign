@@ -8,8 +8,10 @@
                 <div class="item active">
                     <img src="<?=base_url();?>assets/img/secondary/team-banner.jpg" alt="team-banner.jpg">
                     <div class="carousel-caption">
-                        <h1>GOT WHAT IT TAKES</h1>
-                     	<h4>THE DOT DESIGN TEAM IS BASED IN SYDNEY - MELBOURNE, USA & CHINA. WITH SPECIALISTS IN RETAIL, MARKETING, PRODUCT DESIGN AND MANUFACTURING </h4>
+                        <!-- <h1>GOT WHAT IT TAKES</h1> -->
+                        <h1>THE TEAM MAKE IT HAPPEN</h1>
+                     	<!-- <h4>THE DOT DESIGN TEAM IS BASED IN SYDNEY - MELBOURNE, USA & CHINA. WITH SPECIALISTS IN RETAIL, MARKETING, PRODUCT DESIGN AND MANUFACTURING </h4> -->
+                        <h4>Dot Design has a talented team located in Sydney, Melbourne, USA & Hong Kong, with specialists in retail, marketing, product design and manufacturing </h4>
                     </div>
                 </div>
             </div>
@@ -20,8 +22,9 @@
         <div class="container sec-content">
             <div class="sec-inner">
                 <h5>Team</h5>
-                <h2 class="hidden-xs">MEET SOME OF THE CORE DOT DESIGN TEAM <br>AND FIND OUT THEIR THOUGHTS ON RETAIL </h2>
-                <h2 class="hidden-lg hidden-md hidden-sm">MEET SOME OF THE <br>CORE DOT DESIGN TEAM <br>AND FIND OUT THEIR <br>THOUGHTS ON RETAIL </h2>
+                <!-- <h2 class="hidden-xs">MEET SOME OF THE CORE DOT DESIGN TEAM <br>AND FIND OUT THEIR THOUGHTS ON RETAIL </h2> -->
+                <h2>MEET SOME OF THE CORE DOT DESIGN TEAM </h2>
+                <!-- <h2 class="hidden-lg hidden-md hidden-sm">MEET SOME OF THE <br>CORE DOT DESIGN TEAM <br>AND FIND OUT THEIR <br>THOUGHTS ON RETAIL </h2> -->
                 <p>
                     Click the profile image to connect with one of the team and read articles on the latest thoughts and trends in retail marketing and product development.
                 </p>

@@ -7,28 +7,28 @@
             
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active">
+                <!--<div class="item active">
                     <img src="<?=base_url();?>assets/img/work/gallery/bulleitbourbon/bulleitbourbon1.jpg">
                     <span class="title hidden-xs hidden-sm">Bulleit Bourbon</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Bulleit Bourbon</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Bulleit Bourbon needed to break through the crowded bourbon market with something that made press, and the Bull Skull Shot Trays were just the thing. Bull skulls with horn handles and timber shot caddies were strapped to the bar staff to walk through the crowds and sell impulse drinks. Getting the impact it deserved, the uptake was strong and the visible impact made its place on numerous sites and blogs. Developing something different is sometime all you need to stand apart from the rest, and the Bulleit Shot Caddies certainly did this. 
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
                     </div>
-                </div>
+                </div> -->
                 
-                <div class="item">
+                <div class="item active">
                     <img src="<?=base_url();?>assets/img/work/gallery/bulleitbourbon/bulleitbourbon2.jpg">
                     <span class="title hidden-xs">Bulleit Bourbon</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Bulleit Bourbon</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Bulleit Bourbon needed to break through the crowded bourbon market with something that made press, and the Bull Skull Shot Trays were just the thing. Bull skulls with horn handles and timber shot caddies were strapped to the bar staff to walk through the crowds and sell impulse drinks. Getting the impact it deserved, the uptake was strong and the visible impact made its place on numerous sites and blogs. Developing something different is sometime all you need to stand apart from the rest, and the Bulleit Shot Caddies certainly did this. 
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>

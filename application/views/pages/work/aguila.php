@@ -17,7 +17,7 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Aguila</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Aguila is the beer of Columbia! To match the brands personality and local flare, it needed an authentic range of visibility pieces that speak proudly of the brand. Aguila was seeded into Australian hearts by creating very strong, creative and memorable pieces that reach out in the overcrowded bar scene. With pop up bars, drink carts, unique sculptures and drink trays, Aguila has cemented its place in the coolest bars and gardens around Melbourne and Sydney.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -31,7 +31,7 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Aguila</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Aguila is the beer of Columbia! To match the brands personality and local flare, it needed an authentic range of visibility pieces that speak proudly of the brand. Aguila was seeded into Australian hearts by creating very strong, creative and memorable pieces that reach out in the overcrowded bar scene. With pop up bars, drink carts, unique sculptures and drink trays, Aguila has cemented its place in the coolest bars and gardens around Melbourne and Sydney.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -45,7 +45,7 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Aguila</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Aguila is the beer of Columbia! To match the brands personality and local flare, it needed an authentic range of visibility pieces that speak proudly of the brand. Aguila was seeded into Australian hearts by creating very strong, creative and memorable pieces that reach out in the overcrowded bar scene. With pop up bars, drink carts, unique sculptures and drink trays, Aguila has cemented its place in the coolest bars and gardens around Melbourne and Sydney.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -59,7 +59,7 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Aguila</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Aguila is the beer of Columbia! To match the brands personality and local flare, it needed an authentic range of visibility pieces that speak proudly of the brand. Aguila was seeded into Australian hearts by creating very strong, creative and memorable pieces that reach out in the overcrowded bar scene. With pop up bars, drink carts, unique sculptures and drink trays, Aguila has cemented its place in the coolest bars and gardens around Melbourne and Sydney.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -73,7 +73,7 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Aguila</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Aguila is the beer of Columbia! To match the brands personality and local flare, it needed an authentic range of visibility pieces that speak proudly of the brand. Aguila was seeded into Australian hearts by creating very strong, creative and memorable pieces that reach out in the overcrowded bar scene. With pop up bars, drink carts, unique sculptures and drink trays, Aguila has cemented its place in the coolest bars and gardens around Melbourne and Sydney.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>

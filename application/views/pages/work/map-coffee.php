@@ -15,7 +15,7 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Map Coffee</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Map Coffee is recognized for great coffee, and now also recognized for partnering with the world's best coffee machine manufacturer Saeco. Dot Design and the team at MAP developed a retail display that made the overcrowded and overwhelming decision of purchasing a quality coffee machine simple. Clean, simple and 3 price options ensures you have the right machine for your budget with the confidence that you’re leaving the store with the best quality machine money can buy. A combination of digital screens and soft light allows MAP to confidently talk to shoppers while providing the best options available.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -29,7 +29,7 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Map Coffee</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Map Coffee is recognized for great coffee, and now also recognized for partnering with the world's best coffee machine manufacturer Saeco. Dot Design and the team at MAP developed a retail display that made the overcrowded and overwhelming decision of purchasing a quality coffee machine simple. Clean, simple and 3 price options ensures you have the right machine for your budget with the confidence that you’re leaving the store with the best quality machine money can buy. A combination of digital screens and soft light allows MAP to confidently talk to shoppers while providing the best options available.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -43,7 +43,7 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Map Coffee</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Map Coffee is recognized for great coffee, and now also recognized for partnering with the world's best coffee machine manufacturer Saeco. Dot Design and the team at MAP developed a retail display that made the overcrowded and overwhelming decision of purchasing a quality coffee machine simple. Clean, simple and 3 price options ensures you have the right machine for your budget with the confidence that you’re leaving the store with the best quality machine money can buy. A combination of digital screens and soft light allows MAP to confidently talk to shoppers while providing the best options available.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>

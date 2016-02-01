@@ -3,12 +3,12 @@
             <ol class="carousel-indicators">
                 <li data-target="#banners" data-slide-to="0" class="active"></li>
                 <li data-target="#banners" data-slide-to="1"></li>
-                <li data-target="#banners" data-slide-to="2"></li>
+                <!--<li data-target="#banners" data-slide-to="2"></li>-->
             </ol>
             
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active">
+                <!--<div class="item active">
                     <img src="<?=base_url();?>assets/img/work/gallery/mossimo/mossimo1.jpg">
                     <span class="title hidden-xs hidden-sm">Mossimo</span>
                     <div class="description hidden-xs hidden-sm">
@@ -20,9 +20,9 @@
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
                     </div>
-                </div>
+                </div> -->
                 
-                <div class="item">
+                <div class="item active">
                     <img src="<?=base_url();?>assets/img/work/gallery/mossimo/mossimo2.jpg">
                     <span class="title hidden-xs">Mossimo</span>
                     <div class="description hidden-xs hidden-sm">

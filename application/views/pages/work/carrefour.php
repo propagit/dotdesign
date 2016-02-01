@@ -11,12 +11,12 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <img src="<?=base_url();?>assets/img/work/gallery/carrefour/carrefour1.jpg">
-                    <span class="title hidden-xs hidden-sm">Carrefour</span>
+                    <span class="title hidden-xs hidden-sm">Beam Terminal BLE</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Carrefour</h1>
+                        <h1>Beam Terminal BLE</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Dot Design Group was engaged by Beam Wallet to help further develop and mass produce the Beam Terminal BLE units, which are currently used in over 1,500 stores across the UAE.  Beam is a contactless secure mobile payment app which is accompanied by Bluetooth Low Energy (BLE) Beacon Terminals that are present at the POS. Beam Wallet aims to revolutionize retail shopping by enabling its 100,000 plus registered users to shop, earn and redeem rewards while keeping track of expenses.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -25,12 +25,12 @@
                 
                 <div class="item">
                     <img src="<?=base_url();?>assets/img/work/gallery/carrefour/carrefour2.jpg">
-                    <span class="title hidden-xs">Carrefour</span>
+                    <span class="title hidden-xs">Beam Terminal BLE</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Carrefour</h1>
+                        <h1>Beam Terminal BLE</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Dot Design Group was engaged by Beam Wallet to help further develop and mass produce the Beam Terminal BLE units, which are currently used in over 1,500 stores across the UAE.  Beam is a contactless secure mobile payment app which is accompanied by Bluetooth Low Energy (BLE) Beacon Terminals that are present at the POS. Beam Wallet aims to revolutionize retail shopping by enabling its 100,000 plus registered users to shop, earn and redeem rewards while keeping track of expenses.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -39,12 +39,12 @@
 
                 <div class="item">
                     <img src="<?=base_url();?>assets/img/work/gallery/carrefour/carrefour3.jpg">
-                    <span class="title hidden-xs">Carrefour</span>
+                    <span class="title hidden-xs">Beam Terminal BLE</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Carrefour</h1>
+                        <h1>Beam Terminal BLE</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Dot Design Group was engaged by Beam Wallet to help further develop and mass produce the Beam Terminal BLE units, which are currently used in over 1,500 stores across the UAE.  Beam is a contactless secure mobile payment app which is accompanied by Bluetooth Low Energy (BLE) Beacon Terminals that are present at the POS. Beam Wallet aims to revolutionize retail shopping by enabling its 100,000 plus registered users to shop, earn and redeem rewards while keeping track of expenses.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -53,12 +53,12 @@
 
                 <div class="item">
                     <img src="<?=base_url();?>assets/img/work/gallery/carrefour/carrefour4.jpg">
-                    <span class="title hidden-xs">Carrefour</span>
+                    <span class="title hidden-xs">Beam Terminal BLE</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Carrefour</h1>
+                        <h1>Beam Terminal BLE</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Dot Design Group was engaged by Beam Wallet to help further develop and mass produce the Beam Terminal BLE units, which are currently used in over 1,500 stores across the UAE.  Beam is a contactless secure mobile payment app which is accompanied by Bluetooth Low Energy (BLE) Beacon Terminals that are present at the POS. Beam Wallet aims to revolutionize retail shopping by enabling its 100,000 plus registered users to shop, earn and redeem rewards while keeping track of expenses.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>

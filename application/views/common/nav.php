@@ -77,7 +77,7 @@
                 </div><!--address--> 
 
 			<hr>
-            
+            <!--
             <div class="subscribe">
                 <h6>KEEP UP WITH DOT DESIGN</h6>
                 
@@ -87,7 +87,7 @@
                       <span class="input-group-addon"><i class="fa fa-thumbs-o-up"></i></span>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
       </div><!--modal-body-->

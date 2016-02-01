@@ -11,12 +11,12 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <img src="<?=base_url();?>assets/img/work/gallery/firefly/firefly1.jpg">
-                    <span class="title hidden-xs hidden-sm">Firefly</span>
+                    <span class="title hidden-xs hidden-sm">Firefly </br> Draught Tower Branding</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Firefly</h1>
+                        <h1>Firefly - Draught Tower Branding</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Firefly has been in our minds for many years and in 2015 it came to life.  There is no better way to bring an offer, a promotion or venue communication to life than at the point of purchase. We make the sales decision at the bar so let's light up your options. Made to fit vertical and horizontal beer towers, these units ensure the message is read loud and clear. Look for them when you’re next out in the trade and enjoy the great offers that are presented.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -25,12 +25,12 @@
                 
                 <div class="item">
                     <img src="<?=base_url();?>assets/img/work/gallery/firefly/firefly2.jpg">
-                    <span class="title hidden-xs">Firefly</span>
+                    <span class="title hidden-xs">Firefly </br> Draught Tower Branding</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Firefly</h1>
+                        <h1>Firefly - Draught Tower Branding</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Firefly has been in our minds for many years and in 2015 it came to life.  There is no better way to bring an offer, a promotion or venue communication to life than at the point of purchase. We make the sales decision at the bar so let's light up your options. Made to fit vertical and horizontal beer towers, these units ensure the message is read loud and clear. Look for them when you’re next out in the trade and enjoy the great offers that are presented.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -39,12 +39,12 @@
 
                 <div class="item">
                     <img src="<?=base_url();?>assets/img/work/gallery/firefly/firefly3.jpg">
-                    <span class="title hidden-xs">Firefly</span>
+                    <span class="title hidden-xs">Firefly </br> Draught Tower Branding</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Firefly</h1>
+                        <h1>Firefly - Draught Tower Branding</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Firefly has been in our minds for many years and in 2015 it came to life.  There is no better way to bring an offer, a promotion or venue communication to life than at the point of purchase. We make the sales decision at the bar so let's light up your options. Made to fit vertical and horizontal beer towers, these units ensure the message is read loud and clear. Look for them when you’re next out in the trade and enjoy the great offers that are presented.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -53,12 +53,12 @@
 
                 <div class="item">
                     <img src="<?=base_url();?>assets/img/work/gallery/firefly/firefly4.jpg">
-                    <span class="title hidden-xs">Firefly</span>
+                    <span class="title hidden-xs">Firefly </br> Draught Tower Branding</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Firefly</h1>
+                        <h1>Firefly - Draught Tower Branding</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Firefly has been in our minds for many years and in 2015 it came to life.  There is no better way to bring an offer, a promotion or venue communication to life than at the point of purchase. We make the sales decision at the bar so let's light up your options. Made to fit vertical and horizontal beer towers, these units ensure the message is read loud and clear. Look for them when you’re next out in the trade and enjoy the great offers that are presented.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>

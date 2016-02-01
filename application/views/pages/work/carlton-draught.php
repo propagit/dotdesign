@@ -17,7 +17,7 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Carlton Draught</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Carlton Draught is the freshest beer in the country and when the Unpasteurised Tank Beer project came to life, it just got fresher. Delivered fresh and cold to your favourite pub, the beer is stored in giant tanks that guarantee the freshest tap beer in the world. To compliment the biggest and most premium on premise national executions, Dot Design developed a complimentary branding suite that is as timeless as the infrastructure itself. Permanent, memorable and unquestionably premium branding pieces were developed for all consumer touchpoints throughout the venues lucky enough to be part of the Unpasteurised Tank Beer revolution.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -31,7 +31,7 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Carlton Draught</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Carlton Draught is the freshest beer in the country and when the Unpasteurised Tank Beer project came to life, it just got fresher. Delivered fresh and cold to your favourite pub, the beer is stored in giant tanks that guarantee the freshest tap beer in the world. To compliment the biggest and most premium on premise national executions, Dot Design developed a complimentary branding suite that is as timeless as the infrastructure itself. Permanent, memorable and unquestionably premium branding pieces were developed for all consumer touchpoints throughout the venues lucky enough to be part of the Unpasteurised Tank Beer revolution.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -45,7 +45,7 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Carlton Draught</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Carlton Draught is the freshest beer in the country and when the Unpasteurised Tank Beer project came to life, it just got fresher. Delivered fresh and cold to your favourite pub, the beer is stored in giant tanks that guarantee the freshest tap beer in the world. To compliment the biggest and most premium on premise national executions, Dot Design developed a complimentary branding suite that is as timeless as the infrastructure itself. Permanent, memorable and unquestionably premium branding pieces were developed for all consumer touchpoints throughout the venues lucky enough to be part of the Unpasteurised Tank Beer revolution.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -59,7 +59,7 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Carlton Draught</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Carlton Draught is the freshest beer in the country and when the Unpasteurised Tank Beer project came to life, it just got fresher. Delivered fresh and cold to your favourite pub, the beer is stored in giant tanks that guarantee the freshest tap beer in the world. To compliment the biggest and most premium on premise national executions, Dot Design developed a complimentary branding suite that is as timeless as the infrastructure itself. Permanent, memorable and unquestionably premium branding pieces were developed for all consumer touchpoints throughout the venues lucky enough to be part of the Unpasteurised Tank Beer revolution.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
@@ -73,7 +73,7 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Carlton Draught</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
+                            Carlton Draught is the freshest beer in the country and when the Unpasteurised Tank Beer project came to life, it just got fresher. Delivered fresh and cold to your favourite pub, the beer is stored in giant tanks that guarantee the freshest tap beer in the world. To compliment the biggest and most premium on premise national executions, Dot Design developed a complimentary branding suite that is as timeless as the infrastructure itself. Permanent, memorable and unquestionably premium branding pieces were developed for all consumer touchpoints throughout the venues lucky enough to be part of the Unpasteurised Tank Beer revolution.
                         </p>
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
