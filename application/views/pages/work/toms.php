@@ -117,7 +117,7 @@
                     <h5>Our Work</h5>
                     <h2>Toms</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus.
+                        Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount, and when we endorse a brand with our hearts designing feels effortless and without question, very enjoyable.
                     </p>
                     <br>
                     <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>

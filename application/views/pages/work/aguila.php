@@ -11,7 +11,7 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="<?=base_url();?>assets/img/work/gallery/Aguila/Aguila1.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/aguila/aguila1.jpg">
                     <span class="title hidden-xs hidden-sm">Aguila</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
@@ -25,7 +25,7 @@
                 </div>
                 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/gallery/Aguila/Aguila2.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/aguila/aguila2.jpg">
                     <span class="title hidden-xs">Aguila</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/gallery/Aguila/Aguila3.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/aguila/aguila3.jpg">
                     <span class="title hidden-xs">Aguila</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
@@ -53,7 +53,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/gallery/Aguila/Aguila4.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/aguila/aguila4.jpg">
                     <span class="title hidden-xs">Aguila</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
@@ -67,7 +67,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/gallery/Aguila/Aguila5.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/aguila/aguila5.jpg">
                     <span class="title hidden-xs">Aguila</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
@@ -103,7 +103,7 @@
                     <h5>Our Work</h5>
                     <h2>Aguila</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus.
+                        Aguila is the beer of Columbia! To match the brands personality and local flare, it needed an authentic range of visibility pieces that speak proudly of the brand. Aguila was seeded into Australian hearts by creating very strong, creative and memorable pieces that reach out in the overcrowded bar scene. With pop up bars, drink carts, unique sculptures and drink trays, Aguila has cemented its place in the coolest bars and gardens around Melbourne and Sydney.
                     </p>
                     <br>
                     <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>

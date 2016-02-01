@@ -23,7 +23,7 @@
                 </div>
                 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/gallery/eiffeltower/eiffeltower2.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/eiffeltower/eiffeltower2_new.jpg">
                     <span class="title hidden-xs">Alannah Hill</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
@@ -37,7 +37,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/gallery/eiffeltower/eiffeltower3.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/eiffeltower/eiffeltower3_new.jpg">
                     <span class="title hidden-xs">Alannah Hill</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
@@ -73,7 +73,7 @@
                     <h5>Our Work</h5>
                     <h2>Eiffel Tower</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus.
+                        The 'Win a Trip to Paris' promotion at Alannah Hill needed something special for their store windows, and to make the statement loud and clear, a 3 meter gold glitter covered Eiffel Tower was created. Made from laser cut foam and hand covered in gold glitter, the display units really made a strong statement in windows throughout Melbourne.
                     </p>
                     <br>
                     <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>

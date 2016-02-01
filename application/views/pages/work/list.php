@@ -18,7 +18,7 @@
                     <img src="<?=base_url();?>assets/img/work/featured/carltron-draught2.jpg" alt="work-banner.jpg">
                     <div class="carousel-caption">
                         <h1>Carlton Draught</h1>
-                     	<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. efficitur.</h4>
+                     	<h4>Tank Beer project came to life.</h4>
                         <a href="<?=base_url()?>our-work/carlton-draught" class="btn btn-app">read more</a>
                     </div>
                 </div>

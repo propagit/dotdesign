@@ -2,7 +2,7 @@
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#banners" data-slide-to="0" class="active"></li>
-                <li data-target="#banners" data-slide-to="1"></li>
+               <!-- <li data-target="#banners" data-slide-to="1"></li> -->
             </ol>
             
             <!-- Wrapper for slides -->
@@ -22,7 +22,7 @@
                 </div> -->
                 
                 <div class="item active">
-                    <img src="<?=base_url();?>assets/img/work/gallery/bulleitbourbon/bulleitbourbon2.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/bulleitbourbon/bulleitbourbon2_new.jpg">
                     <span class="title hidden-xs">Bulleit Bourbon</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
@@ -38,12 +38,12 @@
             </div>
             
             <!-- Controls -->
-            <a class="left carousel-control" href="#banners" role="button" data-slide="prev">
+           <!-- <a class="left carousel-control" href="#banners" role="button" data-slide="prev">
                 <span class="slide-btn"><i class="fa fa-angle-left"></i></span>
             </a>
             <a class="right carousel-control" href="#banners" role="button" data-slide="next">
                 <span class="slide-btn"><i class="fa fa-angle-right"></i></span>
-            </a>
+            </a> -->
         	
             
             <button class="btn btn-white show-desc hidden-xs hidden-sm" type="button">Read Case Study</button>
@@ -58,7 +58,7 @@
                     <h5>Our Work</h5>
                     <h2>Bulleit Bourbon</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus.
+                        Bulleit Bourbon needed to break through the crowded bourbon market with something that made press, and the Bull Skull Shot Trays were just the thing. Bull skulls with horn handles and timber shot caddies were strapped to the bar staff to walk through the crowds and sell impulse drinks. Getting the impact it deserved, the uptake was strong and the visible impact made its place on numerous sites and blogs. Developing something different is sometime all you need to stand apart from the rest, and the Bulleit Shot Caddies certainly did this. 
                     </p>
                     <br>
                     <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>

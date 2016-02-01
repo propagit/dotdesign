@@ -9,7 +9,7 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="<?=base_url();?>assets/img/work/gallery/PeroniNeon/PeroniNeon1.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/peronineon/peronineon1.jpg">
                     <span class="title hidden-xs hidden-sm">Peroni Neon</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
@@ -23,7 +23,7 @@
                 </div>
                 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/gallery/PeroniNeon/PeroniNeon2.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/peronineon/peronineon2.jpg">
                     <span class="title hidden-xs">Peroni Neon</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
@@ -37,7 +37,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/gallery/PeroniNeon/PeroniNeon3.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/peronineon/peronineon3.jpg">
                     <span class="title hidden-xs">Peroni Neon</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
@@ -73,7 +73,7 @@
                     <h5>Our Work</h5>
                     <h2>Peroni Neon</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus.
+                        Without question, Italy's most premium beer holds its place in a saturated market through quality. Peroni Nastro Azzurro's reputation for quality has to be reflected in every visible placement with the same values. Dot Design has developed a globally recognized suite of consumer engaging pieces that stand alone in market of mass brand saturation. Dot's amazing design team involved on this project are as proud of the work they developed and delivered for Peroni as the consumers that stand behind the brand itself.
                     </p>
                     <br>
                     <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>

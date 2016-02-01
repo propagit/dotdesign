@@ -88,7 +88,7 @@
                     <h5>Our Work</h5>
                     <h2>Firefly</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus.
+                        Firefly has been in our minds for many years and in 2015 it came to life.  There is no better way to bring an offer, a promotion or venue communication to life than at the point of purchase. We make the sales decision at the bar so let's light up your options. Made to fit vertical and horizontal beer towers, these units ensure the message is read loud and clear. Look for them when you’re next out in the trade and enjoy the great offers that are presented.
                     </p>
                     <br>
                     <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>

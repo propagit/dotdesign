@@ -88,7 +88,7 @@
                     <h5>Our Work</h5>
                     <h2>Baby Blue</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus.
+                        One of our favourite and most enjoyable projects in recent years, Carlton Draught has a soft spot in everyone's heart and when it rekindles from a strong, visible brand memory it resonates well when reproduced correctly. A design challenge, but one we were up to, brought a great range of old world signs, clocks, towels, mirrors and old taps to life which sparked a flame in all who see it in trade. You'll see it when you wander through some off Melbourne's coolest and most established venues.
                     </p>
                     <br>
                     <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>

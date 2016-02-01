@@ -8,7 +8,7 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="<?=base_url();?>assets/img/work/gallery/kurvejugs/kurvejugs1.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/kurvejugs/kurvejugs1_new.jpg">
                     <span class="title hidden-xs hidden-sm">Kurve Jugs: </br> (patent pending)</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
@@ -22,7 +22,7 @@
                 </div>
                 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/gallery/kurvejugs/kurvejugs2.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/kurvejugs/kurvejugs2_new.jpg">
                     <span class="title hidden-xs">Kurve Jugs: (patent pending)</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
@@ -58,7 +58,7 @@
                     <h5>Our Work</h5>
                     <h2>Kurve Jugs</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus.
+                        Every once in a while we think of things that could be advanced through design and to make our busy lives simpler. Kurve Products devotes itself to this exact philosophy, and when we were asked to develop a new Beer Jug that makes the problems of the last 25 years redundant, we were up for the challenge. Beer Jugs don't stack, they’re round and don’t nest in tight places, they pour an average beer and feel irrelevant in the on premise world. Introducing the Kurve Jug - it pours a lovely beer, it stacks over 12 units tall and can be branded at sizes never before possible. Its drains dry in washers,and under bar storage is impressive to say the least. Kurve is a business producing many products, and the Kurve Jug is just one example of design smarts that Dot Design is proud to be apart of.
                     </p>
                     <br>
                     <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>

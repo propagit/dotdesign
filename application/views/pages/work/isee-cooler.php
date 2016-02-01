@@ -58,7 +58,7 @@
                     <h5>Our Work</h5>
                     <h2>iSee Cooler</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus.
+                        The iSee Impulse Window Coolers came to market in 2007, and have progressed in design and function until today. Taking out the 2015 most awarded product in the USA NACS show, these units have made their sales figures consistent through multiple countries and markets. This year we introduced the "iSee Light" Impulse Coolers which illuminate your product clearly to the shoppers when cruising through a Drive Through store. Strong, durable and reliable, these units have proven to out sell fridges on singles and multi buy deals over and over again, making this one of our favourite designed products to date. Check out the iSee Coolers in trade and we'd love to hear your thoughts.
                     </p>
                     <br>
                     <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>

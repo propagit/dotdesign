@@ -88,7 +88,7 @@
                     <h5>Our Work</h5>
                     <h2>iSee Apex</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus.
+                        iSee Apex is another award-winning designer product that has proven its place in the grocery and P&C channels. The patented suction cap design holds up to 25kgs, and will ensure your product hangs onto fridges and windows. Holding all sorts of products from drinks to pet food, the iSee Apex has never failed to deliver. The first 250,000 units reached trade with 0% failures, which we are very proud of as are our retail partners who use these every day. With interchangeable POS and multiple sizes available there is nothing we can't hold to a fridge window. Call us if you'd like to know more, as it's an amazing product that adapts to all POS and POP needs in so many places never before accessible.
                     </p>
                     <br>
                     <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
