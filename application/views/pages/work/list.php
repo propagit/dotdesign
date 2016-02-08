@@ -153,7 +153,7 @@
 
             <a href="our-work/aperol-spritz">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
-                    <img src="<?=base_url();?>assets/img/work/aperol.jpg">
+                    <img src="<?=base_url();?>assets/img/work/Aperol.jpg">
                     <div class="caption">
                         <span class="name">Aperol Spritz<span class="info">Mobile Bar Cart</span></span>
                         
