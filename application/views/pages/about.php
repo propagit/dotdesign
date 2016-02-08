@@ -4,7 +4,7 @@
         	<img src="<?=base_url();?>assets/img/secondary/about-banner.jpg" alt="about-banner.jpg">
             <div class="carousel-caption">
                 <!-- <h1>Ensure you win retail</h1> -->
-                <h1>BUILDING BRANDS TOGETHER</h1>
+                <h1>BUILDING BRANDS</h1>
                 <h4>DOT DESIGN GROUP  A SPECIALIST PRODUCT DEVELOPMENT RETAIL COMPANY.</h4>
             </div>
             

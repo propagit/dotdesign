@@ -18,8 +18,10 @@
                         <p>
                             Dot Design Group was engaged by Beam Wallet to help further develop and mass produce the Beam Terminal BLE units, which are currently used in over 1,500 stores across the UAE.  Beam is a contactless secure mobile payment app which is accompanied by Bluetooth Low Energy (BLE) Beacon Terminals that are present at the POS. Beam Wallet aims to revolutionize retail shopping by enabling its 100,000 plus registered users to shop, earn and redeem rewards while keeping track of expenses.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 
@@ -32,8 +34,10 @@
                         <p>
                             Dot Design Group was engaged by Beam Wallet to help further develop and mass produce the Beam Terminal BLE units, which are currently used in over 1,500 stores across the UAE.  Beam is a contactless secure mobile payment app which is accompanied by Bluetooth Low Energy (BLE) Beacon Terminals that are present at the POS. Beam Wallet aims to revolutionize retail shopping by enabling its 100,000 plus registered users to shop, earn and redeem rewards while keeping track of expenses.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                      <!--  <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 
@@ -46,8 +50,10 @@
                         <p>
                             Dot Design Group was engaged by Beam Wallet to help further develop and mass produce the Beam Terminal BLE units, which are currently used in over 1,500 stores across the UAE.  Beam is a contactless secure mobile payment app which is accompanied by Bluetooth Low Energy (BLE) Beacon Terminals that are present at the POS. Beam Wallet aims to revolutionize retail shopping by enabling its 100,000 plus registered users to shop, earn and redeem rewards while keeping track of expenses.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                      <!--  <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 
@@ -60,8 +66,10 @@
                         <p>
                             Dot Design Group was engaged by Beam Wallet to help further develop and mass produce the Beam Terminal BLE units, which are currently used in over 1,500 stores across the UAE.  Beam is a contactless secure mobile payment app which is accompanied by Bluetooth Low Energy (BLE) Beacon Terminals that are present at the POS. Beam Wallet aims to revolutionize retail shopping by enabling its 100,000 plus registered users to shop, earn and redeem rewards while keeping track of expenses.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                        <!--<button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>-->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 

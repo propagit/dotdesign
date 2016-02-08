@@ -18,8 +18,10 @@
                         <p>
                             Firefly has been in our minds for many years and in 2015 it came to life.  There is no better way to bring an offer, a promotion or venue communication to life than at the point of purchase. We make the sales decision at the bar so let's light up your options. Made to fit vertical and horizontal beer towers, these units ensure the message is read loud and clear. Look for them when you’re next out in the trade and enjoy the great offers that are presented.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 
@@ -32,8 +34,10 @@
                         <p>
                             Firefly has been in our minds for many years and in 2015 it came to life.  There is no better way to bring an offer, a promotion or venue communication to life than at the point of purchase. We make the sales decision at the bar so let's light up your options. Made to fit vertical and horizontal beer towers, these units ensure the message is read loud and clear. Look for them when you’re next out in the trade and enjoy the great offers that are presented.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 
@@ -46,8 +50,10 @@
                         <p>
                             Firefly has been in our minds for many years and in 2015 it came to life.  There is no better way to bring an offer, a promotion or venue communication to life than at the point of purchase. We make the sales decision at the bar so let's light up your options. Made to fit vertical and horizontal beer towers, these units ensure the message is read loud and clear. Look for them when you’re next out in the trade and enjoy the great offers that are presented.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 
@@ -60,8 +66,10 @@
                         <p>
                             Firefly has been in our minds for many years and in 2015 it came to life.  There is no better way to bring an offer, a promotion or venue communication to life than at the point of purchase. We make the sales decision at the bar so let's light up your options. Made to fit vertical and horizontal beer towers, these units ensure the message is read loud and clear. Look for them when you’re next out in the trade and enjoy the great offers that are presented.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 

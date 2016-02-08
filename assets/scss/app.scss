@@ -793,6 +793,7 @@ $form_control_height:40px;
 			.hr,.minute{
 				@include get_responsive_font(65,92);
 				/*font-size:65px;*/
+				letter-spacing: 4px;
 			}
 			
 			
@@ -973,6 +974,7 @@ $caption_height:82px;
 				line-height:14px;
 				font-weight:300;	
 				letter-spacing:1.2px;
+				margin-left: -10px;
 			}
 		}
 		span{
@@ -1653,7 +1655,7 @@ $mob_header_height:75px;
 
 /*helpers*/
 .header-fixed{
-	position:fixed !important;
+	//position:fixed !important;
 	top:0;
 	width: 100%;
 }

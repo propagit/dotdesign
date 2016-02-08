@@ -17,8 +17,10 @@
                         <p>
                             Map Coffee is recognized for great coffee, and now also recognized for partnering with the world's best coffee machine manufacturer Saeco. Dot Design and the team at MAP developed a retail display that made the overcrowded and overwhelming decision of purchasing a quality coffee machine simple. Clean, simple and 3 price options ensures you have the right machine for your budget with the confidence that you’re leaving the store with the best quality machine money can buy. A combination of digital screens and soft light allows MAP to confidently talk to shoppers while providing the best options available.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                      <!--  <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 
@@ -31,8 +33,10 @@
                         <p>
                             Map Coffee is recognized for great coffee, and now also recognized for partnering with the world's best coffee machine manufacturer Saeco. Dot Design and the team at MAP developed a retail display that made the overcrowded and overwhelming decision of purchasing a quality coffee machine simple. Clean, simple and 3 price options ensures you have the right machine for your budget with the confidence that you’re leaving the store with the best quality machine money can buy. A combination of digital screens and soft light allows MAP to confidently talk to shoppers while providing the best options available.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 
@@ -45,8 +49,10 @@
                         <p>
                             Map Coffee is recognized for great coffee, and now also recognized for partnering with the world's best coffee machine manufacturer Saeco. Dot Design and the team at MAP developed a retail display that made the overcrowded and overwhelming decision of purchasing a quality coffee machine simple. Clean, simple and 3 price options ensures you have the right machine for your budget with the confidence that you’re leaving the store with the best quality machine money can buy. A combination of digital screens and soft light allows MAP to confidently talk to shoppers while providing the best options available.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>

@@ -31,8 +31,10 @@
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 
@@ -45,8 +47,10 @@
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus. 
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 

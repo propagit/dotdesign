@@ -8,30 +8,39 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="<?=base_url();?>assets/img/work/gallery/kurvejugs/kurvejugs1_new.jpg">
-                    <span class="title hidden-xs hidden-sm">Kurve Jugs: </br> (patent pending)</span>
+                    <img src="<?=base_url();?>assets/img/work/gallery/kurvejugs/KurveJugs1a.jpg">
+                    <span class="title hidden-xs hidden-sm">Kurve Jugs</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Kurve Jugs: (patent pending)</h1>
+                        <h1>Kurve Jugs</h1>
                         <p>
                             Every once in a while we think of things that could be advanced through design and to make our busy lives simpler. Kurve Products devotes itself to this exact philosophy, and when we were asked to develop a new Beer Jug that makes the problems of the last 25 years redundant, we were up for the challenge. Beer Jugs don't stack, they’re round and don’t nest in tight places, they pour an average beer and feel irrelevant in the on premise world. Introducing the Kurve Jug - it pours a lovely beer, it stacks over 12 units tall and can be branded at sizes never before possible. Its drains dry in washers,and under bar storage is impressive to say the least. Kurve is a business producing many products, and the Kurve Jug is just one example of design smarts that Dot Design is proud to be apart of.
+                            </br>
+                            <span style="width:100%; text-align: center; margin:0; padding-left:42%;">(PATENT PENDING)</span>
+                            
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/gallery/kurvejugs/kurvejugs2_new.jpg">
-                    <span class="title hidden-xs">Kurve Jugs: (patent pending)</span>
+                    <img src="<?=base_url();?>assets/img/work/gallery/kurvejugs/KurveJugs2a.jpg">
+                    <span class="title hidden-xs">Kurve Jugs</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>Kurve Jugs: (patent pending)</h1>
+                        <h1>Kurve Jugs</h1>
                         <p>
                             Every once in a while we think of things that could be advanced through design and to make our busy lives simpler. Kurve Products devotes itself to this exact philosophy, and when we were asked to develop a new Beer Jug that makes the problems of the last 25 years redundant, we were up for the challenge. Beer Jugs don't stack, they’re round and don’t nest in tight places, they pour an average beer and feel irrelevant in the on premise world. Introducing the Kurve Jug - it pours a lovely beer, it stacks over 12 units tall and can be branded at sizes never before possible. Its drains dry in washers,and under bar storage is impressive to say the least. Kurve is a business producing many products, and the Kurve Jug is just one example of design smarts that Dot Design is proud to be apart of.
+                        </br>
+                            <span style="width:100%; text-align: center; margin:0; padding-left:42%;">(PATENT PENDING)</span>
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 

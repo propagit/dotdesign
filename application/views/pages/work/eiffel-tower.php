@@ -3,7 +3,7 @@
             <ol class="carousel-indicators">
                 <li data-target="#banners" data-slide-to="0" class="active"></li>
                 <li data-target="#banners" data-slide-to="1"></li>
-                <li data-target="#banners" data-slide-to="2"></li>
+                <!--<li data-target="#banners" data-slide-to="2"></li> -->
             </ol>
             
             <!-- Wrapper for slides -->
@@ -17,13 +17,15 @@
                         <p>
                             The 'Win a Trip to Paris' promotion at Alannah Hill needed something special for their store windows, and to make the statement loud and clear, a 3 meter gold glitter covered Eiffel Tower was created. Made from laser cut foam and hand covered in gold glitter, the display units really made a strong statement in windows throughout Melbourne.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                        <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/gallery/eiffeltower/eiffeltower2_new.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/eiffeltower/EiffelTowerParisDisplay1.jpg">
                     <span class="title hidden-xs">Alannah Hill</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
@@ -31,12 +33,14 @@
                         <p>
                             The 'Win a Trip to Paris' promotion at Alannah Hill needed something special for their store windows, and to make the statement loud and clear, a 3 meter gold glitter covered Eiffel Tower was created. Made from laser cut foam and hand covered in gold glitter, the display units really made a strong statement in windows throughout Melbourne.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 
-                <div class="item">
+                <!-- <div class="item">
                     <img src="<?=base_url();?>assets/img/work/gallery/eiffeltower/eiffeltower3_new.jpg">
                     <span class="title hidden-xs">Alannah Hill</span>
                     <div class="description hidden-xs hidden-sm">
@@ -48,7 +52,7 @@
                         <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
                     </div>
-                </div>
+                </div> -->
                 
             </div>
             

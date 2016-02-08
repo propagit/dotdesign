@@ -44,9 +44,9 @@ define('LIVE_SERVER',false);
 
 # Social Links
 define('FACEBOOK','https://facebook.com');
-define('TWITTER','https://twitter.com');
-define('PINTEREST','https://pinterest.com');
-define('INSTAGRAM','https://instagram.com');
+define('TWITTER','https://twitter.com/dotdesigngroup');
+define('PINTEREST','https://pinterest.com/dotdesigngroup');
+define('INSTAGRAM','https://instagram.com/dotdesigngroup');
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

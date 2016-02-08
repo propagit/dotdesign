@@ -14,12 +14,28 @@
                     </div>
                 </div> -->
                 
-                <div class="item active">
+                <!-- <div class="item active">
                     <img src="<?=base_url();?>assets/img/work/featured/carltron-draught2.jpg" alt="work-banner.jpg">
                     <div class="carousel-caption">
                         <h1>Carlton Draught</h1>
                      	<h4>Tank Beer project came to life.</h4>
                         <a href="<?=base_url()?>our-work/carlton-draught" class="btn btn-app">read more</a>
+                    </div>
+                </div> -->
+                <div class="item active">
+                    <img src="<?=base_url();?>assets/img/work/featured/KurveJugs1a.jpg" alt="work-banner.jpg">
+                    <div class="carousel-caption">
+                        <h1>RECENT PROJECTS</h1>
+                        <h4>The worlds most brandable jugs</h4>
+                        <a href="<?=base_url()?>our-work/kurve-jugs" class="btn btn-app">read more</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="<?=base_url();?>assets/img/work/featured/KurveJugs2a.jpg" alt="work-banner.jpg">
+                    <div class="carousel-caption">
+                        <h1>RECENT PROJECTS</h1>
+                        <h4>The worlds most brandable jugs</h4>
+                        <a href="<?=base_url()?>our-work/kurve-jugs" class="btn btn-app">read more</a>
                     </div>
                 </div>
             </div>
@@ -69,7 +85,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work1.jpg">
                     <div class="caption">
-                        <span class="name">Carlton Draught<span class="info">St Kilda Road, Melbourne</span></span>
+                        <span class="name">Carlton Draught<span class="info">Unpasteurised Tank Beer</span></span>
                         
                     </div>
                 </div>
@@ -99,7 +115,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work4.jpg">
                     <div class="caption">
-                        <span class="name">Kurve Jug<span class="info">Product design</span></span>
+                        <span class="name">Kurve Jug<span class="info">Premium Beer Jug</span></span>
                         
                     </div>
                 </div>
@@ -109,7 +125,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work5.jpg">
                     <div class="caption">
-                        <span class="name">Map Coffee<span class="info">Saeco partnership launch</span></span>
+                        <span class="name">Map Coffee</span><span class="info">Saeco partnership launch</span>
                         
                     </div>
                 </div>
@@ -135,11 +151,11 @@
                 </div>
             </a>
 
-            <a href="our-work/aguila">
+            <a href="our-work/aperol-spritz">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
-                    <img src="<?=base_url();?>/assets/img/work/work8.jpg">
+                    <img src="<?=base_url();?>/assets/img/work/aperol.jpg">
                     <div class="caption">
-                        <span class="name">Aguila<span class="info">Columbian beer launch</span></span>
+                        <span class="name">Aperol Spritz<span class="info">Mobile Bar Cart</span></span>
                         
                     </div>
                 </div>
@@ -159,7 +175,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work10.jpg">
                     <div class="caption">
-                        <span class="name">iSee Apex<span class="info">Product design</span></span>
+                        <span class="name">iSee Apex<span class="info">Impulse Window Activations</span></span>
                         
                     </div>
                 </div>
@@ -179,7 +195,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work12.jpg">
                     <div class="caption">
-                        <span class="name">iSee Cooler<span class="info">Product design</span></span>
+                        <span class="name">iSee Cooler<span class="info">worlds First Window Cooler</span></span>
                         
                     </div>
                 </div>
@@ -189,7 +205,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work13.jpg">
                     <div class="caption">
-                        <span class="name">Bulleit Bourbon<span class="info">Product design</span></span>
+                        <span class="name">Bulleit Bourbon<span class="info">Theatre Shots Tray</span></span>
                         
                     </div>
                 </div>
@@ -199,7 +215,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work14.jpg">
                     <div class="caption">
-                        <span class="name">Eiffel Tower<span class="info">Product design</span></span>
+                        <span class="name">ALANNAH HILL<span class="info">Paris Promotion</span></span>
                         
                     </div>
                 </div>
@@ -209,7 +225,17 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
                     <img src="<?=base_url();?>/assets/img/work/work15.jpg">
                     <div class="caption">
-                        <span class="name">Firefly<span class="info">Product design</span></span>
+                        <span class="name">Firefly<span class="info">Illuminated Visual Communication</span></span>
+                        
+                    </div>
+                </div>
+            </a>
+
+            <a href="our-work/aguila">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 colage-box">
+                    <img src="<?=base_url();?>/assets/img/work/work8.jpg">
+                    <div class="caption">
+                        <span class="name">Aguila<span class="info">Columbian beer launch</span></span>
                         
                     </div>
                 </div>

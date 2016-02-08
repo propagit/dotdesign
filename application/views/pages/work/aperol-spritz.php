@@ -8,15 +8,13 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="<?=base_url();?>assets/img/work/gallery/iseecooler/iseecooler1.jpg">
-                    <span class="title hidden-xs hidden-sm">iSee Cooler</span>
+                    <img src="<?=base_url();?>assets/img/work/gallery/aperolspritz/aperol1.jpg">
+                    <span class="title hidden-xs hidden-sm">Aperol Spritz</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>iSee Cooler</h1>
+                        <h1>Aperol Spritz</h1>
                         <p>
-                            The iSee Impulse Window Coolers came to market in 2007, and have progressed in design and function, taking out the 2015 most awarded product in the USA NACS show. These units have made their sales figures consistent through multiple countries and markets. This year we introduced the "iSee Light" Impulse Coolers which illuminate your product clearly to the shoppers when cruising through a Drive Through store. Strong, durable and reliable, these units have proven to out sell fridges on singles and multi buy deals over and over again, making this one of our favourite designed products to date. Check out the iSee Coolers in trade and we'd love to hear your thoughts.
-                            </br>
-                            <span style="width:100%; text-align: center; margin:0; padding-left:42%;">(PATENT PENDING)</span>
+                            Dot Design Group was approached by Campari Australia to design and produce an On-Premise Mobile Bar Cart for summertime in Sydney. Employing Aperol Spritz’s bright colours and branding, the results would not disappoint. The result is a highly impactful, durable and fully operational outdoor mobile bar cart that screams “Summertime drinks”.
                         </p>
                        <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
@@ -26,15 +24,13 @@
                 </div>
                 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/gallery/iseecooler/iseecooler2.jpg">
-                    <span class="title hidden-xs">iSee Cooler</span>
+                    <img src="<?=base_url();?>assets/img/work/gallery/aperolspritz/aperol2.jpg">
+                    <span class="title hidden-xs">Aperol Spritz</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
-                        <h1>iSee Cooler</h1>
+                        <h1>Aperol Spritz</h1>
                         <p>
-                            The iSee Impulse Window Coolers came to market in 2007, and have progressed in design and function, taking out the 2015 most awarded product in the USA NACS show. These units have made their sales figures consistent through multiple countries and markets. This year we introduced the "iSee Light" Impulse Coolers which illuminate your product clearly to the shoppers when cruising through a Drive Through store. Strong, durable and reliable, these units have proven to out sell fridges on singles and multi buy deals over and over again, making this one of our favourite designed products to date. Check out the iSee Coolers in trade and we'd love to hear your thoughts.
-                            </br>
-                            <span style="width:100%; text-align: center; margin:0; padding-left:42%;">(PATENT PENDING)</span>
+                            Dot Design Group was approached by Campari Australia to design and produce an On-Premise Mobile Bar Cart for summertime in Sydney. Employing Aperol Spritz’s bright colours and branding, the results would not disappoint. The result is a highly impactful, durable and fully operational outdoor mobile bar cart that screams “Summertime drinks”.
                         </p>
                        <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
                         <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
@@ -64,9 +60,9 @@
             <div class="container sec-content hidden-lg hidden-md">
                 <div class="sec-inner">
                     <h5>Our Work</h5>
-                    <h2>iSee Cooler</h2>
+                    <h2>Aperol Spritz</h2>
                     <p>
-                        The iSee Impulse Window Coolers came to market in 2007, and have progressed in design and function, taking out the 2015 most awarded product in the USA NACS show. These units have made their sales figures consistent through multiple countries and markets. This year we introduced the "iSee Light" Impulse Coolers which illuminate your product clearly to the shoppers when cruising through a Drive Through store. Strong, durable and reliable, these units have proven to out sell fridges on singles and multi buy deals over and over again, making this one of our favourite designed products to date. Check out the iSee Coolers in trade and we'd love to hear your thoughts.
+                        Dot Design Group was approached by Campari Australia to design and produce an On-Premise Mobile Bar Cart for summertime in Sydney. Employing Aperol Spritz’s bright colours and branding, the results would not disappoint. The result is a highly impactful, durable and fully operational outdoor mobile bar cart that screams “Summertime drinks”.
                     </p>
                     <br>
                     <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>

@@ -18,10 +18,12 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Toms</h1>
                         <p>
-                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount, and when we endorse a brand with our hearts designing feels effortless and without question, very enjoyable.
+                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in a greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount. When we endorse a brand with our hearts, designing feels effortless and without question is very enjoyable.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 
@@ -46,10 +48,12 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>TOMS - One for One</h1>
                         <p>
-                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount, and when we endorse a brand with our hearts designing feels effortless and without question, very enjoyable.
+                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in a greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount. When we endorse a brand with our hearts, designing feels effortless and without question is very enjoyable.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                        <!--<button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 
@@ -60,10 +64,12 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>TOMS - One for One</h1>
                         <p>
-                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount, and when we endorse a brand with our hearts designing feels effortless and without question, very enjoyable.
+                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in a greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount. When we endorse a brand with our hearts, designing feels effortless and without question is very enjoyable.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 
@@ -74,10 +80,12 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>TOMS - One for One</h1>
                         <p>
-                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount, and when we endorse a brand with our hearts designing feels effortless and without question, very enjoyable.
+                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in a greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount. When we endorse a brand with our hearts, designing feels effortless and without question is very enjoyable.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 
@@ -88,10 +96,12 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>TOMS - One for One</h1>
                         <p>
-                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount, and when we endorse a brand with our hearts designing feels effortless and without question, very enjoyable.
+                            Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in a greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount. When we endorse a brand with our hearts, designing feels effortless and without question is very enjoyable.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                        <!--<button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -117,7 +127,7 @@
                     <h5>Our Work</h5>
                     <h2>Toms</h2>
                     <p>
-                        Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount, and when we endorse a brand with our hearts designing feels effortless and without question, very enjoyable.
+                        Designing for TOMS has been the most rewarding experience for Dot Design. A brand that stands for 'Giving' and that has the global recognition it deserves for doing great things in a greedy world is a rare client opportunity. Working with TOMS for many years, we've seen the brand reach out and gently tell their story of love and generosity throughout Australia. Reflecting this in our designs and product development is paramount. When we endorse a brand with our hearts, designing feels effortless and without question is very enjoyable.
                     </p>
                     <br>
                     <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>

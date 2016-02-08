@@ -14,7 +14,7 @@
 
                     <div class="carousel-caption">
                         <!-- <h1>15 years & counting</h1> -->
-                        <h1>GLOBAL PRODUCTS AND DISPLAYS</h1>
+                        <h1>DOT DESIGN GROUP</h1>
                         <!-- <h4>over 15 years delivering product innovation in on & off premise</h4> -->
                         <h4>Delivering International Product Design and Displays for over 16 years.</h4>
                         <a href="<?php echo base_url()?>about">

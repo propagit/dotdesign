@@ -17,8 +17,10 @@
                         <p>
                             Without question, Italy's most premium beer holds its place in a saturated market through quality. Peroni Nastro Azzurro's reputation for quality has to be reflected in every visible placement with the same values. Dot Design has developed a globally recognized suite of consumer engaging pieces that stand alone in market of mass brand saturation. Dot's amazing design team involved on this project are as proud of the work they developed and delivered for Peroni as the consumers that stand behind the brand itself.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 
@@ -31,8 +33,10 @@
                         <p>
                             Without question, Italy's most premium beer holds its place in a saturated market through quality. Peroni Nastro Azzurro's reputation for quality has to be reflected in every visible placement with the same values. Dot Design has developed a globally recognized suite of consumer engaging pieces that stand alone in market of mass brand saturation. Dot's amazing design team involved on this project are as proud of the work they developed and delivered for Peroni as the consumers that stand behind the brand itself.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 
@@ -45,8 +49,10 @@
                         <p>
                             Without question, Italy's most premium beer holds its place in a saturated market through quality. Peroni Nastro Azzurro's reputation for quality has to be reflected in every visible placement with the same values. Dot Design has developed a globally recognized suite of consumer engaging pieces that stand alone in market of mass brand saturation. Dot's amazing design team involved on this project are as proud of the work they developed and delivered for Peroni as the consumers that stand behind the brand itself.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 

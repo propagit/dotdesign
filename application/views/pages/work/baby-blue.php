@@ -16,38 +16,44 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Carlton Beers - Memorabilia Range</h1>
                         <p>
-                            One of our favourite and most enjoyable projects in recent years, Carlton Draught has a soft spot in everyone's heart and when it rekindles from a strong, visible brand memory it resonates well when reproduced correctly. A design challenge, but one we were up to, brought a great range of old world signs, clocks, towels, mirrors and old taps to life which sparked a flame in all who see it in trade. You'll see it when you wander through some off Melbourne's coolest and most established venues.
+                            One of our favourite and most enjoyable projects in recent years. Carlton Draught has a soft spot in everyone's heart and when it’s rekindled from a strong, visible brand memory it resonates well when reproduced correctly. A design challenge, but one we were up to. We brought a great range of old world signs, clocks, towels, mirrors and old taps to life, which sparked a flame in all who see it in trade. You'll see it when you wander through some of Melbourne's coolest and most established venues.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                        <!--<button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>-->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/gallery/babyblue/babyblue2.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/babyblue/BabyBlues2a.jpg">
                     <span class="title hidden-xs">Carlton Beers </br>Memorabilia Range</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Carlton Beers - Memorabilia Range</h1>
                         <p>
-                            One of our favourite and most enjoyable projects in recent years, Carlton Draught has a soft spot in everyone's heart and when it rekindles from a strong, visible brand memory it resonates well when reproduced correctly. A design challenge, but one we were up to, brought a great range of old world signs, clocks, towels, mirrors and old taps to life which sparked a flame in all who see it in trade. You'll see it when you wander through some off Melbourne's coolest and most established venues.
+                            One of our favourite and most enjoyable projects in recent years. Carlton Draught has a soft spot in everyone's heart and when it’s rekindled from a strong, visible brand memory it resonates well when reproduced correctly. A design challenge, but one we were up to. We brought a great range of old world signs, clocks, towels, mirrors and old taps to life, which sparked a flame in all who see it in trade. You'll see it when you wander through some of Melbourne's coolest and most established venues.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                        <!--<button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 
                 <div class="item">
-                    <img src="<?=base_url();?>assets/img/work/gallery/babyblue/babyblue3.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/babyblue/BabyBlues3a.jpg">
                     <span class="title hidden-xs">Carlton Beers </br>Memorabilia Range</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Carlton Beers - Memorabilia Range</h1>
                         <p>
-                            One of our favourite and most enjoyable projects in recent years, Carlton Draught has a soft spot in everyone's heart and when it rekindles from a strong, visible brand memory it resonates well when reproduced correctly. A design challenge, but one we were up to, brought a great range of old world signs, clocks, towels, mirrors and old taps to life which sparked a flame in all who see it in trade. You'll see it when you wander through some off Melbourne's coolest and most established venues.
+                            One of our favourite and most enjoyable projects in recent years. Carlton Draught has a soft spot in everyone's heart and when it’s rekindled from a strong, visible brand memory it resonates well when reproduced correctly. A design challenge, but one we were up to. We brought a great range of old world signs, clocks, towels, mirrors and old taps to life, which sparked a flame in all who see it in trade. You'll see it when you wander through some of Melbourne's coolest and most established venues.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 
@@ -58,10 +64,12 @@
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Carlton Beers - Memorabilia Range</h1>
                         <p>
-                            One of our favourite and most enjoyable projects in recent years, Carlton Draught has a soft spot in everyone's heart and when it rekindles from a strong, visible brand memory it resonates well when reproduced correctly. A design challenge, but one we were up to, brought a great range of old world signs, clocks, towels, mirrors and old taps to life which sparked a flame in all who see it in trade. You'll see it when you wander through some off Melbourne's coolest and most established venues.
+                            One of our favourite and most enjoyable projects in recent years. Carlton Draught has a soft spot in everyone's heart and when it’s rekindled from a strong, visible brand memory it resonates well when reproduced correctly. A design challenge, but one we were up to. We brought a great range of old world signs, clocks, towels, mirrors and old taps to life, which sparked a flame in all who see it in trade. You'll see it when you wander through some of Melbourne's coolest and most established venues.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                        <!--<button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 
@@ -88,7 +96,7 @@
                     <h5>Our Work</h5>
                     <h2>Baby Blue</h2>
                     <p>
-                        One of our favourite and most enjoyable projects in recent years, Carlton Draught has a soft spot in everyone's heart and when it rekindles from a strong, visible brand memory it resonates well when reproduced correctly. A design challenge, but one we were up to, brought a great range of old world signs, clocks, towels, mirrors and old taps to life which sparked a flame in all who see it in trade. You'll see it when you wander through some off Melbourne's coolest and most established venues.
+                        One of our favourite and most enjoyable projects in recent years. Carlton Draught has a soft spot in everyone's heart and when it’s rekindled from a strong, visible brand memory it resonates well when reproduced correctly. A design challenge, but one we were up to. We brought a great range of old world signs, clocks, towels, mirrors and old taps to life, which sparked a flame in all who see it in trade. You'll see it when you wander through some of Melbourne's coolest and most established venues.
                     </p>
                     <br>
                     <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>

@@ -22,16 +22,18 @@
                 </div> -->
                 
                 <div class="item active">
-                    <img src="<?=base_url();?>assets/img/work/gallery/bulleitbourbon/bulleitbourbon2_new.jpg">
+                    <img src="<?=base_url();?>assets/img/work/gallery/bulleitbourbon/BulleitBourbon2a.jpg">
                     <span class="title hidden-xs">Bulleit Bourbon</span>
                     <div class="description hidden-xs hidden-sm">
                         <button type="button" class="btn btn-app btn-angle hide-desc"><i class="fa fa-angle-down"></i></button>
                         <h1>Bulleit Bourbon</h1>
                         <p>
-                            Bulleit Bourbon needed to break through the crowded bourbon market with something that made press, and the Bull Skull Shot Trays were just the thing. Bull skulls with horn handles and timber shot caddies were strapped to the bar staff to walk through the crowds and sell impulse drinks. Getting the impact it deserved, the uptake was strong and the visible impact made its place on numerous sites and blogs. Developing something different is sometime all you need to stand apart from the rest, and the Bulleit Shot Caddies certainly did this. 
+                            Bulleit Bourbon needed to break through the crowded bourbon market with something that made press, and the Bull Skull Shot Trays were just the thing. Bull skulls with horn handles and timber shot caddies were strapped to the bar staff to walk through the crowds and sell impulse drinks. Getting the impact it deserved, the uptake was strong and the visible impact made its place on numerous sites and blogs. Developing something different is sometimes all you need to stand apart from the rest, and the Bulleit Shot Caddies certainly did this.
                         </p>
-                        <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
-                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button>
+                       <!-- <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
+                        <button type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></button> -->
+                        <a href="#banners" type="button" class="btn btn-app btn-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i> Prev</a>
+                        <a href="#banners" role="button" data-slide="next" type="button" class="btn btn-app btn-slide">Next <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 
@@ -58,7 +60,7 @@
                     <h5>Our Work</h5>
                     <h2>Bulleit Bourbon</h2>
                     <p>
-                        Bulleit Bourbon needed to break through the crowded bourbon market with something that made press, and the Bull Skull Shot Trays were just the thing. Bull skulls with horn handles and timber shot caddies were strapped to the bar staff to walk through the crowds and sell impulse drinks. Getting the impact it deserved, the uptake was strong and the visible impact made its place on numerous sites and blogs. Developing something different is sometime all you need to stand apart from the rest, and the Bulleit Shot Caddies certainly did this. 
+                        Bulleit Bourbon needed to break through the crowded bourbon market with something that made press, and the Bull Skull Shot Trays were just the thing. Bull skulls with horn handles and timber shot caddies were strapped to the bar staff to walk through the crowds and sell impulse drinks. Getting the impact it deserved, the uptake was strong and the visible impact made its place on numerous sites and blogs. Developing something different is sometimes all you need to stand apart from the rest, and the Bulleit Shot Caddies certainly did this.
                     </p>
                     <br>
                     <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>

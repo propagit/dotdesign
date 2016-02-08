@@ -14,7 +14,7 @@
     <div class="city-time digital">
         <span class="hr">0:</span><span class="minute">00</span>
     </div>
-    <span class="city">China</span>
+    <span class="city">Hong Kong</span>
 </div>
 
 <div class="city-time-box" id="time-stlouis">
