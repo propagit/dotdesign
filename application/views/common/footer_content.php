@@ -5,7 +5,12 @@
 <footer>
 	<div id="footer">
     	<div id="goto-top"><i class="fa fa-angle-up"></i></div>
-        
+        <?php  $url = $this->uri->segment(1); 
+        $url2 = $this->uri->segment(2);
+
+        if($url == "our-work" && $url2){?>
+            <p style="margin-top: -20px; margin-bottom: 20px;"><a href="<?= base_url().'our-work'; ?>" style="text-decoration: none;"><i class="fa fa-angle-left" style="font-size: 16px; font-weight: 600;"></i> BACK TO WORK</a></p>
+        <?php } ?>
         
     	<div class="container">
         	<h6>join us on</h6>

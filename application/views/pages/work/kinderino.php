@@ -63,7 +63,7 @@
                     <h5>Our Work</h5>
                     <h2>Kinderino</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis lorem tristique vehicula tempus. Sed eget suscipit turpis. Curabitur sed pretium neque. Sed ac dui est. Donec at viverra turpis, ut lacinia tortor. Vivamus in semper turpis. Morbi a nisi elit. Nullam feugiat odio ac ipsum sodales, id laoreet ex condimentum. Phasellus ut neque molestie, volutpat felis in, vulputate metus.
+                        You can't argue with chocolate and toys in one package and that's the strength of a Kinder Surprise. They are fun and tasty, and the toy inside inspires creativity for the kids and parents that build the toys as they consume their tasty treat. We developed an engaging counter top unit that met a very conservative budget, and yet the end result still won the hearts of kids and parents across many store formats. Look out for them when you're out and about, as they hold their place securely as strong impulse units that store owners and shoppers embrace every day.
                     </p>
                     <br>
                     <button type="button" class="btn btn-app btn-slide"><i class="fa fa-angle-left"></i> Prev</button>
