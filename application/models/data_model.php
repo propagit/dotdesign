@@ -9,7 +9,7 @@ class Data_model extends CI_Model {
 		$staff = array(
 							array('name' => 'Emad','image' => 'Emad.jpg','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
 							array('name' => 'Rabah','image' => 'Rabah.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
-							array('name' => 'Paris Kerr','image' => 'Paris.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
+							array('name' => 'Paris','image' => 'Paris.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
 							array('name' => 'Nabs','image' => 'Nabs.jpg','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
 							array('name' => 'Mark','image' => 'Mark.jpg','location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
 							array('name' => 'Thimy','image' => 'Thimy.jpg', 'location' => 'Melbourne' , 'role' => 'General Manager', 'uri' => ''),
