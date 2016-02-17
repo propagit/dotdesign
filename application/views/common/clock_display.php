@@ -7,7 +7,7 @@
         <span class="hr">0:</span><span class="minute">00</span>
     </div>
 
-    <span class="city">Sydney</span>
+    <span class="city">Sydney/Melbourne</span>
 </div>
 
 <div class="city-time-box" id="time-china">

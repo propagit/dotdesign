@@ -37,10 +37,10 @@
             <a href="">
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 colage-box">
                 <img src="<?=base_url();?>assets/img/the-team/<?=$s['image'];?>">
-                <div class="caption">
+                <!--<div class="caption">
                 	<span class="name teamspan"><?=$s['name'];?></span>
-                   <!--  <span class="info teamspan"><?=$s['location'] . ' - ' . $s['role'];?></span> -->
-                </div>
+                   <!--  <span class="info teamspan"><?=$s['location'] . ' - ' . $s['role'];?></span> 
+                </div>-->
             </div>
             </a>
         <?php } ?>
